@@ -3,5 +3,11 @@
 	"tabWidth": 4,
 	"useTabs": true,
 	"trailingComma": "none",
-	"printWidth": 160
+	"printWidth": 160,
+	"overrides": [
+		{
+			"files": "**/*.json",
+			"options": { "parser": "json-stringify" }
+		}
+	]
 }
