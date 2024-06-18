@@ -26,7 +26,8 @@
 		/* Path Aliases */
 		"baseUrl": ".",
 		"paths": {
-			"~/*": ["./src/*"]
+			"~/*": ["./src/*"],
+			"~discord-data/*": ["./discord-data/*"],
 		}
 	},
 	"include": [".eslintrc.cjs", "next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.cjs", "**/*.js", ".next/types/**/*.ts"],

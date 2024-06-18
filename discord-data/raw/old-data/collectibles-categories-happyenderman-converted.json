@@ -8930,7 +8930,6 @@
 						}
 					}
 				},
-				"premium_type": 2,
 				"google_sku_ids": {}
 			},
 			{
@@ -8981,7 +8980,6 @@
 						}
 					}
 				},
-				"premium_type": 2,
 				"google_sku_ids": {}
 			}
 		],

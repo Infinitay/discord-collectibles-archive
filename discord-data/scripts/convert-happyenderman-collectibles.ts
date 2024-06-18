@@ -87,7 +87,12 @@ for (const collection of oldJSON) {
 			}
 		} else {
 			// The premium type for DISCORE products is set to 2 as of June 2024
-			(product as { premium_type: number })["premium_type"] = 2;
+			// Although this is unnecessary given the data is premiumType and we already rename, but just in case
+			if ("premiumType" in product) {
+				(product as { premiumType: number })["premiumType"] = 2;
+			} else {
+				(product as { premium_type: number })["premium_type"] = 2;
+			}
 		}
 		(product as { type: number })["type"] = product.items[0]!.type;
 
