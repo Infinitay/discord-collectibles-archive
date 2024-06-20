@@ -35,7 +35,7 @@ replacements.set("pdpBg", "pdp_bg");
 for (const collection of oldJSON) {
 	// Fixing styles for the collection and each product
 	const newColorObject = generateColorObject();
-	if (!collection.styles) {
+	if ("styles" in collection) {
 		// Check if the first product exists and has styles
 		const firstProduct = collection.products[0];
 		if (firstProduct !== undefined && "styles" in firstProduct) {
@@ -43,7 +43,7 @@ for (const collection of oldJSON) {
 			const styles = firstProduct.styles!;
 
 			// Check if backgroundColors is present and valid
-			if ("backgroundColors" in styles && typeof styles.backgroundColors[0] !== "object") {
+			if ("backgroundColors" in styles && typeof styles.backgroundColors[0] === "object" && !Array.isArray(styles.backgroundColors[0])) {
 				// Convert backgroundColors, buttonColors, and confettiColors for the first product
 				if ("backgroundColors" in styles) {
 					newColorObject.backgroundColors = styles.backgroundColors.map(convertRGBToDecimal);
@@ -55,21 +55,21 @@ for (const collection of oldJSON) {
 					newColorObject.confettiColors = styles.confettiColors.map(convertRGBToDecimal);
 				}
 				console.log("Color object", newColorObject);
+				(collection.styles as any) = newColorObject;
 			} else {
 				console.log(`No valid background colors in ${collection.name}, probably already in the proper format`);
 			}
-		} else {
-			// Else use an empty color object because the color data was not present such as for old collections that were first released
-			console.log(`No styles for '${collection.name}' collection so generating it`);
 		}
+	} else {
+		// Else use an empty color object because the color data was not present such as for old collections that were first released
+		console.log(`No styles for '${collection.name}' collection so generating it`);
+		(collection.styles as any) = newColorObject;
 	}
-
-	(collection.styles as any) = newColorObject;
 
 	// Change the various properties for the collection pretaining the product, prices, or the collection properties
 	(collection.products as any) = collection.products.map((product) => {
 		// Assign the color object to the products themselves like in the new data format as of June 2024
-		(product as { styles?: any }).styles = newColorObject;
+		(product as { styles?: any }).styles = collection.styles;
 
 		// Set the product's banner to the collection's banner if it's null
 		if ((product as { banner: string | null }).banner === null) {
