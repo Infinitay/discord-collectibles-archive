@@ -1,0 +1,1037 @@
+{
+	"sku_id": "1217622942175727736",
+	"name": "Springtoons",
+	"summary": "You awaken to find yourself in a springtime wonderland.",
+	"store_listing_id": "1217622836458291220",
+	"banner": "1217623891149586563",
+	"unpublished_at": null,
+	"styles": {
+		"background_colors": [
+			16777215,
+			7520254
+		],
+		"button_colors": [
+			15586640,
+			16482611
+		],
+		"confetti_colors": [
+			16777215,
+			3000177,
+			15774258,
+			9739511,
+			16414587,
+			43772
+		]
+	},
+	"logo": "1217623684777381908",
+	"mobile_bg": "1220535657118699540",
+	"pdp_bg": "1217989864247529564",
+	"mobile_banner": "1224516882611175475",
+	"products": [
+		{
+			"sku_id": "1243619153688920206",
+			"name": "The Tune of Spring Bundle",
+			"summary": "A bundle of collectibles.",
+			"store_listing_id": "1243619125318651935",
+			"banner": "1217623891149586563",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					16777215,
+					7520254
+				],
+				"button_colors": [
+					15586640,
+					16482611
+				],
+				"confetti_colors": [
+					16777215,
+					3000177,
+					15774258,
+					9739511,
+					16414587,
+					43772
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1099,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 899,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1099,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 899,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1217626041456001146",
+					"sku_id": "1217626024540508170",
+					"asset": "a_4cd9ae5a8d103c219eacd3674d7730cd",
+					"label": "Two butterflies flutter around the avatar, eager to adventure with you to the nearest garden."
+				},
+				{
+					"type": 1,
+					"id": "1217626513940283392",
+					"sku_id": "1217626509737459852"
+				}
+			],
+			"type": 1000,
+			"premium_type": 0,
+			"category_sku_id": "1217622942175727736",
+			"bundled_products": [
+				{
+					"sku_id": "1217626024540508170",
+					"name": "Butterflies",
+					"summary": "We shall tickle the clouds today - join us!",
+					"type": 0,
+					"premium_type": 0,
+					"prices": {
+						"0": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"4": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"5": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"7": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"sku_id": "1217626509737459852",
+					"name": "Petal Serenade",
+					"summary": "A cascade of floral delight.",
+					"type": 1,
+					"premium_type": 0,
+					"prices": {
+						"0": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"4": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"5": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"7": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1217624148080332820",
+			"name": "Honeyblossom",
+			"summary": "Buzz meets bloom.",
+			"store_listing_id": "1217624073836695602",
+			"banner": "1217623891149586563",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					16777215,
+					7520254
+				],
+				"button_colors": [
+					15586640,
+					16482611
+				],
+				"confetti_colors": [
+					16777215,
+					3000177,
+					15774258,
+					9739511,
+					16414587,
+					43772
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1217624823656611952",
+					"sku_id": "1217624148080332820",
+					"asset": "a_27bbf0b53b1054cf61e9a4c0e8d4027f",
+					"label": "A jubilant bee buzzes around an avatar adorned with lush petals. We must protect them at all costs."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1217622942175727736",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1217625289681801316",
+			"name": "Dandelion Duo",
+			"summary": "Strengths: Cute and fluffy. Weaknesses: The breeze.",
+			"store_listing_id": "1217625253287563284",
+			"banner": "1217623891149586563",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					16777215,
+					7520254
+				],
+				"button_colors": [
+					15586640,
+					16482611
+				],
+				"confetti_colors": [
+					16777215,
+					3000177,
+					15774258,
+					9739511,
+					16414587,
+					43772
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1217625430320742551",
+					"sku_id": "1217625289681801316",
+					"asset": "a_629689577fa1da2ef0061a5a8c930de1",
+					"label": "A pair of fluffy dandelions have their florets dispersed by a gentle breeze."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1217622942175727736",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1217625572168044604",
+			"name": "Hugh the Rainbow",
+			"summary": "Does he have a hue for every mood?",
+			"store_listing_id": "1217625546872066068",
+			"banner": "1217623891149586563",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					16777215,
+					7520254
+				],
+				"button_colors": [
+					15586640,
+					16482611
+				],
+				"confetti_colors": [
+					16777215,
+					3000177,
+					15774258,
+					9739511,
+					16414587,
+					43772
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1217625725092233236",
+					"sku_id": "1217625572168044604",
+					"asset": "a_0c0eeb351ae2cf48c6e1eee2cae49d40",
+					"label": "A living rainbow suddently loses its colorful hues and unleashes a stormy lament."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1217622942175727736",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1217625794382401577",
+			"name": "Strawberry Vine",
+			"summary": "Now that's a sweet harvest.",
+			"store_listing_id": "1217625769916764380",
+			"banner": "1217623891149586563",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					16777215,
+					7520254
+				],
+				"button_colors": [
+					15586640,
+					16482611
+				],
+				"confetti_colors": [
+					16777215,
+					3000177,
+					15774258,
+					9739511,
+					16414587,
+					43772
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1217625936015392890",
+					"sku_id": "1217625794382401577",
+					"asset": "a_9867b1ba56601e745cfe741e6b00b835",
+					"label": "Three happy strawberries are hanging out together on a vine, when suddenly one of them breaks free for a sweet escape."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1217622942175727736",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1217626024540508170",
+			"name": "Butterflies",
+			"summary": "We shall tickle the clouds today - join us!",
+			"store_listing_id": "1217626005284327494",
+			"banner": "1217623891149586563",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					16777215,
+					7520254
+				],
+				"button_colors": [
+					15586640,
+					16482611
+				],
+				"confetti_colors": [
+					16777215,
+					3000177,
+					15774258,
+					9739511,
+					16414587,
+					43772
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1217626041456001146",
+					"sku_id": "1217626024540508170",
+					"asset": "a_4cd9ae5a8d103c219eacd3674d7730cd",
+					"label": "Two butterflies flutter around the avatar, eager to adventure with you to the nearest garden."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1217622942175727736",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1217626219651006495",
+			"name": "The Petal Pack",
+			"summary": "Comes with sunshine and smiles.",
+			"store_listing_id": "1217626193692463295",
+			"banner": "1217623891149586563",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					16777215,
+					7520254
+				],
+				"button_colors": [
+					15586640,
+					16482611
+				],
+				"confetti_colors": [
+					16777215,
+					3000177,
+					15774258,
+					9739511,
+					16414587,
+					43772
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1217626222851391529",
+					"sku_id": "1217626219651006495",
+					"asset": "a_ab95c78401ce4ec85c25a6d308db9d85",
+					"label": "Three merry flowerheads are quite entertained by the gentle descent of petals around them."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1217622942175727736",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1217626509737459852",
+			"name": "Petal Serenade",
+			"summary": "A cascade of floral delight.",
+			"store_listing_id": "1217626505497280592",
+			"banner": "1217623891149586563",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					16777215,
+					7520254
+				],
+				"button_colors": [
+					15586640,
+					16482611
+				],
+				"confetti_colors": [
+					16777215,
+					3000177,
+					15774258,
+					9739511,
+					16414587,
+					43772
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1217626513940283392",
+					"sku_id": "1217626509737459852"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1217622942175727736",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1217627051217911848",
+			"name": "Fellowship of the Spring",
+			"summary": "They only gather around this time of the year.",
+			"store_listing_id": "1217627047627722793",
+			"banner": "1217623891149586563",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					16777215,
+					7520254
+				],
+				"button_colors": [
+					15586640,
+					16482611
+				],
+				"confetti_colors": [
+					16777215,
+					3000177,
+					15774258,
+					9739511,
+					16414587,
+					43772
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1217627055097647164",
+					"sku_id": "1217627051217911848"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1217622942175727736",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1217627230818009171",
+			"name": "Spring Bloom",
+			"summary": "Welcome to my garden.",
+			"store_listing_id": "1217627228242841670",
+			"banner": "1217623891149586563",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					16777215,
+					7520254
+				],
+				"button_colors": [
+					15586640,
+					16482611
+				],
+				"confetti_colors": [
+					16777215,
+					3000177,
+					15774258,
+					9739511,
+					16414587,
+					43772
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1217627233741443152",
+					"sku_id": "1217627230818009171"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1217622942175727736",
+			"google_sku_ids": {}
+		}
+	]
+}

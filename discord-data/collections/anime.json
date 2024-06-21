@@ -1,0 +1,2008 @@
+{
+	"sku_id": "1212565175790473246",
+	"name": "Anime",
+	"summary": "Senpai will definitely notice you.",
+	"store_listing_id": "1212565150280974377",
+	"banner": "1212565236721389588",
+	"unpublished_at": null,
+	"styles": {
+		"background_colors": [
+			11468797,
+			146803
+		],
+		"button_colors": [
+			4241407,
+			8019679
+		],
+		"confetti_colors": [
+			2923481,
+			14969472,
+			16770304,
+			12298453,
+			4120019,
+			14858081
+		]
+	},
+	"logo": "1212565210682884167",
+	"mobile_bg": "1220535728166146098",
+	"pdp_bg": "1217929860304076890",
+	"mobile_banner": "1224517355711889439",
+	"products": [
+		{
+			"sku_id": "1243619479645065287",
+			"name": "Heartthrob Bundle",
+			"summary": "A bundle of collectibles.",
+			"store_listing_id": "1243619453300768869",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1099,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 899,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1099,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 899,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1212570367017885737",
+					"sku_id": "1212570343567261736",
+					"asset": "a_3e1fc3c7ee2e34e8176f4737427e8f4f",
+					"label": "Hearts and flowers decorate the avatar's frame for a lovely, charming vibe."
+				},
+				{
+					"type": 1,
+					"id": "1212582317986545694",
+					"sku_id": "1212582298893946880"
+				}
+			],
+			"type": 1000,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"bundled_products": [
+				{
+					"sku_id": "1212570343567261736",
+					"name": "Heartbloom",
+					"summary": "Let your love blossom.",
+					"type": 0,
+					"premium_type": 0,
+					"prices": {
+						"0": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"4": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"5": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"7": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"sku_id": "1212582298893946880",
+					"name": "Dreamy",
+					"summary": "When senpai notices you.",
+					"type": 1,
+					"premium_type": 0,
+					"prices": {
+						"0": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"4": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"5": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"7": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1212569433839636530",
+			"name": "Cat Ears",
+			"summary": "≽ ^ • ⩊ • ^ ≼",
+			"store_listing_id": "1212569406329323550",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1212569455880699944",
+					"sku_id": "1212569433839636530",
+					"asset": "a_c3cffc19e9784f7d0b005eecdf1b566e",
+					"label": "Cat ears and whiskers adorn the avatar, giving a perfectly adorable cat-like charm."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1212569856189407352",
+			"name": "Ki Energy",
+			"summary": "Focus from within.",
+			"store_listing_id": "1212569814577455165",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1212569932391387137",
+					"sku_id": "1212569856189407352",
+					"asset": "a_f3af281c65cf0cf590e9e1f59e9c6cf6",
+					"label": "Waves of crackling energy surrounds the avatar, indicating a really high power level."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1212570343567261736",
+			"name": "Heartbloom",
+			"summary": "Let your love blossom.",
+			"store_listing_id": "1212570321324871750",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1212570367017885737",
+					"sku_id": "1212570343567261736",
+					"asset": "a_3e1fc3c7ee2e34e8176f4737427e8f4f",
+					"label": "Hearts and flowers decorate the avatar's frame for a lovely, charming vibe."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1212570596970467378",
+			"name": "Dismay",
+			"summary": "Not like this...",
+			"store_listing_id": "1212570570865246238",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1212570617404981348",
+					"sku_id": "1212570596970467378",
+					"asset": "a_51d3bb502109eec26c76386ec980bc8b",
+					"label": "A drop of sweat slides down the avatar's frame, conveying an expression of nervous dismay."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1212581147675205652",
+			"name": "Rage",
+			"summary": "THAT'S IT.",
+			"store_listing_id": "1212581121003364464",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1212581170823561236",
+					"sku_id": "1212581147675205652",
+					"asset": "a_a0db4314b8cc271c8f472357aa895005",
+					"label": "The avatar emits an exclamation mark, conveying an expression of rage."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1212581390936178768",
+			"name": "In Tears",
+			"summary": "*sobbing*",
+			"store_listing_id": "1212581369704615957",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1212581413958979634",
+					"sku_id": "1212581390936178768",
+					"asset": "a_4cc97277177b166fd7d4af3bdb370815",
+					"label": "A sobbing avatar lets loose a cascade of tears."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1154896005045694555",
+			"name": "Radiating Energy",
+			"summary": "Over EIGHT-THOUSAND-NINE-HUNDRED-NINETY-NINE!",
+			"store_listing_id": "1154895977845625043",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1154896010255015996",
+					"sku_id": "1154896005045694555",
+					"asset": "a_c7e1751e8122f1b475cb3006966fb28c",
+					"label": "Radiating Energy Circle with Lightning, Anime-Style, Purple, Animated"
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1144305233707671573",
+			"name": "Soul Leaving Body",
+			"summary": "Can I just disappear right now?",
+			"store_listing_id": "1144305233707671572",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1144305233707671574",
+					"sku_id": "1144305233707671573",
+					"asset": "a_c3c09bd122898be35093d0d59850f627",
+					"label": "Wavy Ghost with Shocked Expression, Anime-Style, Animated"
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1144307257807491094",
+			"name": "Sweat Drops",
+			"summary": "*laughs nervously*",
+			"store_listing_id": "1144307257807491093",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1144307257807491095",
+					"sku_id": "1144307257807491094",
+					"asset": "a_55c9d0354290afa8b7fe47ea9bd7dbcf",
+					"label": "Sweat Drops with Question Mark Speech Bubble, Anime-Style, Blue, Animated"
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1144307629225672846",
+			"name": "Starry Eyed",
+			"summary": "Feelin' sparkly.",
+			"store_listing_id": "1144307629225672845",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1144307629225672847",
+					"sku_id": "1144307629225672846",
+					"asset": "a_d72066b8cecbadd9fc951913ebcc384f",
+					"label": "Twinkling Lines and Stars, Anime-Style, Orange and Yellow, Animated"
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1144307957425778779",
+			"name": "In Love",
+			"summary": "uwu",
+			"store_listing_id": "1144307957425778778",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1144307957425778780",
+					"sku_id": "1144307957425778779",
+					"asset": "a_8ffa2ba9bff18e96b76c2e66fd0d7fa3",
+					"label": "Speech Bubble with Lovestruck Expression and Floating Hearts, Anime-Style, Pink and White, Animated"
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1144308196723408958",
+			"name": "Shocked",
+			"summary": "Nani?!!",
+			"store_listing_id": "1144308196723408957",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1174460891727663244",
+					"sku_id": "1144308196723408958",
+					"asset": "a_b98e8b204d59882fb7f9f7c86922c0bf",
+					"label": "Thick Exclamation Lines with Japanese Hiragana Speech Bubble, Anime-Style, Pink, Animated"
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1144308439720394944",
+			"name": "Angry",
+			"summary": "How dare you.",
+			"store_listing_id": "1144308439720394943",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1144308439720394945",
+					"sku_id": "1144308439720394944",
+					"asset": "a_3c97a2d37f433a7913a1c7b7a735d000",
+					"label": "Anger Symbol with Exclamation Mark Speech Bubble, Anime-Style, Red, Animated"
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1212582298893946880",
+			"name": "Dreamy",
+			"summary": "When senpai notices you.",
+			"store_listing_id": "1212582278899834930",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1212582317986545694",
+					"sku_id": "1212582298893946880"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1212582372877541427",
+			"name": "Ki Detonate",
+			"summary": "Obliteration in 3... 2... 1...",
+			"store_listing_id": "1212582345798852668",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1212582395937816606",
+					"sku_id": "1212582372877541427"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1212582452640350238",
+			"name": "Sushi Mania",
+			"summary": "Always keep the sushi rolling.",
+			"store_listing_id": "1212582430062415902",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1212582476866920448",
+					"sku_id": "1212582452640350238"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1139323100568244355",
+			"name": "Magic Hearts",
+			"summary": "Moon Prism Power, Make Up!",
+			"store_listing_id": "1139323100127834224",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 849,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 849,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1139323100127834223",
+					"sku_id": "1139323100568244355"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1139323093551165533",
+			"name": "Shatter",
+			"summary": "Ouch, my windows!",
+			"store_listing_id": "1139323093114962022",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 849,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 849,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1139323093114962021",
+					"sku_id": "1139323093551165533"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1139323101008642101",
+			"name": "Shuriken Strike",
+			"summary": "Every side is the pointy end.",
+			"store_listing_id": "1139323101008642100",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 849,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 849,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1139323100568244356",
+					"sku_id": "1139323101008642101"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1139323101881061466",
+			"name": "Power Surge",
+			"summary": "You're about to witness true power.",
+			"store_listing_id": "1139323101444845691",
+			"banner": "1212565236721389588",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					11468797,
+					146803
+				],
+				"button_colors": [
+					4241407,
+					8019679
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 849,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 849,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1139323101444845690",
+					"sku_id": "1139323101881061466"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1212565175790473246",
+			"google_sku_ids": {}
+		}
+	]
+}
