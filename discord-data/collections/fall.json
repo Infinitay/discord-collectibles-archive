@@ -1,0 +1,277 @@
+{
+	"sku_id": "1157406994873991284",
+	"store_listing_id": "1157406994873991283",
+	"banner": "1157407583993339935",
+	"name": "Fall",
+	"summary": "There's a calm and cozy vibe in the air.",
+	"unpublished_at": "2023-11-29T12:00:00+00:00",
+	"logo": "1157407583993339934",
+	"products": [
+		{
+			"sku_id": "1157409074422481023",
+			"store_listing_id": "1157409074422481022",
+			"banner": null,
+			"name": "Fall Leaves",
+			"summary": "Behold nature's dance.",
+			"unpublished_at": null,
+			"currency": "usd",
+			"price": 549,
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1157409074422481024",
+					"sku_id": "1157409074422481023",
+					"asset": "a_5087f7f988bd1b2819cac3e33d0150f5",
+					"label": "Autumn leaves gracefully sway towards the earth. You can practically smell the acorns dangling above. Fall is here."
+				}
+			]
+		},
+		{
+			"sku_id": "1157409869448618016",
+			"store_listing_id": "1157409869448618015",
+			"banner": null,
+			"name": "Pumpkin Spice",
+			"summary": "Sweets and spice make everything nice.",
+			"unpublished_at": null,
+			"currency": "usd",
+			"price": 549,
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1157409869448618017",
+					"sku_id": "1157409869448618016",
+					"asset": "a_145dffeb81bcfff96be683fd9f6db20a",
+					"label": "Orange pumpkins growing from a vine can only mean one thing... the flavor of fall - pumpkin spice - has arrived!"
+				}
+			]
+		},
+		{
+			"sku_id": "1157407831348228139",
+			"store_listing_id": "1157407831348228138",
+			"banner": null,
+			"name": "Frog Hat",
+			"summary": "Frogs and fashion go together and you can't tell me otherwise.",
+			"unpublished_at": null,
+			"currency": "usd",
+			"price": 549,
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1157457289872146472",
+					"sku_id": "1157407831348228139",
+					"asset": "a_4936aa6c33a101b593f9607d48d686ec",
+					"label": "Mushrooms are growing underneath a cute green hat that looks suspiciously like a live, smiling frog."
+				}
+			]
+		},
+		{
+			"sku_id": "1157407831348228141",
+			"store_listing_id": "1157407831348228140",
+			"banner": null,
+			"name": "Fox Hat",
+			"summary": "Charming, cozy, and a little bit nosy.",
+			"unpublished_at": null,
+			"currency": "usd",
+			"price": 549,
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 799,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 549,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1157409074422481021",
+					"sku_id": "1157407831348228141",
+					"asset": "a_7d305bca6cf371df98c059f9d2ef05e4",
+					"label": "What a cute fox hat! Wait... did it just blink?!"
+				}
+			]
+		},
+		{
+			"sku_id": "1159280677246742548",
+			"store_listing_id": "1159280674004549682",
+			"banner": null,
+			"name": "Fall Foliage",
+			"summary": "Getting ready for sweater weather.",
+			"unpublished_at": null,
+			"currency": "usd",
+			"price": 699,
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 699,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1159277016571449404",
+					"sku_id": "1159280677246742548"
+				}
+			]
+		},
+		{
+			"sku_id": "1159280847262859364",
+			"store_listing_id": "1159280844796596335",
+			"banner": null,
+			"name": "Lillypad Life",
+			"summary": "*ribbit*",
+			"unpublished_at": null,
+			"currency": "usd",
+			"price": 699,
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 699,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1159275733764550728",
+					"sku_id": "1159280847262859364"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,726 @@
+{
+	"store_listing_id": "1220513968926228520",
+	"sku_id": "1220513972189663413",
+	"name": "VALORANT",
+	"summary": "DEFY DEFINITION",
+	"banner": "1220514092129714176",
+	"unpublished_at": "2024-05-08T03:59:00.000Z",
+	"styles": {
+		"background_colors": [
+			5447979,
+			989475
+		],
+		"button_colors": [
+			16729685,
+			16729685
+		],
+		"confetti_colors": [
+			43772,
+			15774258,
+			16414587,
+			3000177,
+			9739511
+		]
+	},
+	"products": [
+		{
+			"store_listing_id": "1220513975494512780",
+			"sku_id": "1220513977683935373",
+			"name": "A Hint of Clove",
+			"summary": "Back again from the great beyond.",
+			"banner": "1220514092129714176",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					5447979,
+					989475
+				],
+				"button_colors": [
+					16729685,
+					16729685
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"type": 0,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1220513979898793994",
+					"sku_id": "1220513977683935373",
+					"asset": "a_98555e40cc6802bd3a4fed906af1d992",
+					"label": "Clove's special smoke ability wraps around the avatar, with several fluttering, glowing butterflies.",
+					"type": 0
+				}
+			],
+			"category_sku_id": "1220513972189663413",
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1220513982083764357",
+			"sku_id": "1220513984273186816",
+			"name": "Omen's Cowl",
+			"summary": "Embrace the shadows.",
+			"banner": "1220514092129714176",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					5447979,
+					989475
+				],
+				"button_colors": [
+					16729685,
+					16729685
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"type": 0,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1220513986051837952",
+					"sku_id": "1220513984273186816",
+					"asset": "a_c45abe8c7585fdb41b8d8d4d666f1588",
+					"label": "The avatar wears Omen's signature hood.",
+					"type": 0
+				}
+			],
+			"category_sku_id": "1220513972189663413",
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1220513987863515166",
+			"sku_id": "1220513989729976411",
+			"name": "Reyna's Leer",
+			"summary": "The last thing they'll ever see. Lucky them.",
+			"banner": "1220514092129714176",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					5447979,
+					989475
+				],
+				"button_colors": [
+					16729685,
+					16729685
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"type": 0,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1220513991449907280",
+					"sku_id": "1220513989729976411",
+					"asset": "a_a87e3efa4de2956331831681231ce63b",
+					"label": "Reyna's Leer ability surrounds the avatar, nearsighting all those who dare to stare into its gaze.",
+					"type": 0
+				}
+			],
+			"category_sku_id": "1220513972189663413",
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1220513993215447040",
+			"sku_id": "1220513995308400680",
+			"name": "FRAG OUT",
+			"summary": "Five down. None to go.",
+			"banner": "1220514092129714176",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					5447979,
+					989475
+				],
+				"button_colors": [
+					16729685,
+					16729685
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"type": 0,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1220513996889919548",
+					"sku_id": "1220513995308400680",
+					"asset": "a_09de63526a45be1ddac70e84718ee04a",
+					"label": "A kill icon displaying 5 confirmed kills.",
+					"type": 0
+				}
+			],
+			"category_sku_id": "1220513972189663413",
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1220513998684819546",
+			"sku_id": "1220514048068812901",
+			"name": "Blade Storm",
+			"summary": "Watch this.",
+			"banner": "1220514092129714176",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					5447979,
+					989475
+				],
+				"button_colors": [
+					16729685,
+					16729685
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"type": 0,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1220514050551709787",
+					"sku_id": "1220514048068812901",
+					"asset": "a_904b1989077c91fca1168d39bfcaa0a4",
+					"label": "The avatar equips throwing knives from Jett's signature Blade Storm ability.",
+					"type": 0
+				}
+			],
+			"category_sku_id": "1220513972189663413",
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1220514052833284226",
+			"sku_id": "1220432647453409384",
+			"name": "Clove's Ruse",
+			"summary": "Smoke's out. Time to make some mischief.",
+			"banner": "1220514092129714176",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					5447979,
+					989475
+				],
+				"button_colors": [
+					16729685,
+					16729685
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"type": 1,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1220432606059954196",
+					"sku_id": "1220432647453409384",
+					"type": 1
+				}
+			],
+			"category_sku_id": "1220513972189663413",
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1220514055584743494",
+			"sku_id": "1220432740638523543",
+			"name": "ACE",
+			"summary": "Too bad there's only 5 of 'em.",
+			"banner": "1220514092129714176",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					5447979,
+					989475
+				],
+				"button_colors": [
+					16729685,
+					16729685
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"type": 1,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1220432721134747648",
+					"sku_id": "1220432740638523543",
+					"type": 1
+				}
+			],
+			"category_sku_id": "1220513972189663413",
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1220514058600714240",
+			"sku_id": "1220432697718083614",
+			"name": "The Immortal Clove",
+			"summary": "They've got all the time in the world.",
+			"banner": "1220514092129714176",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					5447979,
+					989475
+				],
+				"button_colors": [
+					16729685,
+					16729685
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1199,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"type": 1,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1220432672443334778",
+					"sku_id": "1220432697718083614",
+					"type": 1
+				}
+			],
+			"category_sku_id": "1220513972189663413",
+			"google_sku_ids": {}
+		}
+	],
+	"logo": "1220514099364892672"
+}
