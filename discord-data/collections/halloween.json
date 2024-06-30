@@ -10,12 +10,10 @@
 		{
 			"sku_id": "1157411984371880118",
 			"store_listing_id": "1157411984371880117",
-			"banner": null,
+			"banner": "1157410718711304315",
 			"name": "Graveyard Cat",
 			"summary": "Just a cat on graveyard duty.",
 			"unpublished_at": null,
-			"currency": "usd",
-			"price": 549,
 			"prices": {
 				"0": {
 					"country_prices": {
@@ -50,17 +48,24 @@
 					"asset": "a_ad4e2cad924bbb3a2fddf5c527370479",
 					"label": "Bathed in the glow of a full moon, a mysterious black cat is perched upon a tombstone, playfully pawing the tomb's exterior."
 				}
-			]
+			],
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"premium_type": 0,
+			"type": 0,
+			"google_sku_ids": {},
+			"category_sku_id": "1157410718711304313"
 		},
 		{
 			"sku_id": "1157411685687115858",
 			"store_listing_id": "1157411685687115857",
-			"banner": null,
+			"banner": "1157410718711304315",
 			"name": "Ghosts",
 			"summary": "Look at them just spinning and grinning all day...",
 			"unpublished_at": null,
-			"currency": "usd",
-			"price": 549,
 			"prices": {
 				"0": {
 					"country_prices": {
@@ -95,17 +100,24 @@
 					"asset": "a_b9a64088e30fd3a6f2456c2e0f44f173",
 					"label": "You notice two spooky ghosts twirling around each other in an eternal dance. Are they friend or foe?"
 				}
-			]
+			],
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"premium_type": 0,
+			"type": 0,
+			"google_sku_ids": {},
+			"category_sku_id": "1157410718711304313"
 		},
 		{
 			"sku_id": "1157412779335090267",
 			"store_listing_id": "1157412779335090266",
-			"banner": null,
+			"banner": "1157410718711304315",
 			"name": "Minions",
 			"summary": "Name a more iconic duo.",
 			"unpublished_at": null,
-			"currency": "usd",
-			"price": 549,
 			"prices": {
 				"0": {
 					"country_prices": {
@@ -140,17 +152,24 @@
 					"asset": "a_f979ba5f9c2ba83db3149cc02f489f7c",
 					"label": "A one-eyed magic cauldron hovers in the air, bubbling with a strange, green brew. Its winged jack-o'-lantern companion flaps nearby. What mischief are they brewing?"
 				}
-			]
+			],
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"premium_type": 0,
+			"type": 0,
+			"google_sku_ids": {},
+			"category_sku_id": "1157410718711304313"
 		},
 		{
 			"sku_id": "1157412388509864068",
 			"store_listing_id": "1157412388509864067",
-			"banner": null,
+			"banner": "1157410718711304315",
 			"name": "Jack-o'-lantern",
 			"summary": "You can practically hear its eerie cackle...",
 			"unpublished_at": null,
-			"currency": "usd",
-			"price": 549,
 			"prices": {
 				"0": {
 					"country_prices": {
@@ -185,17 +204,24 @@
 					"asset": "a_50939e8f95b0ddfa596809480b0eb3e1",
 					"label": "A gleeful jack-o'-lantern cackles atop a dark, twisted branch, with bats swirling above to join in on the spooky shenanigans."
 				}
-			]
+			],
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"premium_type": 0,
+			"type": 0,
+			"google_sku_ids": {},
+			"category_sku_id": "1157410718711304313"
 		},
 		{
 			"sku_id": "1158572178179108968",
 			"store_listing_id": "1158572178179108967",
-			"banner": null,
+			"banner": "1157410718711304315",
 			"name": "Ghoulish Graffiti",
 			"summary": "Did I scare you?",
 			"unpublished_at": null,
-			"currency": "usd",
-			"price": 299,
 			"prices": {
 				"0": {
 					"country_prices": {
@@ -228,17 +254,24 @@
 					"id": "1139323101881061467",
 					"sku_id": "1158572178179108968"
 				}
-			]
+			],
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"premium_type": 0,
+			"type": 1,
+			"google_sku_ids": {},
+			"category_sku_id": "1157410718711304313"
 		},
 		{
 			"sku_id": "1158572263411556373",
 			"store_listing_id": "1158572263411556372",
-			"banner": null,
+			"banner": "1157410718711304315",
 			"name": "Zombie Slime",
 			"summary": "I don't think you should touch that.",
 			"unpublished_at": null,
-			"currency": "usd",
-			"price": 299,
 			"prices": {
 				"0": {
 					"country_prices": {
@@ -271,17 +304,24 @@
 					"id": "1139323094431973427",
 					"sku_id": "1158572263411556373"
 				}
-			]
+			],
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"premium_type": 0,
+			"type": 1,
+			"google_sku_ids": {},
+			"category_sku_id": "1157410718711304313"
 		},
 		{
 			"sku_id": "1158572275507937342",
 			"store_listing_id": "1158572275507937341",
-			"banner": null,
+			"banner": "1157410718711304315",
 			"name": "Dark Omens",
 			"summary": "Who keeps summoning these things?",
 			"unpublished_at": null,
-			"currency": "usd",
-			"price": 299,
 			"prices": {
 				"0": {
 					"country_prices": {
@@ -314,7 +354,21 @@
 					"id": "1139323102753468546",
 					"sku_id": "1158572275507937342"
 				}
-			]
+			],
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"premium_type": 0,
+			"type": 1,
+			"google_sku_ids": {},
+			"category_sku_id": "1157410718711304313"
 		}
-	]
+	],
+	"styles": {
+		"background_colors": [],
+		"button_colors": [],
+		"confetti_colors": []
+	}
 }

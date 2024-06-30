@@ -4,6 +4,7 @@ import * as path from "node:path";
 import * as fs from "node:fs";
 import { CollectiblesCategories, Product } from "~/types/CollectiblesCategories";
 import { strictDeepEqual } from "fast-equals";
+import { DiscordUtils } from "~/utils/DiscordUtils";
 
 // Regex to remove special characters (not including spaces) from the collection name
 const SANITIZE_COLLECTION_NAME_REGEX = /[^a-z0-9\s]/gi;
@@ -12,7 +13,7 @@ const DISCORD_DATA_PATH = "../";
 const COLLECTIONS_DIRECTORY = path.join(DISCORD_DATA_PATH, "collections");
 const UNCATEGORIZED_SKU_ID = "1217175518781243583";
 // Optional, set path to either undefined or the path to the older raw collectibles data
-const OLDER_RAW_COLLEECTIBLES_PATH: string | undefined = path.join(DISCORD_DATA_PATH, "raw/old-data/collectibles-categories-20231101.json");
+const OLDER_RAW_COLLEECTIBLES_PATH: string | undefined = path.join(DISCORD_DATA_PATH, "raw/old-data/collectibles-categories-20231101-converted.json");
 
 // <sku_id, collection> Mappings
 const previousCollections = new Map<string, CollectiblesCategories>();
@@ -130,7 +131,9 @@ for (const collection of newRawCollectibles) {
 // Add any missing collections because so far we only added new or existing collections
 // Don't forget that we removed any dupe/updated previous collections to prevent allocating more memory to more dupe collectsions
 
-const exportedCollections = Array.from(currentCollections.values()).filter((c) => modifiedCollections.has(c.sku_id));
+const exportedCollections = Array.from(currentCollections.values())
+	.filter((c) => modifiedCollections.has(c.sku_id))
+	.sort(sortCollectionsByDate);
 
 // Extract each collection from the raw data into it's own JSON file
 for (const collection of exportedCollections) {
@@ -142,7 +145,7 @@ for (const collection of exportedCollections) {
 
 const collectionsIndexPath = path.join(COLLECTIONS_DIRECTORY, "index.ts");
 const indexFileExists = fs.existsSync(collectionsIndexPath);
-const collectionsToIndex = indexFileExists ? exportedCollections : Array.from(currentCollections.values());
+const collectionsToIndex = indexFileExists ? exportedCollections : Array.from(currentCollections.values()).sort(sortCollectionsByDate);
 if (collectionsToIndex.length !== 0) {
 	const missingPrefix = indexFileExists ? "Updating the" : "Generating an";
 	console.log(`${missingPrefix} index file with imports for the ${collectionsToIndex.length} collections at "${collectionsIndexPath}"`);
@@ -191,4 +194,8 @@ function toSanitizedCamelCase(string: string) {
 		camelCase += strings.map((s) => `${s.charAt(0).toUpperCase()}${s.substring(1)}`).join("");
 	}
 	return camelCase.replaceAll(SANITIZE_COLLECTION_NAME_REGEX, "");
+}
+
+function sortCollectionsByDate(a: CollectiblesCategories, b: CollectiblesCategories) {
+	return DiscordUtils.snowflakeToDate(a.sku_id).getTime() - DiscordUtils.snowflakeToDate(b.sku_id).getTime();
 }
