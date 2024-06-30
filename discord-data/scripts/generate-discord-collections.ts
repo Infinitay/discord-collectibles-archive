@@ -153,7 +153,7 @@ if (collectionsToIndex.length !== 0) {
 
 	const collectionIndexContent = `${imports}
 
-export const collections = {
+export default {
 	${collectionsToIndex.map((c) => `${toSanitizedCamelCase(c.name)}`).join(",\n\t")}
 };
 `;

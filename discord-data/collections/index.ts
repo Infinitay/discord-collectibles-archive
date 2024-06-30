@@ -18,7 +18,7 @@ import uncategorized from "~discord-data/collections/uncategorized.json" assert 
 import valorant from "~discord-data/collections/valorant.json" assert { type: "json" };
 import winterWonderland from "~discord-data/collections/winter-wonderland.json" assert { type: "json" };
 
-export const collections = {
+export default {
 	anime,
 	arcade,
 	breakfast,
