@@ -1,3 +1,3 @@
-import { collections } from "./collections/index";
+import collections from "./collections/index";
 
-export { collections };
+export default collections;
