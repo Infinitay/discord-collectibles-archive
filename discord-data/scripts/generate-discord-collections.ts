@@ -49,7 +49,6 @@ if (!fs.existsSync(COLLECTIONS_DIRECTORY)) {
 			}
 		});
 	}
-
 	console.log(`Found and generated ${previousCollections.size} collections from the old data`);
 } else {
 	console.log("Found an existing collection. Using the existing collections to update/add to the current collections");
@@ -61,7 +60,10 @@ if (!fs.existsSync(COLLECTIONS_DIRECTORY)) {
 			currentCollections.set(previousCollection.sku_id, previousCollection);
 		}
 	}
-	console.log(`Found and loaded ${previousCollections.size} collections from the existing collections`);
+	const previousCollectionNames = Array.from(previousCollections.values())
+		.map((c) => `"${c.name}"`)
+		.join(", ");
+	console.log(`Found and loaded ${previousCollections.size} collections from the existing collections: [${previousCollectionNames}]`);
 }
 
 /*
@@ -72,6 +74,7 @@ if (!fs.existsSync(COLLECTIONS_DIRECTORY)) {
  * 2) Check to see if the collection needs updating. Older collections shouldn't change after they get unpublished
  */
 
+console.log(`Checking to see if any of the ${newRawCollectibles.length} new collections need to be updated or added`);
 for (const collection of newRawCollectibles) {
 	const previousCollection = previousCollections.get(collection.sku_id);
 	if (previousCollection !== undefined) {
@@ -127,12 +130,37 @@ for (const collection of newRawCollectibles) {
 // Add any missing collections because so far we only added new or existing collections
 // Don't forget that we removed any dupe/updated previous collections to prevent allocating more memory to more dupe collectsions
 
+const exportedCollections = Array.from(currentCollections.values()).filter((c) => modifiedCollections.has(c.sku_id));
+
 // Extract each collection from the raw data into it's own JSON file
-for (const collection of Array.from(currentCollections.values()).filter((c) => modifiedCollections.has(c.sku_id))) {
+for (const collection of exportedCollections) {
 	const sanitizedCollectionName = sanitizeCollectionName(collection.name);
 	const collectionPath = path.join(COLLECTIONS_DIRECTORY, `${sanitizedCollectionName}.json`);
 	fs.writeFileSync(collectionPath, JSON.stringify(collection, null, "\t") + "\n", "utf-8");
 	console.log(`Finished generating the '${collection.name}' collection ("${collectionPath}")`);
+}
+
+const collectionsIndexPath = path.join(COLLECTIONS_DIRECTORY, "index.ts");
+const indexFileExists = fs.existsSync(collectionsIndexPath);
+const collectionsToIndex = indexFileExists ? exportedCollections : Array.from(currentCollections.values());
+if (collectionsToIndex.length !== 0) {
+	const missingPrefix = indexFileExists ? "Updating the" : "Generating an";
+	console.log(`${missingPrefix} index file with imports for the ${collectionsToIndex.length} collections at "${collectionsIndexPath}"`);
+
+	const imports = collectionsToIndex
+		.map((c) => `import ${toSanitizedCamelCase(c.name)} from "~discord-data/collections/${sanitizeCollectionName(c.name)}.json" assert { type: "json" };`)
+		.join("\n");
+
+	const collectionIndexContent = `${imports}
+
+export const collections = {
+	${collectionsToIndex.map((c) => `${toSanitizedCamelCase(c.name)}`).join(",\n\t")}
+};
+`;
+
+	fs.writeFileSync(collectionsIndexPath, collectionIndexContent);
+} else {
+	console.log(`No collections to index, skipping the index file generation`);
 }
 
 /**
@@ -147,4 +175,20 @@ for (const collection of Array.from(currentCollections.values()).filter((c) => m
  */
 function sanitizeCollectionName(collectionName: string) {
 	return collectionName.toLowerCase().replaceAll(SANITIZE_COLLECTION_NAME_REGEX, "").replaceAll(" ", "-");
+}
+
+/**
+ * Sanitizes the string and converts it to camelCase
+ *
+ * @param string
+ * @returns sanitized and camelCase without special characters
+ */
+function toSanitizedCamelCase(string: string) {
+	string = string.toLowerCase();
+	const strings = string.split(/\s/gi);
+	let camelCase = strings.shift() ?? "";
+	if (strings.length > 0) {
+		camelCase += strings.map((s) => `${s.charAt(0).toUpperCase()}${s.substring(1)}`).join("");
+	}
+	return camelCase.replaceAll(SANITIZE_COLLECTION_NAME_REGEX, "");
 }
