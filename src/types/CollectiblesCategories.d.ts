@@ -23,8 +23,8 @@ export interface Product {
 	styles: Styles;
 	prices: { [key: string]: PriceValue };
 	items: Item[];
-	type: number;
-	premium_type: number;
+	type: ProductTypes | number;
+	premium_type: PremiumTypes | number;
 	category_sku_id: string;
 	bundled_products?: BundledProduct[];
 	google_sku_ids: GoogleSkuIDS;
@@ -34,8 +34,8 @@ export interface BundledProduct {
 	sku_id: string;
 	name: string;
 	summary: string;
-	type: number;
-	premium_type: number;
+	type: ItemTypes | number;
+	premium_type: PremiumTypes | number;
 	prices: { [key: string]: PriceValue };
 }
 
@@ -63,7 +63,7 @@ export type Currency = "usd" | string;
 export interface GoogleSkuIDS {}
 
 export interface Item {
-	type: number;
+	type: ItemTypes | number;
 	id: string;
 	sku_id: string;
 	asset?: string;
@@ -74,4 +74,20 @@ export interface Styles {
 	background_colors: number[];
 	button_colors: number[];
 	confetti_colors: number[];
+}
+
+export enum ProductTypes {
+	AvatarDecoration = 0,
+	ProfileEffect = 1,
+	Bundle = 1000
+}
+
+export enum PremiumTypes {
+	Everyone = 0,
+	Nitro = 1
+}
+
+export enum ItemTypes {
+	AvatarDecoration = 0,
+	ProfileEffect = 1
 }
