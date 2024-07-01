@@ -1,3 +1,10 @@
+import { CollectiblesCategories } from "~/types/CollectiblesCategories";
 import collections from "./collections/index";
 
-export default collections;
+type CollectionsExport = {
+	[key: string]: CollectiblesCategories;
+};
+
+const typedCollections: CollectionsExport = collections;
+
+export default typedCollections;
