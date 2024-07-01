@@ -1,5 +1,42 @@
 Any and all Discord data will be stored here and prettified for ease of viewing with data changes.
 
+# [Collections](/discord-data/collections/)
+
+This directory contains the various collections parsed and exported as individual files via [generate-discord-collections](/discord-data/scripts/generate-discord-collections.ts) . The data found here is used for the collections data
+
+## Data Descriptions
+
+### [CollectiblesCategories -> Product](/src/types/CollectiblesCategories.d.ts)
+The general product
+
+| Property | Description | Value(s) |
+|-------|-------|-------|
+| type | The type of the general product (not to be confused with the individual item) | 0 = Avatar Decoration |
+| 	   |                                                                               | 1 = Profile Effect |
+| 	   |                                                                               | 1000 = Bundle |
+| premium_type | The type that identifies the product's availability based on a group of users | 0 = Everyone |
+|              |                                                                               | 2 = Discord Nitro |
+| items | The individual item(s) found within the product | [Item[]](/discord-data/scripts/generate-discord-collections.ts) |
+| bundled_products | The _actual_ products that are found within this bundle product type      | [BundledProduct[]](/discord-data/scripts/generate-discord-collections.ts)
+
+### [CollectiblesCategories -> Product -> Item](/src/types/CollectiblesCategories.d.ts)
+An individual item
+
+| Property | Description | Value(s) |
+|-------|-------|-------|
+| type | The type of the individual item | 0 = Avatar Decoration |
+| 	   |                                 | 1 = Profile Effect |
+
+### [CollectiblesCategories -> Product -> BundledProduct](/src/types/CollectiblesCategories.d.ts)
+An individual item, but for a BundledProduct 
+
+| Property | Description | Value(s) |
+|-------|-------|-------|
+| type | The type of the individual item found within the bundle | 0 = Avatar Decoration |
+| 	   |                                                         | 1 = Profile Effect |
+| premium_type | The type that identifies the item's availability based on a group of users | 0 = Everyone |
+|              |                                                                            | 2 = Discord Nitro |
+
 # [Raw Data](/discord-data/raw/)
 
 This directory contains raw data that was returned by the Discord API. Essentially, this is the archive. The data is unmodified apart from being prettified after manually being updated.

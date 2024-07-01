@@ -1,0 +1,582 @@
+{
+	"store_listing_id": "1179493515038818324",
+	"sku_id": "1179493515038818325",
+	"name": "Monsters",
+	"summary": "We're not a menace, just misunderstood.",
+	"banner": "1179493515038818327",
+	"unpublished_at": null,
+	"products": [
+		{
+			"store_listing_id": "1179493515038818328",
+			"sku_id": "1179493515038818329",
+			"name": "Beamchop",
+			"summary": "Awh it's so cu- AHHH",
+			"banner": "1179493515038818327",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"type": 0,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1179493515038818330",
+					"sku_id": "1179493515038818329",
+					"type": 0,
+					"asset": "a_e11ac0d3f2b1301173847b84a1a3268f",
+					"label": "Beamchop, a horned monster, musters its might to fire a powerful laser from its horn. That looks like it hurts!"
+				}
+			],
+			"category_sku_id": "1179493515038818325",
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1179493515076579374",
+			"sku_id": "1179493515076579375",
+			"name": "Stinkums",
+			"summary": "Questionably dealt. Definitely smelt.",
+			"banner": "1179493515038818327",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"type": 0,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1179493515076579376",
+					"sku_id": "1179493515076579375",
+					"type": 0,
+					"asset": "a_ea8e2e628bacdddb1ef18cb382aa454c",
+					"label": "A strange humanoid-looking creature farts, then smells its own stinky fumes. Guess that's why its earned the name Stinkums..."
+				}
+			],
+			"category_sku_id": "1179493515038818325",
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1179493515076579368",
+			"sku_id": "1179493515076579369",
+			"name": "Chuck",
+			"summary": "Wanna see what I had for lunch earlier?",
+			"banner": "1179493515038818327",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"type": 0,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1179493515076579370",
+					"sku_id": "1179493515076579369",
+					"type": 0,
+					"asset": "a_68b9ced89df522993b81a33f43490ef1",
+					"label": "Chuck, a round monster with a giant mouth, covers its mouth before suddenly spewing a powerful stream of vomit. There's not enough mouthwash in the world..."
+				}
+			],
+			"category_sku_id": "1179493515038818325",
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1179493515076579377",
+			"sku_id": "1179493515118514186",
+			"name": "Winkle",
+			"summary": "Eye love you.",
+			"banner": "1179493515038818327",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"type": 0,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1179493515118514187",
+					"sku_id": "1179493515118514186",
+					"type": 0,
+					"asset": "a_8b7ad8479ad8cc9996b508b75410e2f9",
+					"label": "A one-eyed creature blows a giant heart around the avatar, then squezes the heart until it pops. Talk about a great hugger!"
+				}
+			],
+			"category_sku_id": "1179493515038818325",
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1179493515038818331",
+			"sku_id": "1179493515038818332",
+			"name": "Chewbert",
+			"summary": "Me chew gum, make bubbles, big fun.",
+			"banner": "1179493515038818327",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"type": 0,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1179493515038818333",
+					"sku_id": "1179493515038818332",
+					"type": 0,
+					"asset": "a_129e3e818c8319e031d34d4194cf8ecd",
+					"label": "Chewbert, a spherical monster, casually chews bubble gum and blows sizable bubbles with it. How come my bubbles are never as big?"
+				}
+			],
+			"category_sku_id": "1179493515038818325",
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1179493515076579371",
+			"sku_id": "1179493515076579372",
+			"name": "Doodlezard",
+			"summary": "You might want to wash up after.",
+			"banner": "1179493515038818327",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"type": 0,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1184585205252628560",
+					"sku_id": "1179493515076579372",
+					"type": 0,
+					"asset": "a_48ca99fcfa4ecc11acdc323534a0ecbb",
+					"label": "A lizard crawls over the avatar, leaving a trail of slime. This calls for a shower."
+				}
+			],
+			"category_sku_id": "1179493515038818325",
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1179493515118514188",
+			"sku_id": "1179493515118514189",
+			"name": "Glop",
+			"summary": "Is there something in my teeth?",
+			"banner": "1179493515038818327",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"type": 0,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1179493515118514190",
+					"sku_id": "1179493515118514189",
+					"type": 0,
+					"asset": "a_42f43a32539de2f3f30a348dc8a880e1",
+					"label": "An 8-eyed cephalopod with goo in its mouth stares menacingly. It's chewing something. I don't even want to know what it is."
+				}
+			],
+			"category_sku_id": "1179493515038818325",
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1179493515118514191",
+			"sku_id": "1179493515118514192",
+			"name": "Gawblehop",
+			"summary": "Talk about being tongue-tied.",
+			"banner": "1179493515038818327",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"type": 0,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1179493515118514193",
+					"sku_id": "1179493515118514192",
+					"type": 0,
+					"asset": "a_be797b0a0efafd45a9ee49aaedbde4d2",
+					"label": "An unassuming fly suddenly gets caught by the inescapable tongue of a frog-looking spider. Alas, Gawblehop has claimed another prey."
+				}
+			],
+			"category_sku_id": "1179493515038818325",
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1179493515118514194",
+			"sku_id": "1179493515118514195",
+			"name": "Goozilla",
+			"summary": "Wait a second, what's my profile even made of?!",
+			"banner": "1179493515038818327",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"type": 1,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1179493515126898809",
+					"sku_id": "1179493515118514195",
+					"type": 1
+				}
+			],
+			"category_sku_id": "1179493515038818325",
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1179493515126898810",
+			"sku_id": "1179493515126898811",
+			"name": "Heartzilla",
+			"summary": "Is this what they mean when they say love hurts?",
+			"banner": "1179493515038818327",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"type": 1,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1179493515126898812",
+					"sku_id": "1179493515126898811",
+					"type": 1
+				}
+			],
+			"category_sku_id": "1179493515038818325",
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"google_sku_ids": {}
+		},
+		{
+			"store_listing_id": "1179493515126898813",
+			"sku_id": "1179493515126898814",
+			"name": "Monster Pop",
+			"summary": "POP goes the monster.",
+			"banner": "1179493515038818327",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"type": 1,
+			"premium_type": 0,
+			"items": [
+				{
+					"id": "1179493515126898815",
+					"sku_id": "1179493515126898814",
+					"type": 1
+				}
+			],
+			"category_sku_id": "1179493515038818325",
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"google_sku_ids": {}
+		}
+	],
+	"logo": "1179493515038818326",
+	"styles": {
+		"background_colors": [],
+		"button_colors": [],
+		"confetti_colors": []
+	}
+}

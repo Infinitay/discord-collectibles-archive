@@ -1,0 +1,1026 @@
+{
+	"sku_id": "1207046915880124426",
+	"name": "Elements",
+	"summary": "Which will you unleash?",
+	"store_listing_id": "1207046886536781865",
+	"banner": "1207046965909655592",
+	"unpublished_at": null,
+	"styles": {
+		"background_colors": [
+			1776545,
+			5673
+		],
+		"button_colors": [
+			15449370,
+			15894798
+		],
+		"confetti_colors": [
+			43772,
+			15774258,
+			16414587,
+			3000177,
+			9739511
+		]
+	},
+	"logo": "1207046939544129577",
+	"mobile_bg": "1220535765759426700",
+	"pdp_bg": "1217989949152821258",
+	"mobile_banner": "1224517292453265439",
+	"products": [
+		{
+			"sku_id": "1243619781362450442",
+			"name": "Elemental Bundle",
+			"summary": "A bundle of collectibles.",
+			"store_listing_id": "1243619743039098950",
+			"banner": "1207046965909655592",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1776545,
+					5673
+				],
+				"button_colors": [
+					15449370,
+					15894798
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1099,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 899,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1099,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 899,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1207048659666079814",
+					"sku_id": "1207048656289534022",
+					"asset": "a_82e4df4028396ad5ccaaafb397fa6248",
+					"label": "Fire, rock, water, and electricity revolve around the avatar's frame."
+				},
+				{
+					"type": 1,
+					"id": "1207049501379006514",
+					"sku_id": "1207049498065375343"
+				}
+			],
+			"type": 1000,
+			"premium_type": 0,
+			"category_sku_id": "1207046915880124426",
+			"bundled_products": [
+				{
+					"sku_id": "1207048656289534022",
+					"name": "Balance",
+					"summary": "Harness the elements.",
+					"type": 0,
+					"premium_type": 0,
+					"prices": {
+						"0": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"4": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"5": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"7": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"sku_id": "1207049498065375343",
+					"name": "Mastery",
+					"summary": "Unleash the elements.",
+					"type": 1,
+					"premium_type": 0,
+					"prices": {
+						"0": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"4": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"5": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"7": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1207047014769234001",
+			"name": "Fire",
+			"summary": "Ignite your flame within.",
+			"store_listing_id": "1207046988433203220",
+			"banner": "1207046965909655592",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1776545,
+					5673
+				],
+				"button_colors": [
+					15449370,
+					15894798
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1207047386778697828",
+					"sku_id": "1207047014769234001",
+					"asset": "a_a065206df7b011a5510e4e5bca7d49be",
+					"label": "Three fireballs revolve around the avatar's frame, then combine together to engulf the avatar in flames."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1207046915880124426",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1207047597294886923",
+			"name": "Water",
+			"summary": "Control the ebb and flow.",
+			"store_listing_id": "1207047590214893600",
+			"banner": "1207046965909655592",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1776545,
+					5673
+				],
+				"button_colors": [
+					15449370,
+					15894798
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1207047673673420860",
+					"sku_id": "1207047597294886923",
+					"asset": "a_250640ab00a8837a1d56f35879138177",
+					"label": "Droplets and streaks of water dance and swirl around the avatar."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1207046915880124426",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1207047808838799410",
+			"name": "Air",
+			"summary": "Will the wind.",
+			"store_listing_id": "1207047804602679367",
+			"banner": "1207046965909655592",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1776545,
+					5673
+				],
+				"button_colors": [
+					15449370,
+					15894798
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1207047813888872518",
+					"sku_id": "1207047808838799410",
+					"asset": "a_554b7c34f7b6c709f19535aacb128e7b",
+					"label": "A sphere of gusting wind swirls around the avatar."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1207046915880124426",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1207048049571139584",
+			"name": "Earth",
+			"summary": "Call the might of the earth.",
+			"store_listing_id": "1207048046240604220",
+			"banner": "1207046965909655592",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1776545,
+					5673
+				],
+				"button_colors": [
+					15449370,
+					15894798
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1207048053006139492",
+					"sku_id": "1207048049571139584",
+					"asset": "a_fa014594d4b2b4249e1098c0adc85b47",
+					"label": "A large chunk of earthly rock is split into five smaller chunks."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1207046915880124426",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1207048289610899526",
+			"name": "Lightning",
+			"summary": "Electrify your presence.",
+			"store_listing_id": "1207048286309974087",
+			"banner": "1207046965909655592",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1776545,
+					5673
+				],
+				"button_colors": [
+					15449370,
+					15894798
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1207048292551368745",
+					"sku_id": "1207048289610899526",
+					"asset": "a_365eed4178528fe8293c4212e8e2d5cb",
+					"label": "A streak of electricity jolts around the avatar, releasing streaks of energy."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1207046915880124426",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1207048656289534022",
+			"name": "Balance",
+			"summary": "Harness the elements.",
+			"store_listing_id": "1207048653106315366",
+			"banner": "1207046965909655592",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1776545,
+					5673
+				],
+				"button_colors": [
+					15449370,
+					15894798
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1207048659666079814",
+					"sku_id": "1207048656289534022",
+					"asset": "a_82e4df4028396ad5ccaaafb397fa6248",
+					"label": "Fire, rock, water, and electricity revolve around the avatar's frame."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1207046915880124426",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1207049115339591681",
+			"name": "Rock Slide",
+			"summary": "A ballet of rock and stone.",
+			"store_listing_id": "1207049112298725437",
+			"banner": "1207046965909655592",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1776545,
+					5673
+				],
+				"button_colors": [
+					15449370,
+					15894798
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1207049118388715520",
+					"sku_id": "1207049115339591681"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1207046915880124426",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1207049364464345158",
+			"name": "Vortex",
+			"summary": "Beware the eye of the storm.",
+			"store_listing_id": "1207049361238786079",
+			"banner": "1207046965909655592",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1776545,
+					5673
+				],
+				"button_colors": [
+					15449370,
+					15894798
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1207049367069139004",
+					"sku_id": "1207049364464345158"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1207046915880124426",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1207049498065375343",
+			"name": "Mastery",
+			"summary": "Unleash the elements.",
+			"store_listing_id": "1207049494525509652",
+			"banner": "1207046965909655592",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1776545,
+					5673
+				],
+				"button_colors": [
+					15449370,
+					15894798
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1207049501379006514",
+					"sku_id": "1207049498065375343"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1207046915880124426",
+			"google_sku_ids": {}
+		}
+	]
+}

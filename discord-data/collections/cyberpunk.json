@@ -1,0 +1,764 @@
+{
+	"sku_id": "1197342727608746044",
+	"name": "Cyberpunk",
+	"summary": "Welcome to the neon embrace of the future.",
+	"store_listing_id": "1197342697200029767",
+	"banner": "1197343893742694470",
+	"unpublished_at": null,
+	"styles": {
+		"background_colors": [
+			2102637,
+			459264
+		],
+		"button_colors": [
+			4801242,
+			3552948
+		],
+		"confetti_colors": [
+			43772,
+			15774258,
+			16414587,
+			3000177,
+			9739511
+		]
+	},
+	"logo": "1197343875023523930",
+	"mobile_bg": "1220535830246985828",
+	"pdp_bg": "1217990008854679602",
+	"mobile_banner": "1224517328536866909",
+	"products": [
+		{
+			"sku_id": "1243620093431119922",
+			"name": "Am I Getting Hacked? Bundle",
+			"summary": "A bundle of collectibles.",
+			"store_listing_id": "1243620064540758056",
+			"banner": "1197343893742694470",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					2102637,
+					459264
+				],
+				"button_colors": [
+					4801242,
+					3552948
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1099,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 899,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1099,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 899,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1197344345783808161",
+					"sku_id": "1197344326133502032",
+					"asset": "a_e90ebc0114e7bdc30353c8b11953ea41",
+					"label": "Something disrupted the neurovisor connection. The signal appears as static over the avatar. Better call Repairs."
+				},
+				{
+					"type": 1,
+					"id": "1197344781060288693",
+					"sku_id": "1197344764174008452"
+				}
+			],
+			"type": 1000,
+			"premium_type": 0,
+			"category_sku_id": "1197342727608746044",
+			"bundled_products": [
+				{
+					"sku_id": "1197344326133502032",
+					"name": "Glitch",
+					"summary": "Neurovisor disruption detected, please standby.",
+					"type": 0,
+					"premium_type": 0,
+					"prices": {
+						"0": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"4": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"5": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"7": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"sku_id": "1197344764174008452",
+					"name": "Uplink Error",
+					"summary": "Anomaly detected, attempting system reset.",
+					"type": 1,
+					"premium_type": 0,
+					"prices": {
+						"0": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"4": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"5": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"7": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1197344326133502032",
+			"name": "Glitch",
+			"summary": "Neurovisor disruption detected, please standby.",
+			"store_listing_id": "1197344306210545775",
+			"banner": "1197343893742694470",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					2102637,
+					459264
+				],
+				"button_colors": [
+					4801242,
+					3552948
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1197344345783808161",
+					"sku_id": "1197344326133502032",
+					"asset": "a_e90ebc0114e7bdc30353c8b11953ea41",
+					"label": "Something disrupted the neurovisor connection. The signal appears as static over the avatar. Better call Repairs."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1197342727608746044",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1197344396983664670",
+			"name": "Cybernetic",
+			"summary": "Cybernetic visuals now online. Welcome aboard, runner.",
+			"store_listing_id": "1197344381393444905",
+			"banner": "1197343893742694470",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					2102637,
+					459264
+				],
+				"button_colors": [
+					4801242,
+					3552948
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1197344413718949938",
+					"sku_id": "1197344396983664670",
+					"asset": "a_c6b3bc1dc49e5b284dca0b6437831004",
+					"label": "A glowing neon HUD overlays the avatar, locking on to a target."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1197342727608746044",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1197344575832981605",
+			"name": "Digital Sunrise",
+			"summary": "It's a new day in cyberspace.",
+			"store_listing_id": "1197344448309370991",
+			"banner": "1197343893742694470",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					2102637,
+					459264
+				],
+				"button_colors": [
+					4801242,
+					3552948
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1197344598675165204",
+					"sku_id": "1197344575832981605",
+					"asset": "a_cc83efd93ecd6e41857449c3c0ef9b22",
+					"label": "After booting up, a wave of neon colors transforms into a sunset that embraces this avatar. Why do I suddenly feel calmer?"
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1197342727608746044",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1197344636558114986",
+			"name": "Implant",
+			"summary": "Get ready to jack in.",
+			"store_listing_id": "1197344616270274570",
+			"banner": "1197343893742694470",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					2102637,
+					459264
+				],
+				"button_colors": [
+					4801242,
+					3552948
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1197344653515690054",
+					"sku_id": "1197344636558114986",
+					"asset": "a_172fa9da0af8698e37f5e5de76637439",
+					"label": "A surge of energy pulses through wires perched on top of this avatar. Electricity dangerously crackles over the image. Be careful with this one!"
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1197342727608746044",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1197344693630009424",
+			"name": "Nightrunner",
+			"summary": "Cruisin' the cyber highway.",
+			"store_listing_id": "1197344677754576957",
+			"banner": "1197343893742694470",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					2102637,
+					459264
+				],
+				"button_colors": [
+					4801242,
+					3552948
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1197344710830862356",
+					"sku_id": "1197344693630009424"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1197342727608746044",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1197344764174008452",
+			"name": "Uplink Error",
+			"summary": "Anomaly detected, attempting system reset.",
+			"store_listing_id": "1197344746121732196",
+			"banner": "1197343893742694470",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					2102637,
+					459264
+				],
+				"button_colors": [
+					4801242,
+					3552948
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1197344781060288693",
+					"sku_id": "1197344764174008452"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1197342727608746044",
+			"google_sku_ids": {}
+		}
+	]
+}

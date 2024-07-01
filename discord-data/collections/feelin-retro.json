@@ -1,0 +1,850 @@
+{
+	"sku_id": "1237649643073044491",
+	"name": "Feelin' Retro",
+	"summary": "How ya feelin' today?",
+	"store_listing_id": "1237649619496734760",
+	"banner": "1237649691953336363",
+	"unpublished_at": null,
+	"styles": {
+		"background_colors": [
+			14639359,
+			8411389
+		],
+		"button_colors": [
+			5793266,
+			5793266
+		],
+		"confetti_colors": [
+			43772,
+			15774258,
+			16414587,
+			3000177,
+			9739511
+		]
+	},
+	"logo": "1237937648727756883",
+	"mobile_bg": "1237649712673325056",
+	"pdp_bg": "1237649746999378041",
+	"mobile_banner": "1237649774312951828",
+	"products": [
+		{
+			"sku_id": "1243617981435478102",
+			"name": "In My Feels Bundle",
+			"summary": "A bundle of collectibles.",
+			"store_listing_id": "1243617955800158239",
+			"banner": "1237649691953336363",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					14639359,
+					8411389
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1099,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 899,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1099,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 899,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1237650202391744522",
+					"sku_id": "1237650179721527347",
+					"asset": "a_9d35467f282b8c72a26f5aa40aa2a637",
+					"label": "A digital face in an electronic device licks its lips."
+				},
+				{
+					"type": 1,
+					"id": "1237650432650645504",
+					"sku_id": "1237650411410685972"
+				}
+			],
+			"type": 1000,
+			"premium_type": 0,
+			"category_sku_id": "1237649643073044491",
+			"bundled_products": [
+				{
+					"sku_id": "1237650179721527347",
+					"name": "Feelin' Scrumptious",
+					"summary": "When they let you cook.",
+					"type": 0,
+					"premium_type": 0,
+					"prices": {
+						"0": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"4": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"5": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"7": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"sku_id": "1237650411410685972",
+					"name": "Feelin' Mischievous",
+					"summary": "Why you little...",
+					"type": 1,
+					"premium_type": 0,
+					"prices": {
+						"0": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"4": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"5": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"7": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1237649939027333232",
+			"name": "Feelin' Awe",
+			"summary": "When you touch the grass.",
+			"store_listing_id": "1237649858333245481",
+			"banner": "1237649691953336363",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					14639359,
+					8411389
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1237649967288422430",
+					"sku_id": "1237649939027333232",
+					"asset": "a_89155faed81b205d59fbbefa4316952d",
+					"label": "A digital face in an electronic device displaying an awestruck smile."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1237649643073044491",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1237650023794081823",
+			"name": "Feelin' Panic",
+			"summary": "When you get challenged to a spontaneous rap battle.",
+			"store_listing_id": "1237650000276750392",
+			"banner": "1237649691953336363",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					14639359,
+					8411389
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1237650049018892299",
+					"sku_id": "1237650023794081823",
+					"asset": "a_f11c214394044d001d81c983dcab354f",
+					"label": "A digital face in an electronic device panics at the thought of being challenged to a spontaneous rap battle."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1237649643073044491",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1237650103980920872",
+			"name": "Feelin' Nervous",
+			"summary": "When you ping @everyone.",
+			"store_listing_id": "1237650073047924746",
+			"banner": "1237649691953336363",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					14639359,
+					8411389
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1237650125090983968",
+					"sku_id": "1237650103980920872",
+					"asset": "a_2d792aad5003faf6809e26879a7eae6b",
+					"label": "A digital face in an electronic device sweats with nervousness."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1237649643073044491",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1237650179721527347",
+			"name": "Feelin' Scrumptious",
+			"summary": "When they let you cook.",
+			"store_listing_id": "1237650160994091070",
+			"banner": "1237649691953336363",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					14639359,
+					8411389
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1237650202391744522",
+					"sku_id": "1237650179721527347",
+					"asset": "a_9d35467f282b8c72a26f5aa40aa2a637",
+					"label": "A digital face in an electronic device licks its lips."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1237649643073044491",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1237650411410685972",
+			"name": "Feelin' Mischievous",
+			"summary": "Why you little...",
+			"store_listing_id": "1237650390841950249",
+			"banner": "1237649691953336363",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					14639359,
+					8411389
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1237650432650645504",
+					"sku_id": "1237650411410685972"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1237649643073044491",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1237650542772228096",
+			"name": "Feelin' 90s",
+			"summary": "Your uncle has a shirt just like this.",
+			"store_listing_id": "1237650510597718026",
+			"banner": "1237649691953336363",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					14639359,
+					8411389
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1237650563378712609",
+					"sku_id": "1237650542772228096"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1237649643073044491",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1237650618777075712",
+			"name": "Feelin' Pizzazz",
+			"summary": "Zigzags for days.",
+			"store_listing_id": "1237650597604360222",
+			"banner": "1237649691953336363",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					14639359,
+					8411389
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1237650638536708156",
+					"sku_id": "1237650618777075712"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1237649643073044491",
+			"google_sku_ids": {}
+		}
+	]
+}

@@ -1,0 +1,324 @@
+{
+	"store_listing_id": "1174459250668490833",
+	"sku_id": "1174459301239197856",
+	"name": "Winter Wonderland",
+	"summary": "tis the season",
+	"banner": "1174459349607919687",
+	"unpublished_at": "2024-01-04T12:00:00.000Z",
+	"products": [
+		{
+			"store_listing_id": "1174459380826112050",
+			"sku_id": "1174459415924064376",
+			"name": "New Year",
+			"summary": "Ringing in 2024!",
+			"banner": "1174459349607919687",
+			"unpublished_at": null,
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"id": "1174459438128713809",
+					"sku_id": "1174459415924064376",
+					"type": 0,
+					"asset": "a_a46f14932ac02de32f64139d3b9057b8",
+					"label": "Cheers to 2023, and we hope you have a wonderful new year in 2024! Gold 2024 balloons sit ontop of the avatar."
+				}
+			],
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"premium_type": 0,
+			"type": 0,
+			"google_sku_ids": {},
+			"category_sku_id": "1174459301239197856"
+		},
+		{
+			"store_listing_id": "1174459459339288617",
+			"sku_id": "1174459480348565554",
+			"name": "Fresh Pine",
+			"summary": "Ah...the smell of Winter.",
+			"banner": "1174459349607919687",
+			"unpublished_at": null,
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"id": "1174459501873745940",
+					"sku_id": "1174459480348565554",
+					"type": 0,
+					"asset": "a_a0fafb7c7ee7f1e5b1442f44f3aa14b7",
+					"label": "A pine branch crown made of acorns, cones, and pine branches sprinkled with snow decorates this user's profile. Winter is here"
+				}
+			],
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"premium_type": 0,
+			"type": 0,
+			"google_sku_ids": {},
+			"category_sku_id": "1174459301239197856"
+		},
+		{
+			"store_listing_id": "1174459523092713642",
+			"sku_id": "1174459546748600481",
+			"name": "Snowglobe",
+			"summary": "Try not to shake too hard.",
+			"banner": "1174459349607919687",
+			"unpublished_at": null,
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"id": "1174460732117635222",
+					"sku_id": "1174459546748600481",
+					"type": 0,
+					"asset": "a_85a8f9ca60cb4328378270a7f13ed7fd",
+					"label": "The avatar is trapped in a snowglobe. Don't ask me how to get it out."
+				}
+			],
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"premium_type": 0,
+			"type": 0,
+			"google_sku_ids": {},
+			"category_sku_id": "1174459301239197856"
+		},
+		{
+			"store_listing_id": "1174460755660247182",
+			"sku_id": "1174460780842856588",
+			"name": "String Lights",
+			"summary": "String up some holiday cheer.",
+			"banner": "1174459349607919687",
+			"unpublished_at": null,
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"id": "1174460802946834503",
+					"sku_id": "1174460780842856588",
+					"type": 0,
+					"asset": "a_88f42fb7360d8224a670a50c3496f315",
+					"label": "Festive string lights wrap around the profile photo, twinkling into the night."
+				}
+			],
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"premium_type": 0,
+			"type": 0,
+			"google_sku_ids": {},
+			"category_sku_id": "1174459301239197856"
+		},
+		{
+			"store_listing_id": "1146328960481886319",
+			"sku_id": "1146328960951668776",
+			"name": "Deck the halls",
+			"summary": "Keep out of reach from cats",
+			"banner": "1174459349607919687",
+			"unpublished_at": null,
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"id": "1146328960481886318",
+					"sku_id": "1146328960951668776",
+					"type": 1
+				}
+			],
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"premium_type": 0,
+			"type": 1,
+			"google_sku_ids": {},
+			"category_sku_id": "1174459301239197856"
+		},
+		{
+			"store_listing_id": "1146328961417224192",
+			"sku_id": "1146328961417224193",
+			"name": "Snowy Shenanigans",
+			"summary": "Gone in a flurry.",
+			"banner": "1174459349607919687",
+			"unpublished_at": null,
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 399,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"id": "1146328960951668777",
+					"sku_id": "1146328961417224193",
+					"type": 1
+				}
+			],
+			"styles": {
+				"background_colors": [],
+				"button_colors": [],
+				"confetti_colors": []
+			},
+			"premium_type": 0,
+			"type": 1,
+			"google_sku_ids": {},
+			"category_sku_id": "1174459301239197856"
+		}
+	],
+	"logo": "1174459327285837915",
+	"styles": {
+		"background_colors": [],
+		"button_colors": [],
+		"confetti_colors": []
+	}
+}

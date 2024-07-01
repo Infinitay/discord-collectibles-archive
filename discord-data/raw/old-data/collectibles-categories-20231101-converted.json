@@ -11,31 +11,29 @@
 			{
 				"sku_id": "1157411984371880118",
 				"store_listing_id": "1157411984371880117",
-				"banner": null,
+				"banner": "1157410718711304315",
 				"name": "Graveyard Cat",
 				"summary": "Just a cat on graveyard duty.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 549,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 549,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 799,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 549,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -51,36 +49,43 @@
 						"asset": "a_ad4e2cad924bbb3a2fddf5c527370479",
 						"label": "Bathed in the glow of a full moon, a mysterious black cat is perched upon a tombstone, playfully pawing the tomb's exterior."
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1157410718711304313"
 			},
 			{
 				"sku_id": "1157411685687115858",
 				"store_listing_id": "1157411685687115857",
-				"banner": null,
+				"banner": "1157410718711304315",
 				"name": "Ghosts",
 				"summary": "Look at them just spinning and grinning all day...",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 549,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 549,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 799,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 549,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -96,36 +101,43 @@
 						"asset": "a_b9a64088e30fd3a6f2456c2e0f44f173",
 						"label": "You notice two spooky ghosts twirling around each other in an eternal dance. Are they friend or foe?"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1157410718711304313"
 			},
 			{
 				"sku_id": "1157412779335090267",
 				"store_listing_id": "1157412779335090266",
-				"banner": null,
+				"banner": "1157410718711304315",
 				"name": "Minions",
 				"summary": "Name a more iconic duo.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 549,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 549,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 799,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 549,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -141,36 +153,43 @@
 						"asset": "a_f979ba5f9c2ba83db3149cc02f489f7c",
 						"label": "A one-eyed magic cauldron hovers in the air, bubbling with a strange, green brew. Its winged jack-o'-lantern companion flaps nearby. What mischief are they brewing?"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1157410718711304313"
 			},
 			{
 				"sku_id": "1157412388509864068",
 				"store_listing_id": "1157412388509864067",
-				"banner": null,
+				"banner": "1157410718711304315",
 				"name": "Jack-o'-lantern",
 				"summary": "You can practically hear its eerie cackle...",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 549,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 549,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 799,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 549,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -186,36 +205,43 @@
 						"asset": "a_50939e8f95b0ddfa596809480b0eb3e1",
 						"label": "A gleeful jack-o'-lantern cackles atop a dark, twisted branch, with bats swirling above to join in on the spooky shenanigans."
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1157410718711304313"
 			},
 			{
 				"sku_id": "1158572178179108968",
 				"store_listing_id": "1158572178179108967",
-				"banner": null,
+				"banner": "1157410718711304315",
 				"name": "Ghoulish Graffiti",
 				"summary": "Did I scare you?",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 299,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 299,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 399,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 299,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -229,36 +255,43 @@
 						"id": "1139323101881061467",
 						"sku_id": "1158572178179108968"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 1,
+				"google_sku_ids": {},
+				"category_sku_id": "1157410718711304313"
 			},
 			{
 				"sku_id": "1158572263411556373",
 				"store_listing_id": "1158572263411556372",
-				"banner": null,
+				"banner": "1157410718711304315",
 				"name": "Zombie Slime",
 				"summary": "I don't think you should touch that.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 299,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 299,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 399,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 299,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -272,36 +305,43 @@
 						"id": "1139323094431973427",
 						"sku_id": "1158572263411556373"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 1,
+				"google_sku_ids": {},
+				"category_sku_id": "1157410718711304313"
 			},
 			{
 				"sku_id": "1158572275507937342",
 				"store_listing_id": "1158572275507937341",
-				"banner": null,
+				"banner": "1157410718711304315",
 				"name": "Dark Omens",
 				"summary": "Who keeps summoning these things?",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 299,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 299,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 399,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 299,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -315,9 +355,23 @@
 						"id": "1139323102753468546",
 						"sku_id": "1158572275507937342"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 1,
+				"google_sku_ids": {},
+				"category_sku_id": "1157410718711304313"
 			}
-		]
+		],
+		"styles": {
+			"background_colors": [],
+			"button_colors": [],
+			"confetti_colors": []
+		}
 	},
 	{
 		"sku_id": "1157406994873991284",
@@ -331,31 +385,29 @@
 			{
 				"sku_id": "1157409074422481023",
 				"store_listing_id": "1157409074422481022",
-				"banner": null,
+				"banner": "1157407583993339935",
 				"name": "Fall Leaves",
 				"summary": "Behold nature's dance.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 549,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 549,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 799,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 549,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -371,36 +423,43 @@
 						"asset": "a_5087f7f988bd1b2819cac3e33d0150f5",
 						"label": "Autumn leaves gracefully sway towards the earth. You can practically smell the acorns dangling above. Fall is here."
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1157406994873991284"
 			},
 			{
 				"sku_id": "1157409869448618016",
 				"store_listing_id": "1157409869448618015",
-				"banner": null,
+				"banner": "1157407583993339935",
 				"name": "Pumpkin Spice",
 				"summary": "Sweets and spice make everything nice.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 549,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 549,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 799,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 549,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -416,36 +475,43 @@
 						"asset": "a_145dffeb81bcfff96be683fd9f6db20a",
 						"label": "Orange pumpkins growing from a vine can only mean one thing... the flavor of fall - pumpkin spice - has arrived!"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1157406994873991284"
 			},
 			{
 				"sku_id": "1157407831348228139",
 				"store_listing_id": "1157407831348228138",
-				"banner": null,
+				"banner": "1157407583993339935",
 				"name": "Frog Hat",
 				"summary": "Frogs and fashion go together and you can't tell me otherwise.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 549,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 549,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 799,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 549,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -461,36 +527,43 @@
 						"asset": "a_4936aa6c33a101b593f9607d48d686ec",
 						"label": "Mushrooms are growing underneath a cute green hat that looks suspiciously like a live, smiling frog."
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1157406994873991284"
 			},
 			{
 				"sku_id": "1157407831348228141",
 				"store_listing_id": "1157407831348228140",
-				"banner": null,
+				"banner": "1157407583993339935",
 				"name": "Fox Hat",
 				"summary": "Charming, cozy, and a little bit nosy.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 549,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 549,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 799,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 549,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -506,36 +579,43 @@
 						"asset": "a_7d305bca6cf371df98c059f9d2ef05e4",
 						"label": "What a cute fox hat! Wait... did it just blink?!"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1157406994873991284"
 			},
 			{
 				"sku_id": "1159280677246742548",
 				"store_listing_id": "1159280674004549682",
-				"banner": null,
+				"banner": "1157407583993339935",
 				"name": "Fall Foliage",
 				"summary": "Getting ready for sweater weather.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 699,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 699,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 999,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 699,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -549,36 +629,43 @@
 						"id": "1159277016571449404",
 						"sku_id": "1159280677246742548"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 1,
+				"google_sku_ids": {},
+				"category_sku_id": "1157406994873991284"
 			},
 			{
 				"sku_id": "1159280847262859364",
 				"store_listing_id": "1159280844796596335",
-				"banner": null,
+				"banner": "1157407583993339935",
 				"name": "Lillypad Life",
 				"summary": "*ribbit*",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 699,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 699,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 999,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 699,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -592,9 +679,23 @@
 						"id": "1159275733764550728",
 						"sku_id": "1159280847262859364"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 1,
+				"google_sku_ids": {},
+				"category_sku_id": "1157406994873991284"
 			}
-		]
+		],
+		"styles": {
+			"background_colors": [],
+			"button_colors": [],
+			"confetti_colors": []
+		}
 	},
 	{
 		"sku_id": "1144003461608906824",
@@ -608,31 +709,29 @@
 			{
 				"sku_id": "1144003752978829455",
 				"store_listing_id": "1144003752978829454",
-				"banner": null,
+				"banner": "1149562682983321630",
 				"name": "Flaming Sword",
 				"summary": "Slaying the look and the monsters.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 699,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 699,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 999,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 699,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -648,36 +747,43 @@
 						"asset": "a_0f5d6c4dd8ae74662ee9c40722a56cbd",
 						"label": "Curved Sword with Pink Gem Engraved in Hilt, Alight with Orange Flames, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144003461608906824"
 			},
 			{
 				"sku_id": "1144006094134456352",
 				"store_listing_id": "1144006094134456351",
-				"banner": null,
+				"banner": "1149562682983321630",
 				"name": "Magical Potion",
 				"summary": "Drink at your own risk.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 699,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 699,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 999,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 699,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -693,36 +799,43 @@
 						"asset": "a_1dbc603c181999b9815cb426dfec71a6",
 						"label": "Round Glass Bottle with Cork, Bursting with Purple Potion, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144003461608906824"
 			},
 			{
 				"sku_id": "1144046002110738634",
 				"store_listing_id": "1144046002110738633",
-				"banner": null,
+				"banner": "1149562682983321630",
 				"name": "Fairy Sprites",
 				"summary": "Here to guide you on your path.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 699,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 699,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 999,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 699,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -738,36 +851,43 @@
 						"asset": "a_fe3c76cac2adf426832a7e495e8329d3",
 						"label": "Three Fairy Sprites, Floating and Shining, Yellow, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144003461608906824"
 			},
 			{
 				"sku_id": "1144048390594908212",
 				"store_listing_id": "1144048390594908211",
-				"banner": null,
+				"banner": "1149562682983321630",
 				"name": "Wizard's Staff",
 				"summary": "How much power does it hold?",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 699,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 699,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 999,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 699,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -783,36 +903,43 @@
 						"asset": "a_db9baf0ba7cf449d2b027c06309dbe8d",
 						"label": "Wizard's Staff with Green Gem, Summoning a Branch of Green Crystals, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144003461608906824"
 			},
 			{
 				"sku_id": "1144048977138946230",
 				"store_listing_id": "1144048977138946229",
-				"banner": null,
+				"banner": "1149562682983321630",
 				"name": "Glowing Runes",
 				"summary": "I wonder what these symbols mean.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 699,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 699,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 999,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 699,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -828,36 +955,43 @@
 						"asset": "a_d650e22f6c4bab4fc0969e9d35edbcb0",
 						"label": "Circle of Blue Rune Stones, Glowing and Pulsing, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144003461608906824"
 			},
 			{
 				"sku_id": "1144049316009353338",
 				"store_listing_id": "1144049316009353337",
-				"banner": null,
+				"banner": "1149562682983321630",
 				"name": "Defensive Shield",
 				"summary": "Use against pointy things.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 699,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 699,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 999,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 699,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -873,36 +1007,43 @@
 						"asset": "a_29a0533cb3de61aa8179810188f3830d",
 						"label": "Shield with Blue Gem Below a Branch of Green Leaves, Resting Against a Stone, Catching Arrows, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144003461608906824"
 			},
 			{
 				"sku_id": "1144049603109470370",
 				"store_listing_id": "1144049603109470369",
-				"banner": null,
+				"banner": "1149562682983321630",
 				"name": "Skull Medallion",
 				"summary": "Earned through unknown means.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 699,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 699,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 999,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 699,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -918,36 +1059,43 @@
 						"asset": "a_9d67a1cbf81fe7197c871e94f619b04b",
 						"label": "Skull Medallion Hanging from Pink Band, Rotating and Activating with Energy, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144003461608906824"
 			},
 			{
 				"sku_id": "1144049924397334651",
 				"store_listing_id": "1144049924397334650",
-				"banner": null,
+				"banner": "1149562682983321630",
 				"name": "Treasure and Key",
 				"summary": "What glorious treasures lie within?",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 699,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 699,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 999,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 699,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -963,36 +1111,43 @@
 						"asset": "a_4c9f2ec29c05755456dbce45d8190ed4",
 						"label": "Gold Key with Red Gem, Unlocking a Treasure Chest Filled with Gold Coins, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144003461608906824"
 			},
 			{
 				"sku_id": "1139323092645183591",
 				"store_listing_id": "1139323092645183590",
-				"banner": null,
+				"banner": "1149562682983321630",
 				"name": "Hydro Blast",
 				"summary": "Time to make a splash.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 849,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 849,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 1199,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 849,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1006,36 +1161,43 @@
 						"id": "1139323075519852625",
 						"sku_id": "1139323092645183591"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 1,
+				"google_sku_ids": {},
+				"category_sku_id": "1144003461608906824"
 			},
 			{
 				"sku_id": "1139323093991575696",
 				"store_listing_id": "1139323093991575695",
-				"banner": null,
+				"banner": "1149562682983321630",
 				"name": "Sakura Dreams",
 				"summary": "Close your eyes, and breathe.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 849,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 849,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 1199,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 849,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1049,36 +1211,43 @@
 						"id": "1139323093551165534",
 						"sku_id": "1139323093991575696"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 1,
+				"google_sku_ids": {},
+				"category_sku_id": "1144003461608906824"
 			},
 			{
 				"sku_id": "1139323099251232828",
 				"store_listing_id": "1139323098810822697",
-				"banner": null,
+				"banner": "1149562682983321630",
 				"name": "Mystic Vines",
 				"summary": "Why touch grass when you can touch magical vines?",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 849,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 849,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 1199,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 849,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1092,36 +1261,43 @@
 						"id": "1139323098810822696",
 						"sku_id": "1139323099251232828"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 1,
+				"google_sku_ids": {},
+				"category_sku_id": "1144003461608906824"
 			},
 			{
 				"sku_id": "1139323099687436419",
 				"store_listing_id": "1139323099687436418",
-				"banner": null,
+				"banner": "1149562682983321630",
 				"name": "Pixie Dust",
 				"summary": "Did a pixie sneeze nearby?",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 849,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 849,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 1199,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 849,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1135,9 +1311,23 @@
 						"id": "1139323099251232829",
 						"sku_id": "1139323099687436419"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 1,
+				"google_sku_ids": {},
+				"category_sku_id": "1144003461608906824"
 			}
-		]
+		],
+		"styles": {
+			"background_colors": [],
+			"button_colors": [],
+			"confetti_colors": []
+		}
 	},
 	{
 		"sku_id": "1144302037593497701",
@@ -1151,31 +1341,29 @@
 			{
 				"sku_id": "1154896005045694555",
 				"store_listing_id": "1154895977845625043",
-				"banner": null,
+				"banner": "1149563322232995880",
 				"name": "Radiating Energy",
 				"summary": "Over EIGHT-THOUSAND-NINE-HUNDRED-NINETY-NINE!",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 549,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 549,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 799,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 549,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1191,36 +1379,43 @@
 						"asset": "a_c7e1751e8122f1b475cb3006966fb28c",
 						"label": "Radiating Energy Circle with Lightning, Anime-Style, Purple, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144302037593497701"
 			},
 			{
 				"sku_id": "1144305233707671573",
 				"store_listing_id": "1144305233707671572",
-				"banner": null,
+				"banner": "1149563322232995880",
 				"name": "Soul Leaving Body",
 				"summary": "Can I just disappear right now?",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 549,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 549,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 799,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 549,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1236,36 +1431,43 @@
 						"asset": "a_c3c09bd122898be35093d0d59850f627",
 						"label": "Wavy Ghost with Shocked Expression, Anime-Style, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144302037593497701"
 			},
 			{
 				"sku_id": "1144307257807491094",
 				"store_listing_id": "1144307257807491093",
-				"banner": null,
+				"banner": "1149563322232995880",
 				"name": "Sweat Drops",
 				"summary": "*laughs nervously*",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 549,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 549,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 799,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 549,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1281,36 +1483,43 @@
 						"asset": "a_55c9d0354290afa8b7fe47ea9bd7dbcf",
 						"label": "Sweat Drops with Question Mark Speech Bubble, Anime-Style, Blue, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144302037593497701"
 			},
 			{
 				"sku_id": "1144307629225672846",
 				"store_listing_id": "1144307629225672845",
-				"banner": null,
+				"banner": "1149563322232995880",
 				"name": "Starry Eyed",
 				"summary": "Feelin' sparkly.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 549,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 549,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 799,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 549,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1326,36 +1535,43 @@
 						"asset": "a_d72066b8cecbadd9fc951913ebcc384f",
 						"label": "Twinkling Lines and Stars, Anime-Style, Orange and Yellow, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144302037593497701"
 			},
 			{
 				"sku_id": "1144307957425778779",
 				"store_listing_id": "1144307957425778778",
-				"banner": null,
+				"banner": "1149563322232995880",
 				"name": "In Love",
 				"summary": "uwu",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 549,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 549,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 799,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 549,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1371,36 +1587,43 @@
 						"asset": "a_8ffa2ba9bff18e96b76c2e66fd0d7fa3",
 						"label": "Speech Bubble with Lovestruck Expression and Floating Hearts, Anime-Style, Pink and White, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144302037593497701"
 			},
 			{
 				"sku_id": "1144308196723408958",
 				"store_listing_id": "1144308196723408957",
-				"banner": null,
+				"banner": "1149563322232995880",
 				"name": "Shocked",
 				"summary": "Nani?!!",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 549,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 549,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 799,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 549,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1416,36 +1639,43 @@
 						"asset": "a_f1b2fd4706ab02b54d3a58f84b3ef564",
 						"label": "Thick Exclamation Lines with Japanese Hiragana Speech Bubble, Anime-Style, Pink, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144302037593497701"
 			},
 			{
 				"sku_id": "1144308439720394944",
 				"store_listing_id": "1144308439720394943",
-				"banner": null,
+				"banner": "1149563322232995880",
 				"name": "Angry",
 				"summary": "How dare you.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 549,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 549,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 799,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 549,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1461,36 +1691,43 @@
 						"asset": "a_3c97a2d37f433a7913a1c7b7a735d000",
 						"label": "Anger Symbol with Exclamation Mark Speech Bubble, Anime-Style, Red, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144302037593497701"
 			},
 			{
 				"sku_id": "1139323100568244355",
 				"store_listing_id": "1139323100127834224",
-				"banner": null,
+				"banner": "1149563322232995880",
 				"name": "Magic Hearts",
 				"summary": "Moon Prism Power, Make Up!",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 849,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 849,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 1199,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 849,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1504,36 +1741,43 @@
 						"id": "1139323100127834223",
 						"sku_id": "1139323100568244355"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 1,
+				"google_sku_ids": {},
+				"category_sku_id": "1144302037593497701"
 			},
 			{
 				"sku_id": "1139323093551165533",
 				"store_listing_id": "1139323093114962022",
-				"banner": null,
+				"banner": "1149563322232995880",
 				"name": "Shatter",
 				"summary": "Ouch, my windows!",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 849,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 849,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 1199,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 849,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1547,36 +1791,43 @@
 						"id": "1139323093114962021",
 						"sku_id": "1139323093551165533"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 1,
+				"google_sku_ids": {},
+				"category_sku_id": "1144302037593497701"
 			},
 			{
 				"sku_id": "1139323101008642101",
 				"store_listing_id": "1139323101008642100",
-				"banner": null,
+				"banner": "1149563322232995880",
 				"name": "Shuriken Strike",
 				"summary": "Every side is the pointy end.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 849,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 849,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 1199,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 849,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1590,36 +1841,43 @@
 						"id": "1139323100568244356",
 						"sku_id": "1139323101008642101"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 1,
+				"google_sku_ids": {},
+				"category_sku_id": "1144302037593497701"
 			},
 			{
 				"sku_id": "1139323101881061466",
 				"store_listing_id": "1139323101444845691",
-				"banner": null,
+				"banner": "1149563322232995880",
 				"name": "Power Surge",
 				"summary": "You're about to witness true power.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 849,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 849,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 1199,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 849,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1633,9 +1891,23 @@
 						"id": "1139323101444845690",
 						"sku_id": "1139323101881061466"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 1,
+				"google_sku_ids": {},
+				"category_sku_id": "1144302037593497701"
 			}
-		]
+		],
+		"styles": {
+			"background_colors": [],
+			"button_colors": [],
+			"confetti_colors": []
+		}
 	},
 	{
 		"sku_id": "1144054000099012659",
@@ -1649,31 +1921,29 @@
 			{
 				"sku_id": "1144056139584127058",
 				"store_listing_id": "1144054000099012660",
-				"banner": null,
+				"banner": "1149563083245768704",
 				"name": "Toast",
 				"summary": "It is toast.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 299,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 299,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 399,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 299,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1689,36 +1959,43 @@
 						"asset": "a_911e48f3a695c7f6c267843ab6a96f2f",
 						"label": "Toast Being Eaten, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144054000099012659"
 			},
 			{
 				"sku_id": "1144056631374647458",
 				"store_listing_id": "1144056631374647457",
-				"banner": null,
+				"banner": "1149563083245768704",
 				"name": "Morning Coffee",
 				"summary": "Don't talk to me until I finish this.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 299,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 299,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 399,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 299,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1734,36 +2011,43 @@
 						"asset": "a_aa2e1c2b3cf05b24f6ec7b8b4141f5fc",
 						"label": "Coffee with Milk Steaming from Blue Mug with Smiley Face, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144054000099012659"
 			},
 			{
 				"sku_id": "1144057023726628945",
 				"store_listing_id": "1144057023726628944",
-				"banner": null,
+				"banner": "1149563083245768704",
 				"name": "Fried Egg",
 				"summary": "I like mine sunny side-up.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 299,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 299,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 399,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 299,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1779,36 +2063,43 @@
 						"asset": "a_9b7b74e72efe1bc5a6beddced3da3c0f",
 						"label": "Runny Egg Yolk, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144054000099012659"
 			},
 			{
 				"sku_id": "1144057249392771145",
 				"store_listing_id": "1144057249392771144",
-				"banner": null,
+				"banner": "1149563083245768704",
 				"name": "Blueberry Jam",
 				"summary": "MMMM JUICY.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 299,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 299,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 399,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 299,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1824,36 +2115,43 @@
 						"asset": "a_faaa56d945e2d0f6c41cf940d122cb9e",
 						"label": "Blueberry Jam Spelling the Letters \"mmmm\", Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144054000099012659"
 			},
 			{
 				"sku_id": "1144057486203158560",
 				"store_listing_id": "1144057486203158559",
-				"banner": null,
+				"banner": "1149563083245768704",
 				"name": "Donut",
 				"summary": "Never enough sprinkles.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 299,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 299,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 399,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 299,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1869,36 +2167,43 @@
 						"asset": "a_8b0d858b65a81ea0c537091a4650a6d4",
 						"label": "Donut with Pink Glaze and Sprinkles, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144054000099012659"
 			},
 			{
 				"sku_id": "1144057737475534889",
 				"store_listing_id": "1144057737475534888",
-				"banner": null,
+				"banner": "1149563083245768704",
 				"name": "Pancakes",
 				"summary": "How high can you stack 'em?",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 299,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 299,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 399,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 299,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1914,36 +2219,43 @@
 						"asset": "a_950aea7686c5674b4e2f5df0830d153b",
 						"label": "Stack of Pancakes with Butter and Syrup, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144054000099012659"
 			},
 			{
 				"sku_id": "1139323095744790568",
 				"store_listing_id": "1139323095304392865",
-				"banner": null,
+				"banner": "1149563083245768704",
 				"name": "Discord-Os",
 				"summary": "Bet you can't have just one bowl.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 849,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 849,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 1199,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 849,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -1957,36 +2269,43 @@
 						"id": "1139323095304392864",
 						"sku_id": "1139323095744790568"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 1,
+				"google_sku_ids": {},
+				"category_sku_id": "1144054000099012659"
 			},
 			{
 				"sku_id": "1139323096180994169",
 				"store_listing_id": "1139323096180994168",
-				"banner": null,
+				"banner": "1149563083245768704",
 				"name": "Breakfast Plate",
 				"summary": "The best meal for any time of day.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 849,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 849,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 1199,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 849,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -2000,9 +2319,23 @@
 						"id": "1139323095744790569",
 						"sku_id": "1139323096180994169"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 0,
+				"type": 1,
+				"google_sku_ids": {},
+				"category_sku_id": "1144054000099012659"
 			}
-		]
+		],
+		"styles": {
+			"background_colors": [],
+			"button_colors": [],
+			"confetti_colors": []
+		}
 	},
 	{
 		"sku_id": "1144058340327047249",
@@ -2016,31 +2349,29 @@
 			{
 				"sku_id": "1144058522808614923",
 				"store_listing_id": "1144058522808614922",
-				"banner": null,
+				"banner": "1149562891666731108",
 				"name": "DISXCORE Headset",
 				"summary": "Everything sounds better with these on.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 0,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 0,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 999,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 0,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -2056,36 +2387,43 @@
 						"asset": "a_d3da36040163ee0f9176dfe7ced45cdc",
 						"label": "Futuristic Headphones, Blue, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 2,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144058340327047249"
 			},
 			{
 				"sku_id": "1144058844004233369",
 				"store_listing_id": "1144058844004233368",
-				"banner": null,
+				"banner": "1149562891666731108",
 				"name": "Futuristic UI",
 				"summary": "BEEP BOOP.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 0,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 0,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 999,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 0,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -2101,36 +2439,43 @@
 						"asset": "a_fed43ab12698df65902ba06727e20c0e",
 						"label": "Futuristic Interface, Pink, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 2,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144058340327047249"
 			},
 			{
 				"sku_id": "1144059132517826601",
 				"store_listing_id": "1144059132517826600",
-				"banner": null,
+				"banner": "1149562891666731108",
 				"name": "Smoke",
 				"summary": "Now you see me, now you don't.",
 				"unpublished_at": null,
-				"currency": "usd",
-				"price": 0,
 				"prices": {
-					"4": {
-						"country_prices": {
-							"country_code": "US",
-							"prices": [
-								{
-									"amount": 0,
-									"currency": "usd",
-									"exponent": 2
-								}
-							]
-						}
-					},
 					"0": {
 						"country_prices": {
 							"country_code": "US",
 							"prices": [
 								{
 									"amount": 999,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 0,
 									"currency": "usd",
 									"exponent": 2
 								}
@@ -2146,8 +2491,22 @@
 						"asset": "a_10b9f886b513b77ccdd67c8784f1a496",
 						"label": "Smoke with Green Shining Border, Animated"
 					}
-				]
+				],
+				"styles": {
+					"background_colors": [],
+					"button_colors": [],
+					"confetti_colors": []
+				},
+				"premium_type": 2,
+				"type": 0,
+				"google_sku_ids": {},
+				"category_sku_id": "1144058340327047249"
 			}
-		]
+		],
+		"styles": {
+			"background_colors": [],
+			"button_colors": [],
+			"confetti_colors": []
+		}
 	}
 ]

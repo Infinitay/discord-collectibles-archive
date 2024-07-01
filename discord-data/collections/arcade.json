@@ -1,0 +1,1026 @@
+{
+	"sku_id": "1245086656973901894",
+	"name": "Arcade",
+	"summary": "Press START to play.",
+	"store_listing_id": "1245086613059408024",
+	"banner": "1245087533205819452",
+	"unpublished_at": null,
+	"styles": {
+		"background_colors": [
+			197156,
+			524587
+		],
+		"button_colors": [
+			5793266,
+			5793266
+		],
+		"confetti_colors": [
+			43772,
+			15774258,
+			16414587,
+			3000177,
+			9739511
+		]
+	},
+	"logo": "1245086730785390793",
+	"mobile_bg": "1245087580463173734",
+	"pdp_bg": "1245087599966683227",
+	"mobile_banner": "1245087618069168150",
+	"products": [
+		{
+			"sku_id": "1245481938202918912",
+			"name": "Star Collector Bundle",
+			"summary": "A bundle of collectibles.",
+			"store_listing_id": "1245481910851862528",
+			"banner": "1245087533205819452",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					197156,
+					524587
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1099,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 899,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1099,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 899,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1245087875209367623",
+					"sku_id": "1245087850177888356",
+					"asset": "a_8c17e799bfeffa797042569a1ebcafc0",
+					"label": "A circular pipe rapidly shoots out a cascade of colorful stars from one end to the other in an endless loop. Anyone who stares for too long may get starry-eyed."
+				},
+				{
+					"type": 1,
+					"id": "1245088271109722193",
+					"sku_id": "1245088254647205991"
+				}
+			],
+			"type": 1000,
+			"premium_type": 0,
+			"category_sku_id": "1245086656973901894",
+			"bundled_products": [
+				{
+					"sku_id": "1245087850177888356",
+					"name": "Pipedream",
+					"summary": "If you stare at this for 5,461 seconds without blinking, you win.",
+					"type": 0,
+					"premium_type": 0,
+					"prices": {
+						"0": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"4": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"5": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"7": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"sku_id": "1245088254647205991",
+					"name": "Twinkle Trails",
+					"summary": "Chase the stars to collect them all.",
+					"type": 1,
+					"premium_type": 0,
+					"prices": {
+						"0": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"4": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"5": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"7": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1245087661316898877",
+			"name": "Joystick",
+			"summary": "Pressing buttons harder definitely increases your chances of winning.",
+			"store_listing_id": "1245087644162068631",
+			"banner": "1245087533205819452",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					197156,
+					524587
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1245087683496116225",
+					"sku_id": "1245087661316898877",
+					"asset": "a_795573a62c6d9b583f3029100f90d56b",
+					"label": "A joystick wobbles back and forth accompanied by what must be some serious combo-breaking button mashing."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1245086656973901894",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1245087724265013299",
+			"name": "Clyde Invaders",
+			"summary": "Rogue invaders have taken control of the galaxy. It's up to you to save the day.",
+			"store_listing_id": "1245087698272915577",
+			"banner": "1245087533205819452",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					197156,
+					524587
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1245087740928720977",
+					"sku_id": "1245087724265013299",
+					"asset": "a_e72e44eeea89e92dc02c9bec8b02d158",
+					"label": "One small but mighty fightership in space blasts some pesky invaders that are shaped like Clyde to guarantee the safety of the universe for another day."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1245086656973901894",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1245087850177888356",
+			"name": "Pipedream",
+			"summary": "If you stare at this for 5,461 seconds without blinking, you win.",
+			"store_listing_id": "1245087837951496274",
+			"banner": "1245087533205819452",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					197156,
+					524587
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1245087875209367623",
+					"sku_id": "1245087850177888356",
+					"asset": "a_8c17e799bfeffa797042569a1ebcafc0",
+					"label": "A circular pipe rapidly shoots out a cascade of colorful stars from one end to the other in an endless loop. Anyone who stares for too long may get starry-eyed."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1245086656973901894",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1245087912350187520",
+			"name": "Hot Shot",
+			"summary": "Baller status: Pro",
+			"store_listing_id": "1245087897439309934",
+			"banner": "1245087533205819452",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					197156,
+					524587
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1245087928992927764",
+					"sku_id": "1245087912350187520",
+					"asset": "a_fa253f928314c8eee54e913f90039eab",
+					"label": "A basketball in flames soars into the hoop, netting 3 points."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1245086656973901894",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1245087968759382207",
+			"name": "Mallow Jump",
+			"summary": "Hop till you drop!",
+			"store_listing_id": "1245087954192568411",
+			"banner": "1245087533205819452",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					197156,
+					524587
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1245087983065890858",
+					"sku_id": "1245087968759382207",
+					"asset": "a_492f6b54b761c0a14d9dbc9c98aaa0f5",
+					"label": "Cute bunny Mallow successfully jumps across tall pillars of land with 3 lives remaining - hop with care."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1245086656973901894",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1245088023452975104",
+			"name": "Slither 'n Snack",
+			"summary": "Gobble and grow to become the biggest snake in the garden.",
+			"store_listing_id": "1245088007200051210",
+			"banner": "1245087533205819452",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					197156,
+					524587
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1245088043732308058",
+					"sku_id": "1245088023452975104",
+					"asset": "a_49ffdb1883d8c644a8eb68711ee58be9",
+					"label": "A pixelated snake slithers into view, gobbling up pieces of fruit until it accidentally gobbles its own tail for an unfortunate game over."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1245086656973901894",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1245088094437507163",
+			"name": "Space Evader",
+			"summary": "That was the best flying I've seen to date - right up to the part where you got hit.",
+			"store_listing_id": "1245088075730784356",
+			"banner": "1245087533205819452",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					197156,
+					524587
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1245088109582880848",
+					"sku_id": "1245088094437507163"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1245086656973901894",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1245088205330710539",
+			"name": "Turbo Drive",
+			"summary": "Give your rivals a cheeky wave from the rearview.",
+			"store_listing_id": "1245088186292637797",
+			"banner": "1245087533205819452",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					197156,
+					524587
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1245088219876298924",
+					"sku_id": "1245088205330710539"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1245086656973901894",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1245088254647205991",
+			"name": "Twinkle Trails",
+			"summary": "Chase the stars to collect them all.",
+			"store_listing_id": "1245088241288351905",
+			"banner": "1245087533205819452",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					197156,
+					524587
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1245088271109722193",
+					"sku_id": "1245088254647205991"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1245086656973901894",
+			"google_sku_ids": {}
+		}
+	]
+}

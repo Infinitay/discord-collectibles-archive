@@ -1,0 +1,1037 @@
+{
+	"sku_id": "1228243842684162121",
+	"name": "Lofi Vibes",
+	"summary": "Where chill meets mood.",
+	"store_listing_id": "1228243823310802955",
+	"banner": "1228245273768230943",
+	"unpublished_at": null,
+	"styles": {
+		"background_colors": [
+			6512127,
+			14647993
+		],
+		"button_colors": [
+			5793266,
+			5793266
+		],
+		"confetti_colors": [
+			2923481,
+			14969472,
+			16770304,
+			12298453,
+			4120019,
+			14858081
+		]
+	},
+	"logo": "1228245117085679668",
+	"mobile_bg": "1228245377384190022",
+	"pdp_bg": "1228245524658917417",
+	"mobile_banner": "1228245604413476935",
+	"products": [
+		{
+			"sku_id": "1243618816639107223",
+			"name": "Cozy Plant Vibes Bundle",
+			"summary": "A bundle of collectibles.",
+			"store_listing_id": "1243618795000430632",
+			"banner": "1228245273768230943",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					6512127,
+					14647993
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1099,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 899,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1099,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 899,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1228251373158793251",
+					"sku_id": "1228251351415263242",
+					"asset": "a_f740031cc97d1b7eb73c0d0ac1dd09f3",
+					"label": "Stringlights and a lovely houseplant adorn the frame of the avatar for the ultimate cozy mood."
+				},
+				{
+					"type": 1,
+					"id": "1228234629429985300",
+					"sku_id": "1228234634379132958"
+				}
+			],
+			"type": 1000,
+			"premium_type": 0,
+			"category_sku_id": "1228243842684162121",
+			"bundled_products": [
+				{
+					"sku_id": "1228251351415263242",
+					"name": "Oasis",
+					"summary": "Chilling in my comfort place.",
+					"type": 0,
+					"premium_type": 0,
+					"prices": {
+						"0": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"4": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"5": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"7": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"sku_id": "1228234634379132958",
+					"name": "All Nighter",
+					"summary": "Wait, it's already morning?",
+					"type": 1,
+					"premium_type": 0,
+					"prices": {
+						"0": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"4": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"5": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"7": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1228246010116050965",
+			"name": "Chromawave",
+			"summary": "Never miss a beat.",
+			"store_listing_id": "1228245966134444105",
+			"banner": "1228245273768230943",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					6512127,
+					14647993
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1228246415449264168",
+					"sku_id": "1228246010116050965",
+					"asset": "a_49c479e15533fb4c02eb320c9c137433",
+					"label": "Waves of color pulsate around the avatar to the tempo of lo-fi hip hop beats."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1228243842684162121",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1228251144065777765",
+			"name": "Cozy Cat",
+			"summary": "Vibing one catnap at a time.",
+			"store_listing_id": "1228251096250581022",
+			"banner": "1228245273768230943",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					6512127,
+					14647993
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1228251189276184618",
+					"sku_id": "1228251144065777765",
+					"asset": "a_77b7b6a740a9451e1ef39c0252154ef8",
+					"label": "An adorable cat sleeps peacefully on the avatar."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1228243842684162121",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1228251351415263242",
+			"name": "Oasis",
+			"summary": "Chilling in my comfort place.",
+			"store_listing_id": "1228251325242802206",
+			"banner": "1228245273768230943",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					6512127,
+					14647993
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1228251373158793251",
+					"sku_id": "1228251351415263242",
+					"asset": "a_f740031cc97d1b7eb73c0d0ac1dd09f3",
+					"label": "Stringlights and a lovely houseplant adorn the frame of the avatar for the ultimate cozy mood."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1228243842684162121",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1228251846032756796",
+			"name": "Rainy Mood",
+			"summary": "Feel the calm.",
+			"store_listing_id": "1228251750423592970",
+			"banner": "1228245273768230943",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					6512127,
+					14647993
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1228251862709567508",
+					"sku_id": "1228251846032756796",
+					"asset": "a_e8c11f139e55dac538cdaafb3caa2317",
+					"label": "Raindrops sprinkle outside of the avatar through a window's view for a calming ambiance."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1228243842684162121",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1228252042791878707",
+			"name": "Cozy Headphones",
+			"summary": "Perfect for any tune.",
+			"store_listing_id": "1228252025762873404",
+			"banner": "1228245273768230943",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					6512127,
+					14647993
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1228252061171449876",
+					"sku_id": "1228252042791878707",
+					"asset": "a_bb71042ccd2ca277a69f086a4f3354d0",
+					"label": "An avatar wearing a pair of stylish headphones."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1228243842684162121",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1228252219502100530",
+			"name": "Doodling",
+			"summary": "What do you mean I'm procrastinating?",
+			"store_listing_id": "1228252194352922634",
+			"banner": "1228245273768230943",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					6512127,
+					14647993
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1228252237407588382",
+					"sku_id": "1228252219502100530",
+					"asset": "a_5873ecaa76fb549654b40095293f902e",
+					"label": "A pen scribbles a cheeky smiley face on a small notebook next to a pair of earbuds."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1228243842684162121",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1228233390260486164",
+			"name": "Study Spot",
+			"summary": "Time to hit the books.",
+			"store_listing_id": "1228253625118232616",
+			"banner": "1228245273768230943",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					6512127,
+					14647993
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1228233381897179137",
+					"sku_id": "1228233390260486164"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1228243842684162121",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1228234634379132958",
+			"name": "All Nighter",
+			"summary": "Wait, it's already morning?",
+			"store_listing_id": "1228253268921024562",
+			"banner": "1228245273768230943",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					6512127,
+					14647993
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1228234629429985300",
+					"sku_id": "1228234634379132958"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1228243842684162121",
+			"google_sku_ids": {}
+		},
+		{
+			"sku_id": "1228237157554978817",
+			"name": "Watercolors",
+			"summary": "When the world feels grey, add a splash of color.",
+			"store_listing_id": "1228253331344855101",
+			"banner": "1228245273768230943",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					6512127,
+					14647993
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					2923481,
+					14969472,
+					16770304,
+					12298453,
+					4120019,
+					14858081
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 599,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 499,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1228237154434547833",
+					"sku_id": "1228237157554978817"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1228243842684162121",
+			"google_sku_ids": {}
+		}
+	]
+}
