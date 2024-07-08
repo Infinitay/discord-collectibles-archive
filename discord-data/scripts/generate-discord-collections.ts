@@ -1,8 +1,9 @@
-import newRawCollectibles from "~discord-data/raw/collectibles-categories.json" assert { type: "json" };
-import oldRawCollectibles from "~discord-data/raw/old-data/collectibles-categories-happyenderman-converted.json" assert { type: "json" };
+import newRawCollectibles from "~discord-data/raw/collectibles-categories-new.json" assert { type: "json" };
+import oldRawCollectibles from "~discord-data/raw/collectibles-categories.json" assert { type: "json" };
+// import oldRawCollectibles from "~discord-data/raw/old-data/collectibles-categories-happyenderman-converted.json" assert { type: "json" };
 import * as path from "node:path";
 import * as fs from "node:fs";
-import { CollectiblesCategories, Product } from "~/types/CollectiblesCategories";
+import { CollectiblesCategories } from "~/types/CollectiblesCategories";
 import { strictDeepEqual } from "fast-equals";
 import { DiscordUtils } from "~/utils/DiscordUtils";
 
@@ -120,9 +121,9 @@ for (const collection of newRawCollectibles) {
 				console.log(
 					`Removed ${matchedProductSKUs.size} uncategorized products because they now a category ${matchedProductSKUs} -> '${collection.name}' collection`
 				);
+				currentCollections.set(uncategorizedCollection.sku_id, uncategorizedCollection);
+				modifiedCollections.add(uncategorizedCollection.sku_id);
 			}
-			currentCollections.set(uncategorizedCollection.sku_id, uncategorizedCollection);
-			modifiedCollections.add(uncategorizedCollection.sku_id);
 		}
 	}
 	currentCollections.set(collection.sku_id, collection);
@@ -145,10 +146,13 @@ for (const collection of exportedCollections) {
 
 const collectionsIndexPath = path.join(COLLECTIONS_DIRECTORY, "index.ts");
 const indexFileExists = fs.existsSync(collectionsIndexPath);
-const collectionsToIndex = indexFileExists ? exportedCollections : Array.from(currentCollections.values()).sort(sortCollectionsByDate);
-if (collectionsToIndex.length !== 0) {
+const collectionsToIndex = Array.from(currentCollections.values()).sort(sortCollectionsByDate);
+if (collectionsToIndex.length !== 0 && exportedCollections) {
 	const missingPrefix = indexFileExists ? "Updating the" : "Generating an";
-	console.log(`${missingPrefix} index file with imports for the ${collectionsToIndex.length} collections at "${collectionsIndexPath}"`);
+	console.log(
+		`${missingPrefix} index file with imports for the ${collectionsToIndex.length} collections` +
+			` (${exportedCollections.length} new) at "${collectionsIndexPath}"`
+	);
 
 	const imports = collectionsToIndex
 		.map((c) => `import ${toSanitizedCamelCase(c.name)} from "~discord-data/collections/${sanitizeCollectionName(c.name)}.json" assert { type: "json" };`)
