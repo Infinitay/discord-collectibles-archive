@@ -69,6 +69,7 @@ if (!fs.existsSync(EFFECTS_DIRECTORY)) {
 }
 
 const changedCollections = new Set<string>();
+const previouslyUncategorizedEffects = new Set<string>();
 
 for (const currentEffect of userProfileEffects["profile_effect_configs"]) {
 	const currentEffectName = currentEffect.title;
@@ -89,6 +90,9 @@ for (const currentEffect of userProfileEffects["profile_effect_configs"]) {
 			changedCollections.add(previousEffectCollectionSKU);
 			// Secondly, update the effect to the new collection
 			previousProfileEffectToCollectionMap.set(currentEffectSKU, currentEffectCollectionSKU);
+			if (previousEffectCollectionSKU === UNCATEGORIZED_SKU_ID) {
+				previouslyUncategorizedEffects.add(currentEffectSKU);
+			}
 		} else {
 			// We can use else here because if the collection changed it still gets updated. This is to handle if the collection wasn't updated
 			// First, check to see if the effect has changed at all
@@ -133,6 +137,13 @@ if (groupedEffectsByCollection.size > 0) {
 		const filePath = path.join(EFFECTS_DIRECTORY, `${sanitizedCollectionName}.json`);
 		console.log(`Writing ${effects.length} effects to the "${collectionName}" collection at "${filePath}"`);
 		fs.writeFileSync(filePath, JSON.stringify(effects, null, "\t") + "\n", "utf-8");
+	}
+
+	// Additional cleanup for previously uncategorized effects
+	if (!groupedEffectsByCollection.has(UNCATEGORIZED_SKU_ID) && previouslyUncategorizedEffects.size > 0) {
+		console.log(`Removing the Uncategorized effects because there are no longer any profile effects found in that collection`);
+		const filePath = path.join(EFFECTS_DIRECTORY, "uncategorized.json");
+		fs.unlinkSync(filePath);
 	}
 } else {
 	console.log("No changes were made to any collections, so no updates are needed");
