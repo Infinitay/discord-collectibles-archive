@@ -138,15 +138,13 @@ if (changedGroupedEffectsByCollection.size > 0) {
 		const collectionName = collectionNameMap.get(collectionSKU)!; // Should always exist if collections is up to date
 		const sanitizedCollectionName = sanitizeCollectionName(collectionName);
 		const filePath = path.join(EFFECTS_DIRECTORY, `${sanitizedCollectionName}.json`);
-		console.log(`Writing ${effects.length} effects to the "${collectionName}" collection at "${filePath}"`);
-		fs.writeFileSync(filePath, JSON.stringify(effects, null, "\t") + "\n", "utf-8");
-	}
-
-	// Additional cleanup for previously uncategorized effects
-	if (!changedGroupedEffectsByCollection.has(UNCATEGORIZED_SKU_ID) && previouslyUncategorizedEffects.size > 0) {
-		console.log(`Removing the Uncategorized effects because there are no longer any profile effects found in that collection`);
-		const filePath = path.join(EFFECTS_DIRECTORY, "uncategorized.json");
-		fs.unlinkSync(filePath);
+		if (effects.length > 0) {
+			console.log(`Writing ${effects.length} effects to the "${collectionName}" collection at "${filePath}"`);
+			fs.writeFileSync(filePath, JSON.stringify(effects, null, "\t") + "\n", "utf-8");
+		} else {
+			console.log(`Removing "${collectionName}" because there are no longer any profile effects found in that collection`);
+			fs.unlinkSync(filePath);
+		}
 	}
 } else {
 	console.log("No changes were made to any effect collections, so no updates are needed");
