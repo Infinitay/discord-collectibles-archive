@@ -1,6 +1,5 @@
-import newRawCollectibles from "~discord-data/raw/collectibles-categories-new.json" assert { type: "json" };
-import oldRawCollectibles from "~discord-data/raw/collectibles-categories.json" assert { type: "json" };
-// import oldRawCollectibles from "~discord-data/raw/old-data/collectibles-categories-happyenderman-converted.json" assert { type: "json" };
+import newRawCollectibles from "~discord-data/raw/collectibles-categories.json" assert { type: "json" };
+import oldRawCollectibles from "~discord-data/raw/old-data/collectibles-categories-happyenderman-converted.json" assert { type: "json" };
 import * as path from "node:path";
 import * as fs from "node:fs";
 import { CollectiblesCategories } from "~/types/CollectiblesCategories";

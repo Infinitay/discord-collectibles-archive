@@ -17,6 +17,7 @@ import galaxy from "~discord-data/collections/galaxy.json" assert { type: "json"
 import feelinRetro from "~discord-data/collections/feelin-retro.json" assert { type: "json" };
 import pirates from "~discord-data/collections/pirates.json" assert { type: "json" };
 import arcade from "~discord-data/collections/arcade.json" assert { type: "json" };
+import palworld from "~discord-data/collections/palworld.json" assert { type: "json" };
 
 export default {
 	fantasy,
@@ -37,5 +38,6 @@ export default {
 	galaxy,
 	feelinRetro,
 	pirates,
-	arcade
+	arcade,
+	palworld
 };
