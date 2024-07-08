@@ -4,6 +4,8 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
+		"gen-collections": "cd discord-data/scripts && npx tsx generate-discord-collections.ts",
+		"gen-effects": "cd discord-data/scripts && npx tsx generate-user-effects.ts",
 		"build": "next build",
 		"db:generate": "drizzle-kit generate",
 		"db:migrate": "drizzle-kit migrate",
