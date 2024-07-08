@@ -9,7 +9,6 @@ import cyberpunk from "~discord-data/profile-effects/cyberpunk.json" assert { ty
 import lunarNewYear from "~discord-data/profile-effects/lunar-new-year.json" assert { type: "json" };
 import elements from "~discord-data/profile-effects/elements.json" assert { type: "json" };
 import anime from "~discord-data/profile-effects/anime.json" assert { type: "json" };
-import uncategorized from "~discord-data/profile-effects/uncategorized.json" assert { type: "json" };
 import springtoons from "~discord-data/profile-effects/springtoons.json" assert { type: "json" };
 import valorant from "~discord-data/profile-effects/valorant.json" assert { type: "json" };
 import lofiVibes from "~discord-data/profile-effects/lofi-vibes.json" assert { type: "json" };
@@ -17,6 +16,7 @@ import galaxy from "~discord-data/profile-effects/galaxy.json" assert { type: "j
 import feelinRetro from "~discord-data/profile-effects/feelin-retro.json" assert { type: "json" };
 import pirates from "~discord-data/profile-effects/pirates.json" assert { type: "json" };
 import arcade from "~discord-data/profile-effects/arcade.json" assert { type: "json" };
+import palworld from "~discord-data/profile-effects/palworld.json" assert { type: "json" };
 
 export default {
 	fantasy,
@@ -30,12 +30,12 @@ export default {
 	lunarNewYear,
 	elements,
 	anime,
-	uncategorized,
 	springtoons,
 	valorant,
 	lofiVibes,
 	galaxy,
 	feelinRetro,
 	pirates,
-	arcade
+	arcade,
+	palworld
 };
