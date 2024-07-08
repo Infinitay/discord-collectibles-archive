@@ -1,10 +1,14 @@
 import { CollectiblesCategories } from "~/types/CollectiblesCategories";
-import Collections from "~discord-data/Collections";
+import collections from "~discord-data/collections/index";
 
+// Infer the type of the collections object
+type InferredCollections = typeof collections;
+
+// Using the inferred type, create a new type that maps the key names to the CollectiblesCategories type
 type CollectionsExport = {
-	[key: string]: CollectiblesCategories;
+	[K in keyof InferredCollections]: CollectiblesCategories;
 };
 
-const typedCollections: CollectionsExport = Collections;
+const typedCollections: CollectionsExport = collections;
 
 export default typedCollections;
