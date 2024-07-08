@@ -1,0 +1,141 @@
+[
+	{
+		"type": 1,
+		"id": "1228233381897179137",
+		"sku_id": "1228233390260486164",
+		"title": "Study Spot",
+		"description": "Time to hit the books.",
+		"accessibilityLabel": "A jumble of stationery and electronics appear on the profile, indicating a serious study session about to take place.",
+		"animationType": 1,
+		"staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/study-spot/thumbnail.png",
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/study-spot/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/study-spot/thumbnail.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-12/study-spot/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 3000,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/study-spot/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 3000,
+				"start": 3000,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1228234629429985300",
+		"sku_id": "1228234634379132958",
+		"title": "All Nighter",
+		"description": "Wait, it's already morning?",
+		"accessibilityLabel": "A soft glare of morning light bathes a profile adorned with houseplants and stringlights.",
+		"animationType": 1,
+		"staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/all-nighter/static.png",
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/all-nighter/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/all-nighter/reduced-motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-14/all-nighter/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 3000,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/all-nighter/idle-frame.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 3000,
+				"start": 3000,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/all-nighter/idle-lights.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 3000,
+				"start": 4000,
+				"loopDelay": 5000,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 102
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1228237154434547833",
+		"sku_id": "1228237157554978817",
+		"title": "Watercolors",
+		"description": "When the world feels grey, add a splash of color.",
+		"accessibilityLabel": "Soft, colorful circles illuminate the profile amid gentle raindrops.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/watercolors/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/watercolors/reduced-motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/watercolors/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 3000,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-04-04/watercolors/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 3000,
+				"start": 6000,
+				"loopDelay": 3000,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	}
+]

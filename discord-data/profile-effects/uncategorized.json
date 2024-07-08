@@ -1,0 +1,125 @@
+[
+	{
+		"type": 1,
+		"id": "1252405019991474287",
+		"sku_id": "1252405017688936508",
+		"title": "Saya",
+		"description": "A mysterious beauty blossoms under the moonlight.",
+		"accessibilityLabel": "Saya appears over the profile, the glowing beauty of the crescent moon behind her. Wait... why do I hear boss music?",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-06-18/saya/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-06-18/saya/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-06-21/saya/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 3840,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-06-18/saya/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 10240,
+				"loopDelay": 6400,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1252405241660440629",
+		"sku_id": "1252405239693447208",
+		"title": "Wake Up!",
+		"description": "You wash ashore on a strange island...",
+		"accessibilityLabel": "Lamball, Cattiva, and Chikipi curiously poke their heads out to stare at the mysterious new face who just washed up on their island.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-06-18/wake-up/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-06-18/wake-up/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-06-20/wake-up/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-06-18/wake-up/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 7780,
+				"loopDelay": 4900,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1252405254499205233",
+		"sku_id": "1252405251949203497",
+		"title": "Tocotoco",
+		"description": "Huggable... once.",
+		"accessibilityLabel": "A Tocotoco suddenly emerges out of nowhere and waddles towards you before dramatically exploding. There goes your base, half your Pals, and hours of progress!",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-06-18/tocotoco/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-06-18/tocotoco/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-06-20/tocotoco/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-06-18/tocotoco/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 2880,
+				"loopDelay": 7000,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	}
+]

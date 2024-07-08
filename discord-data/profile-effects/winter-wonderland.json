@@ -1,0 +1,86 @@
+[
+	{
+		"type": 1,
+		"id": "1146328960481886318",
+		"sku_id": "1146328960951668776",
+		"title": "Deck the halls",
+		"description": "Keep out of reach from cats",
+		"accessibilityLabel": "Festive string lights wrap around the user profile",
+		"animationType": 1,
+		"staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-22/deck-the-halls/thumbnail.png",
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-22/deck-the-halls/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-22/deck-the-halls/thumbnail.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-28/deck-the-halls/intro.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 1750,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-22/deck-the-halls/loop.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 1250,
+				"start": 1750,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1146328960951668777",
+		"sku_id": "1146328961417224193",
+		"title": "Snowy Shenanigans",
+		"description": "Gone in a flurry.",
+		"accessibilityLabel": "In a sudden gust of snow and wind, a snowman sweeps into and out of view, leaving behind a flurry of snow in his wake. Who knows if we'll ever see him again...",
+		"animationType": 1,
+		"staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-28/snowy-shenanigans/reducedMotion.png",
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-28/snowy-shenanigans/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-28/snowy-shenanigans/reducedMotion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-28/snowy-shenanigans/intro.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 4168,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-22/snowy-shenanigans/loop.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 8334,
+				"start": 4168,
+				"loopDelay": 8334,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	}
+]

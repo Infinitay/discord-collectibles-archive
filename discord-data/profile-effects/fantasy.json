@@ -1,0 +1,168 @@
+[
+	{
+		"type": 1,
+		"id": "1139323075519852625",
+		"sku_id": "1139323092645183591",
+		"title": "Hydro Blast",
+		"description": "Time to make a splash.",
+		"accessibilityLabel": "A powerful stream of water swirls and twirls in the air. Wait, where's it headed off to?!",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/splash/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/splash/reducedMotion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/splash/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/splash/loop.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 5760,
+				"loopDelay": 5760,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1174460912699191336",
+		"sku_id": "1139323093991575696",
+		"title": "Sakura Dreams",
+		"description": "Close your eyes, and breathe.",
+		"accessibilityLabel": "Sakura petals gently flutter in the breeze under sunlight... a true display of nature's beauty and elegance.",
+		"animationType": 1,
+		"staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/sakura/static.png",
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/sakura/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/sakura/reducedMotion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-12-13/sakura/intro.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2e46d5d2d9e/sakura/loop.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 2880,
+				"loopDelay": 2880,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1139323098810822696",
+		"sku_id": "1139323099251232828",
+		"title": "Mystic Vines",
+		"description": "Why touch grass when you can touch magical vines?",
+		"accessibilityLabel": "Magical vines grow and wrap around the outer edges of the profile. Is Mother Nature feeling extra affectionate today?",
+		"animationType": 1,
+		"staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2e46d5d2d9e/vines/static.png",
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2e46d5d2d9e/vines/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2e46d5d2d9e/vines/reducedMotion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/vines/intro.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 3071,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/vines/loop.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2988,
+				"start": 2905,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/vines/intro-glow.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2573,
+				"start": 1666,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 102
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1139323099251232829",
+		"sku_id": "1139323099687436419",
+		"title": "Pixie Dust",
+		"description": "Did a pixie sneeze nearby?",
+		"accessibilityLabel": "Glimmering pixie dust and sparkles adorn the outer edges of the profile, casting a radiant glow.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/fairy/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/fairy/reducedMotion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/fairy/loop.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 2880,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			}
+		]
+	}
+]
