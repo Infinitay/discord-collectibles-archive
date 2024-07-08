@@ -27,7 +27,7 @@ export interface Product {
 	premium_type: PremiumTypes | number;
 	category_sku_id: string;
 	bundled_products?: BundledProduct[];
-	google_sku_ids: GoogleSkuIDS;
+	google_sku_ids: { [key: string]: string };
 }
 
 export interface BundledProduct {
@@ -59,8 +59,6 @@ export interface PriceElement {
 
 // Union to a string because it could be any currency code (ISO 4217 code), but also type check was complaining
 export type Currency = "usd" | string;
-
-export interface GoogleSkuIDS {}
 
 export interface Item {
 	type: ItemTypes | number;
