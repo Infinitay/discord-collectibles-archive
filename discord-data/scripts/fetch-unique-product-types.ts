@@ -1,5 +1,5 @@
 import { CollectiblesCategories } from "~/types/CollectiblesCategories";
-import collections from "~discord-data/collections";
+import collections from "~discord-data/Collections";
 
 // Map to store the combination of types and corresponding sku_id
 const productTypesMap = new Map<string, any>();

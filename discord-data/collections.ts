@@ -1,10 +1,10 @@
 import { CollectiblesCategories } from "~/types/CollectiblesCategories";
-import collections from "./collections/index";
+import Collections from "~discord-data/Collections";
 
 type CollectionsExport = {
 	[key: string]: CollectiblesCategories;
 };
 
-const typedCollections: CollectionsExport = collections;
+const typedCollections: CollectionsExport = Collections;
 
 export default typedCollections;
