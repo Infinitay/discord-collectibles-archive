@@ -29,7 +29,6 @@ const effectsFromCollectionsMap = new Map<string, string>(); // [Effect sku_id] 
 const collectionSanitizedNameMap = new Map<string, string>(); // Collection sanitized name -> Collection sku_id
 
 const previousProfileEffectToCollectionMap = new Map<string, string>(); // [Profile effect sku_id] -> Collection sku_id
-const currentProfileEffectToCollectionMap = new Map<string, string>(); // [Profile effect sku_id] -> Collection sku_id
 const effectsMap = new Map<string, ProfileEffect>(); // [Profile effect sku_id] -> ProfileEffect
 
 // Create a map for effects found within collections to their respective categories
