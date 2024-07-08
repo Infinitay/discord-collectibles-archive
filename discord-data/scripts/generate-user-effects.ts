@@ -8,6 +8,7 @@ import * as path from "node:path";
 import * as fs from "node:fs";
 import { ProfileEffect } from "~/types/ProfileEffects";
 import { strictDeepEqual } from "fast-equals";
+import { DiscordUtils } from "~/utils/DiscordUtils";
 
 enum ItemTypes {
 	AvatarDecoration = 0,
@@ -114,24 +115,26 @@ for (const currentEffect of userProfileEffects["profile_effect_configs"]) {
 	}
 }
 
-const groupedEffectsByCollection = new Map<string, ProfileEffect[]>(); // [Collection sku_id] -> ProfileEffect[]
+const allGroupedEffectsByCollection = new Map<string, ProfileEffect[]>(); // [Collection sku_id] -> ProfileEffect[]
+const changedGroupedEffectsByCollection = new Map<string, ProfileEffect[]>(); // [Collection sku_id] -> ProfileEffect[]
 
 for (const [effectSKU, categorySKU] of previousProfileEffectToCollectionMap) {
-	// If the collection hasn't changed, then don't bother updating it
-	if (!changedCollections.has(categorySKU)) {
-		continue;
-	}
 	const effect = effectsMap.get(effectSKU)!;
-	const collectionEffects = groupedEffectsByCollection.get(categorySKU) ?? [];
+	const collectionEffects = allGroupedEffectsByCollection.get(categorySKU) ?? [];
 	collectionEffects.push(effect);
-	groupedEffectsByCollection.set(categorySKU, collectionEffects);
+	allGroupedEffectsByCollection.set(categorySKU, collectionEffects);
 }
 
-if (groupedEffectsByCollection.size > 0) {
-	const collectionNamesString = [...groupedEffectsByCollection.keys()].map((sku) => `"${collectionNameMap.get(sku)!}"`).join(", ");
-	console.log(`Updating the effects found within ${groupedEffectsByCollection.size} collections: ${collectionNamesString}`);
+for (const changedCollectionSKU of changedCollections) {
+	const collectionEffects = allGroupedEffectsByCollection.get(changedCollectionSKU) ?? [];
+	changedGroupedEffectsByCollection.set(changedCollectionSKU, collectionEffects);
+}
 
-	for (const [collectionSKU, effects] of groupedEffectsByCollection) {
+if (changedGroupedEffectsByCollection.size > 0) {
+	const collectionNamesString = [...changedGroupedEffectsByCollection.keys()].map((sku) => `"${collectionNameMap.get(sku)!}"`).join(", ");
+	console.log(`Updating the effects found within ${changedGroupedEffectsByCollection.size} collections: ${collectionNamesString}`);
+
+	for (const [collectionSKU, effects] of changedGroupedEffectsByCollection) {
 		const collectionName = collectionNameMap.get(collectionSKU)!; // Should always exist if collections is up to date
 		const sanitizedCollectionName = sanitizeCollectionName(collectionName);
 		const filePath = path.join(EFFECTS_DIRECTORY, `${sanitizedCollectionName}.json`);
@@ -140,15 +143,44 @@ if (groupedEffectsByCollection.size > 0) {
 	}
 
 	// Additional cleanup for previously uncategorized effects
-	if (!groupedEffectsByCollection.has(UNCATEGORIZED_SKU_ID) && previouslyUncategorizedEffects.size > 0) {
+	if (!changedGroupedEffectsByCollection.has(UNCATEGORIZED_SKU_ID) && previouslyUncategorizedEffects.size > 0) {
 		console.log(`Removing the Uncategorized effects because there are no longer any profile effects found in that collection`);
 		const filePath = path.join(EFFECTS_DIRECTORY, "uncategorized.json");
 		fs.unlinkSync(filePath);
 	}
 } else {
-	console.log("No changes were made to any collections, so no updates are needed");
+	console.log("No changes were made to any effect collections, so no updates are needed");
 }
 
+const effectsIndexPath = path.join(EFFECTS_DIRECTORY, "index.ts");
+const indexFileExists = fs.existsSync(effectsIndexPath);
+if (!indexFileExists || changedCollections.size > 0) {
+	const effectCollectionsToIndex = Array.from(allGroupedEffectsByCollection.keys())
+		.sort(sortCollectionsByDate)
+		.map((sku) => collectionNameMap.get(sku)!);
+	if (effectCollectionsToIndex.length > 0) {
+		const missingPrefix = indexFileExists ? "Updating the" : "Generating an";
+		console.log(
+			`${missingPrefix} index file with imports for the ${effectCollectionsToIndex.length} effect collections` +
+				` (${effectCollectionsToIndex.length} new) at "${effectsIndexPath}"`
+		);
+
+		const imports = effectCollectionsToIndex
+			.map((c) => `import ${toSanitizedCamelCase(c)} from "~discord-data/profile-effects/${sanitizeCollectionName(c)}.json" assert { type: "json" };`)
+			.join("\n");
+
+		const effectCollectionIndexContent = `${imports}
+
+export default {
+	${effectCollectionsToIndex.map((c) => `${toSanitizedCamelCase(c)}`).join(",\n\t")}
+};
+`;
+
+		fs.writeFileSync(effectsIndexPath, effectCollectionIndexContent);
+	} else {
+		console.log(`No effect collections to index, skipping the index file generation`);
+	}
+}
 /**
  * Sanitize the collection name by converting to lowercase removing special characters, and replacing spaces with '-'
  *
@@ -161,4 +193,24 @@ if (groupedEffectsByCollection.size > 0) {
  */
 function sanitizeCollectionName(collectionName: string) {
 	return collectionName.toLowerCase().replaceAll(SANITIZE_COLLECTION_NAME_REGEX, "").replaceAll(" ", "-");
+}
+
+/**
+ * Sanitizes the string and converts it to camelCase
+ *
+ * @param string
+ * @returns sanitized and camelCase without special characters
+ */
+function toSanitizedCamelCase(string: string) {
+	string = string.toLowerCase();
+	const strings = string.split(/\s/gi);
+	let camelCase = strings.shift() ?? "";
+	if (strings.length > 0) {
+		camelCase += strings.map((s) => `${s.charAt(0).toUpperCase()}${s.substring(1)}`).join("");
+	}
+	return camelCase.replaceAll(SANITIZE_COLLECTION_NAME_REGEX, "");
+}
+
+function sortCollectionsByDate(aSKU: string, bSKU: string) {
+	return DiscordUtils.snowflakeToDate(aSKU).getTime() - DiscordUtils.snowflakeToDate(bSKU).getTime();
 }
