@@ -1,0 +1,156 @@
+[
+	{
+		"type": 1,
+		"id": "1202061575339376741",
+		"sku_id": "1202061726212947968",
+		"title": "Dragon Dance",
+		"description": "No evil spirits on my watch.",
+		"accessibilityLabel": "A dragon glides into view on top of the profile, circling a few times before taking rest at the very top.",
+		"animationType": 1,
+		"staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-01-31/dragon-dance/static.png",
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-01-31/dragon-dance/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-01-31/dragon-dance/reduced-motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-07/dragon-dance/intro_2e0f72c35c.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 3360,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-07/dragon-dance/loop_20e743b578.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 8560,
+				"start": 2880,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1202058906738622514",
+		"sku_id": "1202059628112777256",
+		"title": "Fortune Flurry",
+		"description": "May fortune come your way!",
+		"accessibilityLabel": "A slew of red envelopes ride the wind and rush through the profile.",
+		"animationType": 1,
+		"staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-01-31/fortune-flurry/static.png",
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-01-31/fortune-flurry/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-01-31/fortune-flurry/reduced-motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-01/fortune-flurry/frame.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-01/fortune-flurry/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 3280,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-02/fortune-flurry/loop.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 10000,
+				"start": 2880,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 102
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1202061433689350204",
+		"sku_id": "1202061510529257522",
+		"title": "Midnight Celebration",
+		"description": "Protection and prosperity guaranteed.",
+		"accessibilityLabel": "Fireworks ignite and light up the profile surrounded by ornamental designs.",
+		"animationType": 1,
+		"staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-01-31/midnight-celebration/static.png",
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-01-31/midnight-celebration/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-01-31/midnight-celebration/reduced-motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-01/midnight-celebration/frame.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-01/midnight-celebration/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-01/midnight-celebration/fireworks.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 3200,
+				"loopDelay": 5760,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 102
+			}
+		]
+	}
+]

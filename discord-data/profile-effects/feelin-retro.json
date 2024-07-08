@@ -1,0 +1,154 @@
+[
+	{
+		"type": 1,
+		"id": "1237650432650645504",
+		"sku_id": "1237650411410685972",
+		"title": "Feelin' Mischievous",
+		"description": "Why you little...",
+		"accessibilityLabel": "A digital, goofy face zips onto the profile, blows a raspberry, and leaves behind a poop. ",
+		"animationType": 1,
+		"staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-mischievous/static.png",
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-mischievous/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-mischievous/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-mischievous/intro_bg.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 5200,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-mischievous/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 5200,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-mischievous/idle_bg.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2160,
+				"start": 4800,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 102
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-mischievous/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2160,
+				"start": 4800,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 103
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1237650563378712609",
+		"sku_id": "1237650542772228096",
+		"title": "Feelin' 90s",
+		"description": "Your uncle has a shirt just like this.",
+		"accessibilityLabel": "Colorful shapes and patterns decorate the profile with good ol' fashioned 90's pizzazz.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-70s/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-70s/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-70s/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 1360,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-70s/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 8080,
+				"start": 1360,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1237650638536708156",
+		"sku_id": "1237650618777075712",
+		"title": "Feelin' Pizzazz",
+		"description": "Zigzags for days.",
+		"accessibilityLabel": "Colorful zigzags playfully decorate the profile's frame and centerspace.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-pizzazz/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-pizzazz/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-10/feelin-pizzazz/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 1280,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/feelin-pizzazz/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 7840,
+				"start": 1260,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	}
+]

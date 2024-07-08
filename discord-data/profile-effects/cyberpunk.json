@@ -1,0 +1,84 @@
+[
+	{
+		"type": 1,
+		"id": "1197344710830862356",
+		"sku_id": "1197344693630009424",
+		"title": "Nightrunner",
+		"description": "Cruisin' the cyber highway.",
+		"accessibilityLabel": "A slick-looking car cruises through a futuristic city, dodging obstacles and speeding off in a neon glow of superspeed light.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-16/cyberpunk-nightrunner/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-16/cyberpunk-nightrunner/reduced-motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-19/cyberpunk-nightrunner/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2960,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-18/cyberpunk-nightrunner/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2960,
+				"start": 5920,
+				"loopDelay": 5920,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1197344781060288693",
+		"sku_id": "1197344764174008452",
+		"title": "Uplink Error",
+		"description": "Anomaly detected, attempting system reset.",
+		"accessibilityLabel": "Uh oh, looks like the data of this profile is fractured. Glitches flicker across screen in a series of surprisingly aesthetically pleasing colors.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-16/cyberpunk-uplinkerror/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-16/cyberpunk-uplinkerror/reduced-motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-19/cyberpunk-uplinkerror/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-1-18/cyberpunk-uplinkerror/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 5760,
+				"loopDelay": 5760,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	}
+]

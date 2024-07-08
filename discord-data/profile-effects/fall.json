@@ -1,0 +1,99 @@
+[
+	{
+		"type": 1,
+		"id": "1159277016571449404",
+		"sku_id": "1159280677246742548",
+		"title": "Fall Foliage",
+		"description": "Getting ready for sweater weather.",
+		"accessibilityLabel": "A cascade of autumn leaves gently sway and fall from their trees towards the earth. Shall we make the biggest leaf pile the world has ever seen?",
+		"animationType": 1,
+		"staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/leaves/static.png",
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/leaves/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/leaves/reducedMotion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/leaves/intro-branch.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/leaves/intro-leaves.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2988,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/leaves/loop.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 3984,
+				"start": 5760,
+				"loopDelay": 7968,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 102
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1159275733764550728",
+		"sku_id": "1159280847262859364",
+		"title": "Lillypad Life",
+		"description": "*ribbit*",
+		"accessibilityLabel": "Under drizzling rain, a frog hops onto a floating lilypad, then hops away... perhaps never to be seen again. Farewell, frog friend.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/rain/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/rain/reducedMotion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/rain/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/rain/loop.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 5760,
+				"loopDelay": 5760,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	}
+]

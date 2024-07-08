@@ -1,0 +1,170 @@
+[
+	{
+		"type": 1,
+		"id": "1245088109582880848",
+		"sku_id": "1245088094437507163",
+		"title": "Space Evader",
+		"description": "That was the best flying I've seen to date - right up to the part where you got hit.",
+		"accessibilityLabel": "A spaceship quickly barrelrolls out of the way from a barrage of laser fire. Unfortunately, it doesn't evade the follow up missile attack and gets taken out. Better luck next time.",
+		"animationType": 1,
+		"staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/space-evader/static.png",
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/space-evader/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/space-evader/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/space-evader/intro_bg.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 4160,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/space-evader/intro_spaceship.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 3840,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/space-evader/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 4800,
+				"start": 7000,
+				"loopDelay": 3500,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 102
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/space-evader/hud.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2400,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 103
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1245088219876298924",
+		"sku_id": "1245088205330710539",
+		"title": "Turbo Drive",
+		"description": "Give your rivals a cheeky wave from the rearview.",
+		"accessibilityLabel": "In its final lap, a racing car skillfully serves around the final corner before accelerating across the finish line to secure first place.",
+		"animationType": 1,
+		"staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/turbo-drive/static.png",
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/turbo-drive/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/turbo-drive/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/turbo-drive/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/turbo-drive/idle_finish.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 2700,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/turbo-drive/idle_confetti.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 2700,
+				"loopDelay": 3500,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 102
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1245088271109722193",
+		"sku_id": "1245088254647205991",
+		"title": "Twinkle Trails",
+		"description": "Chase the stars to collect them all.",
+		"accessibilityLabel": "Magical stars float into open view before traveling into surrounding pipes. Collect all the stars while they're out in the open!",
+		"animationType": 1,
+		"staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/twinkle-trails/static.png",
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/twinkle-trails/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/twinkle-trails/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/twinkle-trails/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 9760,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-29/twinkle-trails/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 6380,
+				"start": 9500,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	}
+]

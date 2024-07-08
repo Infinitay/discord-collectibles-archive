@@ -1,0 +1,125 @@
+[
+	{
+		"type": 1,
+		"id": "1207049118388715520",
+		"sku_id": "1207049115339591681",
+		"title": "Rock Slide",
+		"description": "A ballet of rock and stone.",
+		"accessibilityLabel": "A cascade of large rocks swirl into view, then settle around the frame of the profile. Talk about heavy lifting.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/rock-slide/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/rock-slide/reduced-motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/rock-slide/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/rock-slide/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 5760,
+				"loopDelay": 5760,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1207049367069139004",
+		"sku_id": "1207049364464345158",
+		"title": "Vortex",
+		"description": "Beware the eye of the storm.",
+		"accessibilityLabel": "A giant whirlwind forms across the profile. Wouldn't want to get caught in the middle of that!",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/vortex/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/vortex/reduced-motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/vortex/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/vortex/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 5760,
+				"loopDelay": 5760,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1207049501379006514",
+		"sku_id": "1207049498065375343",
+		"title": "Mastery",
+		"description": "Unleash the elements.",
+		"accessibilityLabel": "A mix of fire, water, earth, and wind swirl into the profile's view, then neatly settle around the profile's frame in perfect harmony.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/mastery/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/mastery/reduced-motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/mastery/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-02-13/mastery/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 5760,
+				"loopDelay": 5760,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	}
+]

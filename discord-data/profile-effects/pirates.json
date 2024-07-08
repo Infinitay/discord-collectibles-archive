@@ -1,0 +1,125 @@
+[
+	{
+		"type": 1,
+		"id": "1237654808668672020",
+		"sku_id": "1237654783209508904",
+		"title": "Jolly Roger",
+		"description": "Ye be warned... give no quarter.",
+		"accessibilityLabel": "A black pirate flag depicting the famed Jolly Roger skull and crossbones gets slashed by a cutlass. Surely this means war!",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/jolly-roger/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/jolly-roger/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-10/jolly-roger/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 3280,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/jolly-roger/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 6000,
+				"loopDelay": 4000,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1237654892298899517",
+		"sku_id": "1237654867330469949",
+		"title": "Forgotten Treasure",
+		"description": "Many a greedy eye be yearnin' for a peek... guard yer secrets closely.",
+		"accessibilityLabel": "A treasure map detailing the location of buried treasure, with a curious skull marked along the path.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/forgotten-treasure/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/forgotten-treasure/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-10/forgotten-treasure/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 3840,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/forgotten-treasure/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 6000,
+				"loopDelay": 4000,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1237654960620175360",
+		"sku_id": "1237654942202990602",
+		"title": "Haunted Man O' War",
+		"description": "Sail Ho! We be in cursed waters now...",
+		"accessibilityLabel": "A haunted Man O' War pirate ship eerily drifts across the profile, a sight that sends shivers down the spines of even the hardest of sailors.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/haunted-man-o-war/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-09/haunted-man-o-war/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-13/haunted-man-o-war/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 3280,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-05-13/haunted-man-o-war/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 3280,
+				"start": 6000,
+				"loopDelay": 4000,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	}
+]

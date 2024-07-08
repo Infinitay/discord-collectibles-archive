@@ -1,0 +1,84 @@
+[
+	{
+		"type": 1,
+		"id": "1139323095304392864",
+		"sku_id": "1139323095744790568",
+		"title": "Discord-Os",
+		"description": "Bet you can't have just one bowl.",
+		"accessibilityLabel": "Cereal and milk pour in from the heavens, flooding the profile in delicious, nutritious goodness. You can't beat the classics.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/cereal/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/cereal/reducedMotion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/cereal/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/cereal/loop.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 5760,
+				"loopDelay": 5760,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1139323095744790569",
+		"sku_id": "1139323096180994169",
+		"title": "Breakfast Plate",
+		"description": "The best meal for any time of day.",
+		"accessibilityLabel": "Eggs, bacon, berries, and toast unite to form a breakfast meal, arranged with a smile. You can hear the bellies of profile admirers everywhere rumbling.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/plate/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/plate/reducedMotion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/plate/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-9-25/plate/loop.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 5760,
+				"loopDelay": 5760,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	}
+]

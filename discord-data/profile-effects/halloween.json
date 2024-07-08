@@ -1,0 +1,125 @@
+[
+	{
+		"type": 1,
+		"id": "1139323101881061467",
+		"sku_id": "1158572178179108968",
+		"title": "Ghoulish Graffiti",
+		"description": "Did I scare you?",
+		"accessibilityLabel": "Graffiti-esque stars are strobing across the profile. But wait, you notice there's something written in the stars... 'BOO!' Did we get ya?",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/punk-girl/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/punk-girl/reducedMotion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/punk-girl/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2573,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2023-10-11/punk-girl/loop.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2000,
+				"start": 5146,
+				"loopDelay": 4000,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1139323102753468546",
+		"sku_id": "1158572275507937342",
+		"title": "Dark Omens",
+		"description": "Who keeps summoning these things?",
+		"accessibilityLabel": "A ghastly portal suddenly appears, summoning three ghostly spirits to haunt your enemies - no one gets to beat you in a game and get away with it.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/ghost-skull/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/ghost-skull/reducedMotion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/ghost-skull/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/ghost-skull/loop.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 5760,
+				"loopDelay": 5760,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1139323094431973427",
+		"sku_id": "1158572263411556373",
+		"title": "Zombie Slime",
+		"description": "I don't think you should touch that.",
+		"accessibilityLabel": "Out of nowhere, a glob of slime suddently drops from above, forming into a skull before vaporizing in the air. Did someone just curse you?",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/zombie-slime/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/zombie-slime/reducedMotion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/zombie-slime/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/b17d139f2e9/zombie-slime/loop.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2880,
+				"start": 5760,
+				"loopDelay": 5760,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	}
+]
