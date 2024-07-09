@@ -27,7 +27,7 @@ export interface Product {
 	premium_type: PremiumTypes | number;
 	category_sku_id: string;
 	bundled_products?: BundledProduct[];
-	google_sku_ids: { [key: string]: string } | {};
+	google_sku_ids: Record<string, string | undefined>;
 }
 
 export interface BundledProduct {
