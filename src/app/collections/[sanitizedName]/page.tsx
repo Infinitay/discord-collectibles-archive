@@ -1,6 +1,8 @@
 import React from "react";
 import { sanitizeCollectionName } from "~/utils/TextUtils";
 import collections from "~discord-data/Collections";
+import CollectionBanner from "./_components/CollectionBanner";
+import CollectionColors from "./_components/CollectionColors";
 
 // Don't build the page for any non-existent collections
 export const dynamicParams = false;
@@ -15,5 +17,9 @@ export default function Page({ params }: { params: { sanitizedName: string } }) 
 		return <div>Collection not found</div>;
 	}
 
-	return <div>{collection.name}</div>;
+	return (
+		<div className="flex min-h-screen flex-col items-center py-5">
+			<CollectionBanner collection={collection} />
+		</div>
+	);
 }
