@@ -5,9 +5,7 @@ import * as fs from "node:fs";
 import { type CollectiblesCategories } from "~/types/CollectiblesCategories";
 import { strictDeepEqual } from "fast-equals";
 import { DiscordUtils } from "~/utils/DiscordUtils";
-
-// Regex to remove special characters (not including spaces) from the collection name
-const SANITIZE_COLLECTION_NAME_REGEX = /[^a-z0-9\s]/gi;
+import { sanitizeCollectionName, toSanitizedCamelCase } from "~/utils/TextUtils";
 
 const DISCORD_DATA_PATH = "../";
 const COLLECTIONS_DIRECTORY = path.join(DISCORD_DATA_PATH, "collections");
@@ -148,7 +146,7 @@ for (const collection of exportedCollections) {
 const collectionsIndexPath = path.join(COLLECTIONS_DIRECTORY, "index.ts");
 const indexFileExists = fs.existsSync(collectionsIndexPath);
 const collectionsToIndex = Array.from(currentCollections.values()).sort(sortCollectionsByDate);
-if (collectionsToIndex.length !== 0 && exportedCollections.length !== 0) {
+if (collectionsToIndex.length !== 0 && exportedCollections.length > 0) {
 	const missingPrefix = indexFileExists ? "Updating the" : "Generating an";
 	console.log(
 		`${missingPrefix} index file with imports for the ${collectionsToIndex.length} collections` +
@@ -173,37 +171,7 @@ export default collections;
 
 	fs.writeFileSync(collectionsIndexPath, collectionIndexContent);
 } else {
-	console.log(`No collections to index, skipping the index file generation`);
-}
-
-/**
- * Sanitize the collection name by converting to lowercase removing special characters, and replacing spaces with '-'
- *
- * Examples:
- * - "Arcade" -> "arcade"
- * - "Lofi Vibes" -> "lofi-vibes"
- * - "Feelin' Retro" -> "feelin-retro"
- * @param collectionName unsanitized collection name
- * @returns sanitized lowercase collection name without special characters
- */
-function sanitizeCollectionName(collectionName: string) {
-	return collectionName.toLowerCase().replaceAll(SANITIZE_COLLECTION_NAME_REGEX, "").replaceAll(" ", "-");
-}
-
-/**
- * Sanitizes the string and converts it to camelCase
- *
- * @param string
- * @returns sanitized and camelCase without special characters
- */
-function toSanitizedCamelCase(string: string) {
-	string = string.toLowerCase();
-	const strings = string.split(/\s/gi);
-	let camelCase = strings.shift() ?? "";
-	if (strings.length > 0) {
-		camelCase += strings.map((s) => `${s.charAt(0).toUpperCase()}${s.substring(1)}`).join("");
-	}
-	return camelCase.replaceAll(SANITIZE_COLLECTION_NAME_REGEX, "");
+	console.log(`No collections to index or update, skipping the index file generation`);
 }
 
 function sortCollectionsByDate(a: CollectiblesCategories, b: CollectiblesCategories) {

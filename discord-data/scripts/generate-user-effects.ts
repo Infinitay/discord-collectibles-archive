@@ -9,13 +9,12 @@ import { type ProfileEffect } from "~/types/ProfileEffects";
 import { strictDeepEqual } from "fast-equals";
 import { DiscordUtils } from "~/utils/DiscordUtils";
 import collections from "~discord-data/collections";
+import { sanitizeCollectionName, toSanitizedCamelCase } from "~/utils/TextUtils";
 
 enum ItemTypes {
 	AvatarDecoration = 0,
 	ProfileEffect = 1
 }
-
-const SANITIZE_COLLECTION_NAME_REGEX = /[^a-z0-9\s]/gi;
 
 const DISCORD_DATA_PATH = "../";
 const EFFECTS_DIRECTORY = path.join(DISCORD_DATA_PATH, "profile-effects");
@@ -38,7 +37,7 @@ for (const collection of collectionValues) {
 	collectionSanitizedNameMap.set(sanitizeCollectionName(collection.name), collection.sku_id);
 	// Map all profile effects within collections to their respective skus
 	const profileEffectSKUs = collection.products
-		.filter((product) => (product.type as number) === (ItemTypes.ProfileEffect as number))
+		.filter((product) => (product.type) === (ItemTypes.ProfileEffect as number))
 		.map((product) => product.sku_id);
 
 	for (const sku of profileEffectSKUs) {
@@ -184,35 +183,6 @@ export default profileEffects;
 	} else {
 		console.log(`No effect collections to index, skipping the index file generation`);
 	}
-}
-/**
- * Sanitize the collection name by converting to lowercase removing special characters, and replacing spaces with '-'
- *
- * Examples:
- * - "Arcade" -> "arcade"
- * - "Lofi Vibes" -> "lofi-vibes"
- * - "Feelin' Retro" -> "feelin-retro"
- * @param collectionName unsanitized collection name
- * @returns sanitized lowercase collection name without special characters
- */
-function sanitizeCollectionName(collectionName: string) {
-	return collectionName.toLowerCase().replaceAll(SANITIZE_COLLECTION_NAME_REGEX, "").replaceAll(" ", "-");
-}
-
-/**
- * Sanitizes the string and converts it to camelCase
- *
- * @param string
- * @returns sanitized and camelCase without special characters
- */
-function toSanitizedCamelCase(string: string) {
-	string = string.toLowerCase();
-	const strings = string.split(/\s/gi);
-	let camelCase = strings.shift() ?? "";
-	if (strings.length > 0) {
-		camelCase += strings.map((s) => `${s.charAt(0).toUpperCase()}${s.substring(1)}`).join("");
-	}
-	return camelCase.replaceAll(SANITIZE_COLLECTION_NAME_REGEX, "");
 }
 
 function sortCollectionsByDate(aSKU: string, bSKU: string) {
