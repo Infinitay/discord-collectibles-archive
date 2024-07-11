@@ -2,8 +2,7 @@ import React from "react";
 import { sanitizeCollectionName } from "~/utils/TextUtils";
 import collections from "~discord-data/Collections";
 import CollectionBanner from "./_components/CollectionBanner";
-import CollectionColors from "./_components/CollectionColors";
-import CollectionInfo from "./_components/CollectionInfo";
+import CollectionInfoContainer from "./_components/info/CollectionInfoContainer";
 
 // Don't build the page for any non-existent collections
 export const dynamicParams = false;
@@ -21,7 +20,7 @@ export default function Page({ params }: { params: { sanitizedName: string } }) 
 	return (
 		<div className="flex min-h-screen flex-col items-center py-5">
 			<CollectionBanner collection={collection} />
-			<CollectionInfo collection={collection} />
+			<CollectionInfoContainer collection={collection} />
 		</div>
 	);
 }

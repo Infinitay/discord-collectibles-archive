@@ -1,8 +1,8 @@
 import React from "react";
 import { CollectiblesCategories } from "~/types/CollectiblesCategories";
-import CollectionColors from "./CollectionColors";
+import CollectionInfoEntry from "./CollectionInfoEntry";
 
-const AdditionalInfoContainer = (props: { collection: CollectiblesCategories }) => {
+export default function CollectionInfoContainer(props: { collection: CollectiblesCategories }) {
 	// Thank you Claude 3.5 for the styling
 	const infoItems = [
 		{ label: "Background Colors", colors: props.collection.styles.background_colors },
@@ -13,19 +13,11 @@ const AdditionalInfoContainer = (props: { collection: CollectiblesCategories }) 
 	return (
 		<div className="mt-5 w-full max-w-[1280px] px-4">
 			<div className="mx-auto max-w-[800px]">
-				{infoItems.map((item, index) => (
-					<div key={index} className="mb-6 flex items-center">
-						<div className="flex w-1/2 justify-end pr-4">
-							<span className="font-bold">{item.label}</span>
-						</div>
-						<div className="flex w-1/2 pl-4">
-							<CollectionColors colors={item.colors} />
-						</div>
-					</div>
+				<CollectionInfoEntry name="Name" value={props.collection.name} />
+				{infoItems.map((item) => (
+					<CollectionInfoEntry key={item.label} name={item.label} colors={item.colors} />
 				))}
 			</div>
 		</div>
 	);
-};
-
-export default AdditionalInfoContainer;
+}
