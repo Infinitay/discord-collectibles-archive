@@ -10,11 +10,7 @@ import { strictDeepEqual } from "fast-equals";
 import { DiscordUtils } from "~/utils/DiscordUtils";
 import collections from "~discord-data/collections";
 import { sanitizeCollectionName, toSanitizedCamelCase } from "~/utils/TextUtils";
-
-enum ItemTypes {
-	AvatarDecoration = 0,
-	ProfileEffect = 1
-}
+import { ItemTypes } from "~types/CollectiblesCategories";
 
 const DISCORD_DATA_PATH = "../";
 const EFFECTS_DIRECTORY = path.join(DISCORD_DATA_PATH, "profile-effects");
