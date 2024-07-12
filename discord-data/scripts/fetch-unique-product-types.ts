@@ -4,6 +4,7 @@ import collections from "~discord-data/collections";
 // Map to store the combination of types and corresponding sku_id
 const productTypesMap = new Map<string, Product>();
 const bundledProductTypesMap = new Map<string, Product>();
+const priceKeys = new Map<string, string>();
 
 Object.values(collections)
 	.filter((c) => c.unpublished_at === null)
@@ -22,11 +23,26 @@ Object.values(collections)
 				const key = `${isBundle}|${productType}|${premiumType}|${itemTypes}`;
 				productTypesMap.set(key, product);
 			}
+			Object.entries(product.prices).forEach(([key, priceValue]) => {
+				const actualPricesList = priceValue.country_prices.prices;
+				if (actualPricesList.length > 1) {
+					console.log("Multiple prices found for key:", key, "in product:", product.sku_id);
+				} else if (actualPricesList.length === 1) {
+					const actualPrices = actualPricesList[0]?.amount;
+					if (!actualPrices) {
+						console.log("No price found for key:", key, "in product:", product.sku_id);
+					} else {
+						const priceKey = `${key}|${premiumType}|${actualPrices}`;
+						priceKeys.set(priceKey, `${collection.name}=>${product.name}`);
+					}
+				}
+			});
 		});
 	});
 
 console.log("productTypesMap:", productTypesMap);
 console.log("bundledProductTypesMap:", bundledProductTypesMap);
+console.log("priceKeys:", priceKeys);
 // console.log(JSON.stringify([...productTypesMap.values(), ...bundledProductTypesMap.values()]));
 
 // Normal products => isBundle|productType|premiumType|itemTypes
