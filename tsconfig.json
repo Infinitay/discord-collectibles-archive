@@ -28,6 +28,7 @@
 		"paths": {
 			"~/*": ["./src/*"],
 			"~discord-data/*": ["./discord-data/*"],
+			"~types/*": ["./src/types/*"],
 		}
 	},
 	"include": [".eslintrc.cjs", "next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.cjs", "**/*.js", ".next/types/**/*.ts"],
