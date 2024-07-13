@@ -37,6 +37,30 @@ An individual item, but for a BundledProduct
 | premium_type | The type that identifies the item's availability based on a group of users | 0 = Everyone |
 |              |                                                                            | 2 = Discord Nitro |
 
+### [CollectiblesCategories -> Product -> prices](/src/types/CollectiblesCategories.d.ts)
+The price object containing the different prices for a given product. The table below contains the know keys and potential **price** descriptor (CollectiblesCategories -> Product -> prices -> [key] -> country_prices -> prices[] -> amount) - whether it's regular or nitro pricing. Additionally, the object format/values seems to be consistent despite different regions aside from the amount. 
+
+| [key] | premium_type | amount (usd) | Price Description | App. Release | Collection | Product
+|-------|-------|-------|-------|-------|-------|-------|
+|   0   |   2   | $0.00 | Free, assumed full price | August 10, 2023 | DISXCORE | Cyberspace
+|   5   |   2   | $3.99 | Free, assumed nitro price |                |          |           
+|   0   |   0   | $3.99 | Full price | August 23, 2023 | Breakfast | Pancakes
+|   4   |   0   | $2.99 | Nitro price |                |           | 
+|   0   |   0   | $9.99 | Full price | August 23, 2023 | Fantasy | Treasure and Key
+|   4   |   0   | $6.99 | Nitro price |                |         | 
+|   5   |   0   | $9.99 | Full price |                 |         | 
+|   7   |   0   | $6.99 | Nitro price |                |         | 
+|   0   |   0   | $5.99 | Full price | May 28, 2024 | Arcade | Twinkle Trails
+|   4   |   0   | $4.99 | Nitro price |                |     | 
+|   5   |   0   | $5.99 | Full price |                 |     | 
+|   7   |   0   | $4.99 | Nitro price |                |     | 
+
+Given the data, I will be making the following assumptions:
+- A key of `0` indicates full pricing - Everyone
+- A key of `4` indicates discounted pricing - Nitro users
+
+The reason I'm not using the keys `5` and `7` is because they aren't in every collection while `0` is in every product and `4` seems to only be missing from the `DISXORE` collection.
+
 # [Raw Data](/discord-data/raw/)
 
 This directory contains raw data that was returned by the Discord API. Essentially, this is the archive. The data is unmodified apart from being prettified after manually being updated.
