@@ -21,7 +21,7 @@ export interface Product {
 	banner: string;
 	unpublished_at: null;
 	styles: Styles;
-	prices: Record<string, PriceValue>;
+	prices: Record<PricesKeys.OriginalPrice, PriceValue> & Partial<Record<PricesKeys, PriceValue>>;
 	items: Item[];
 	type: ProductTypes;
 	premium_type: PremiumTypes;
@@ -82,10 +82,17 @@ export enum ProductTypes {
 
 export enum PremiumTypes {
 	Everyone = 0,
-	Nitro = 1
+	Nitro = 2
 }
 
 export enum ItemTypes {
 	AvatarDecoration = 0,
 	ProfileEffect = 1
+}
+
+export enum PricesKeys {
+	OriginalPrice = "0",
+	NitroPrice = "4",
+	OriginalPrice2 = "5",
+	NitroPrice2 = "7"
 }
