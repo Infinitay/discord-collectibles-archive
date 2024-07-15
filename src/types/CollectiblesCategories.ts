@@ -21,10 +21,10 @@ export interface Product {
 	banner: string;
 	unpublished_at: null;
 	styles: Styles;
-	prices: { [key: string]: PriceValue };
+	prices: Record<PricesKeys.OriginalPrice, PriceValue> & Partial<Record<PricesKeys, PriceValue>>;
 	items: Item[];
 	type: ProductTypes | number;
-	premium_type: PremiumTypes | number;
+	premium_type: PremiumTypes;
 	category_sku_id: string;
 	bundled_products?: BundledProduct[];
 	google_sku_ids: Record<string, string | undefined>;
@@ -35,8 +35,8 @@ export interface BundledProduct {
 	name: string;
 	summary: string;
 	type: ItemTypes | number;
-	premium_type: PremiumTypes | number;
-	prices: { [key: string]: PriceValue };
+	premium_type: PremiumTypes;
+	prices: { [key in PricesKeys]: PriceValue };
 }
 
 export interface PriceValue {
@@ -82,10 +82,17 @@ export enum ProductTypes {
 
 export enum PremiumTypes {
 	Everyone = 0,
-	Nitro = 1
+	Nitro = 2
 }
 
 export enum ItemTypes {
 	AvatarDecoration = 0,
 	ProfileEffect = 1
+}
+
+export enum PricesKeys {
+	OriginalPrice = "0",
+	NitroPrice = "4",
+	OriginalPrice2 = "5",
+	NitroPrice2 = "7"
 }

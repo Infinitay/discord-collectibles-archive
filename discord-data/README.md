@@ -43,7 +43,7 @@ The price object containing the different prices for a given product. The table 
 | [key] | premium_type | amount (usd) | Price Description | App. Release | Collection | Product
 |-------|-------|-------|-------|-------|-------|-------|
 |   0   |   2   | $0.00 | Free, assumed full price | August 10, 2023 | DISXCORE | Cyberspace
-|   5   |   2   | $3.99 | Free, assumed nitro price |                |          |           
+|   5   |   2   | $0.00 | Free, assumed full price |                |          |           
 |   0   |   0   | $3.99 | Full price | August 23, 2023 | Breakfast | Pancakes
 |   4   |   0   | $2.99 | Nitro price |                |           | 
 |   0   |   0   | $9.99 | Full price | August 23, 2023 | Fantasy | Treasure and Key
@@ -59,7 +59,7 @@ Given the data, I will be making the following assumptions:
 - A key of `0` indicates full pricing - Everyone
 - A key of `4` indicates discounted pricing - Nitro users
 
-The reason I'm not using the keys `5` and `7` is because they aren't in every collection while `0` is in every product and `4` seems to only be missing from the `DISXORE` collection.
+The reason I'm not using the keys `5` and `7` is because they aren't in every collection while `0` is in every product and `4` seems to only be missing from the `DISXORE` collection. Furthermore, `5` is inconsistent because of the `DISXCORE` collection: `0` is full price everywhere and so is `5`, and every collection has at least 2 keys one for full price and one for nitro price. Are you confused yet? Because I am. For that reason, I won't be using the `5` key.
 
 # [Raw Data](/discord-data/raw/)
 
