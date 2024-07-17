@@ -1,4 +1,12 @@
-import { PremiumTypes, PricesKeys, Product } from "~/types/CollectiblesCategories";
+import { CollectiblesCategories, ItemTypes, PremiumTypes, PricesKeys, Product } from "~/types/CollectiblesCategories";
+
+const getAvatarDecorations = (collection: CollectiblesCategories): Product[] => {
+	return collection.products.filter((product) => product.type === ItemTypes.AvatarDecoration);
+};
+
+const getProfileEffects = (collection: CollectiblesCategories): Product[] => {
+	return collection.products.filter((product) => product.type === ItemTypes.ProfileEffect);
+};
 
 const isProductNitroOnly = (product: Product): boolean => {
 	return product.premium_type === PremiumTypes.Nitro;
@@ -23,6 +31,9 @@ const getNitroPrice = (product: Product): number => {
 };
 
 export const CollectionUtils = {
+	getAvatarDecorations,
+	getProfileEffects,
+
 	isProductNitroOnly,
 	getOriginalPrice,
 	getNitroPrice
