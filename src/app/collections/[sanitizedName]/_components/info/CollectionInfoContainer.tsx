@@ -12,8 +12,8 @@ export default function CollectionInfoContainer(props: { collection: Collectible
 		{ label: "Confetti Colors", colors: props.collection.styles.confetti_colors }
 	];
 
-	const avatarDecorationsLength = props.collection.products.filter((product) => product.type === ItemTypes.AvatarDecoration).length;
-	const profileEffectsLength = props.collection.products.filter((product) => product.type === ItemTypes.ProfileEffect).length;
+	const avatarDecorationsLength = CollectionUtils.getAvatarDecorations(props.collection).length;
+	const profileEffectsLength = CollectionUtils.getProfileEffects(props.collection).length;
 
 	const currencyFormatter = new Intl.NumberFormat("en-us", { style: "currency", currency: "USD" });
 	const { totalOriginalCost, totalDiscountedCost } = props.collection.products.reduce(
