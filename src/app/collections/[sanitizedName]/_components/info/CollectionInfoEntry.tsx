@@ -17,17 +17,17 @@ type CollectionInfoEntryProps = CollectionInfoEntryValuePrimative | CollectionIn
 
 export default function CollectionInfoEntry(props: CollectionInfoEntryProps) {
 	return (
-		<div className="mb-6 flex items-center">
-			<div className="flex w-1/2 justify-end pr-4">
-				<span className="font-bold">{props.name}</span>
+		<div className="flex items-start">
+			<div className="flex w-[140px] min-w-[140px] pr-4">
+				<span className="overflow-hidden break-words font-bold">{props.name}</span>
 			</div>
 			{props.value && (
-				<div className="flex w-1/2 pl-3">
+				<div className="flex-grow">
 					<span className="">{props.value}</span>
 				</div>
 			)}
 			{props.colors && (
-				<div className="flex w-1/2">
+				<div className="flex-grow">
 					<CollectionColors colors={props.colors} />
 				</div>
 			)}
