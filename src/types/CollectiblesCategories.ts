@@ -21,7 +21,7 @@ export interface Product {
 	banner: string;
 	unpublished_at: null;
 	styles: Styles;
-	prices: Record<PricesKeys.OriginalPrice, PriceValue> & Partial<Record<PricesKeys, PriceValue>>;
+	prices: Partial<Record<PricesKeys, PriceValue>>;
 	items: Item[];
 	type: ProductTypes;
 	premium_type: PremiumTypes;
