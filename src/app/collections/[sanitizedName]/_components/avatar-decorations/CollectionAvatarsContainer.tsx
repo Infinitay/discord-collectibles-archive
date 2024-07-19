@@ -8,8 +8,8 @@ export default function CollectionAvatarsContainer(props: { avatarDecorations: P
 	return (
 		<div className="flex w-[800px] max-w-[1280px] flex-col items-center gap-5">
 			{props.avatarDecorations.map((ad) => (
-				<div key={ad.sku_id} className="hover:shadow-2xl/50 mb-2 flex w-full bg-gray-50 shadow-md hover:bg-gray-100">
-					<div className="max-h-[240px] min-h-[240px] min-w-[240px] max-w-[240px] rounded-md">
+				<div key={ad.sku_id} className="hover:shadow-2xl/50 flex w-full rounded-md bg-gray-50 shadow-md hover:bg-gray-100">
+					<div className="max-h-[240px] min-h-[240px] min-w-[240px] max-w-[240px] rounded-l-md">
 						<img src={CollectionUtils.getAvatarDecorationURL(ad, true)} alt={`${ad.name} Avatar Decoration`} width={240}></img>
 					</div>
 					<div className="ml-5 flex w-[320px] flex-grow flex-col items-start justify-center">
