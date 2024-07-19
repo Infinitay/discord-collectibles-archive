@@ -24,7 +24,7 @@ export default function CollectionInfoContainer(props: { collection: Collectible
 	const totalCostsString = `${currencyFormatter.format(totalOriginalCost)} (${currencyFormatter.format(totalDiscountedCost)} with Nitro)`;
 
 	return (
-		<div className="mt-5 flex w-[1280px] max-w-[1280px] px-32">
+		<div className="flex w-[1280px] max-w-[1280px] px-32">
 			<div className="flex w-[640px] flex-col justify-center gap-y-6">
 				<CollectionInfoEntry name="Name" value={props.collection.name} />
 				<CollectionInfoEntry name="Description" value={props.collection.summary} />

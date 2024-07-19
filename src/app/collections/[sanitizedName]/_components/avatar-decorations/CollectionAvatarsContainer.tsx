@@ -6,7 +6,7 @@ export default function CollectionAvatarsContainer(props: { avatarDecorations: P
 	const currencyFormatter = new Intl.NumberFormat("en-us", { style: "currency", currency: "USD" });
 
 	return (
-		<div className="mt-5 flex w-[800px] max-w-[1280px] flex-col items-center gap-5">
+		<div className="flex w-[800px] max-w-[1280px] flex-col items-center gap-5">
 			{props.avatarDecorations.map((ad) => (
 				<div key={ad.sku_id} className="hover:shadow-2xl/50 mb-2 flex w-full bg-gray-50 shadow-md hover:bg-gray-100">
 					<div className="max-h-[240px] min-h-[240px] min-w-[240px] max-w-[240px] rounded-md">

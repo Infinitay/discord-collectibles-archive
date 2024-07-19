@@ -22,7 +22,7 @@ export default function Page({ params }: { params: { sanitizedName: string } }) 
 	}
 
 	return (
-		<div className="flex min-h-screen flex-col items-center py-5">
+		<div className="flex min-h-screen flex-col items-center py-5 gap-y-5">
 			<CollectionBanner collection={collection} />
 			<CollectionInfoContainer collection={collection} />
 			<CollectionAvatarsContainer avatarDecorations={CollectionUtils.getAvatarDecorations(collection)} />
