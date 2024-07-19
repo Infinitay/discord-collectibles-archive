@@ -1,4 +1,7 @@
 import { CollectiblesCategories, ItemTypes, PremiumTypes, PricesKeys, Product } from "~/types/CollectiblesCategories";
+import { ProfileEffect } from "~/types/ProfileEffects";
+import collections from "~discord-data/Collections";
+import effects from "~discord-data/ProfileEffects";
 
 const DISCORD_AVATAR_DECORATION_ENDPOINT = "https://cdn.discordapp.com/avatar-decoration-presets/";
 
@@ -45,7 +48,7 @@ const isProfileEffect = (product: Product): boolean => {
 	return product.type === ItemTypes.ProfileEffect;
 };
 
-// ===== Profile Effects =====
+// ===== Avatar Decorations =====
 const isAvatarAnimated = (product: Product): boolean => {
 	// All products currently have at least 1 item (bundled products have more)
 	// All avatar decorations have the asset field
@@ -57,6 +60,16 @@ const getAvatarDecorationURL = (product: Product, animated: boolean = false): st
 	return `${avatarDecortationURL}?size=240&passthrough=${animated ? "true" : "false"}`;
 };
 
+// ===== Profile Effects =====
+const getProfileEffect = (product: Product): ProfileEffect | undefined => {
+	const collectionSKU = product.category_sku_id;
+	const collectionName = Object.entries(collections).find(([k, c]) => c.sku_id === collectionSKU)?.[0];
+	if (!collectionName) return undefined;
+	const profileEffects = effects[collectionName];
+	if (!profileEffects) return undefined;
+	return profileEffects.find((effect) => effect.sku_id === product.sku_id);
+};
+
 export const CollectionUtils = {
 	getAvatarDecorations,
 	getProfileEffects,
@@ -66,5 +79,7 @@ export const CollectionUtils = {
 	getNitroPrice,
 
 	isAvatarAnimated,
-	getAvatarDecorationURL
+	getAvatarDecorationURL,
+
+	getProfileEffect
 };
