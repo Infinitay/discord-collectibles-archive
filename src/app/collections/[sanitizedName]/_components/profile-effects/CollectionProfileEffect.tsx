@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Product } from "~/types/CollectiblesCategories";
 import { CollectionUtils } from "~/utils/CollectionUtils";
 
@@ -9,15 +9,29 @@ export default function CollectionProfileEffect(props: { profileEffectProduct: P
 
 	// Track the effect to render by index
 	const [renderIndices, setRenderIndices] = useState<Set<number>>(new Set());
-	const [_forceRender, setForceRender] = useState(props.forceRender ?? false);
+	const [forceRender, setForceRender] = useState(props.forceRender ?? false);
+	// Create references to track the schedulers for rendering the effects. Use an array so we can just reset the entire animation
+	// Need to create two different refs for the different schedulers
+	const timeoutIDsRef = useRef<NodeJS.Timeout[]>([]);
+	const intervalIDsRef = useRef<NodeJS.Timeout[]>([]);
+
+	// Clear all the schedulers to stop them. Make sure to run the respective clear function to stop the scheduler
+	const clearSchedulers = () => {
+		timeoutIDsRef.current.forEach((scheduler) => clearTimeout(scheduler));
+		timeoutIDsRef.current = [];
+		intervalIDsRef.current.forEach((scheduler) => clearInterval(scheduler));
+		intervalIDsRef.current = [];
+	};
 
 	useEffect(() => {
-		// Initial state for the forceRender prop should be undefined, so to avoid the useEffect calls, ignore undefined
 		if (props.forceRender === undefined) return;
 		setForceRender(!props.forceRender);
 	}, [props.forceRender]);
 
 	useEffect(() => {
+		// Remove all the render indices clearing them
+		setRenderIndices(new Set());
+
 		profileEffect.effects.forEach((effect, index) => {
 			const handleEffectRendering = () => {
 				// Always add the index to the renderIndices and then we will determine if we need to remove it
@@ -25,26 +39,35 @@ export default function CollectionProfileEffect(props: { profileEffectProduct: P
 
 				if (effect.loop) {
 					// It loops so we have to use a setInterval to keep it rendering by keep adding it
-					setInterval(() => {
+					const intervalID = setInterval(() => {
 						setRenderIndices((prevIndices) => new Set([...prevIndices, index]));
 					}, effect.loopDelay + effect.duration); // Queue the next start time
+					intervalIDsRef.current.push(intervalID);
 				} else {
 					// Doesn't loop so only show it once (remove it after the duration)
-					setTimeout(() => {
+					const timeoutID = setTimeout(() => {
 						setRenderIndices((prevIndices) => {
 							prevIndices.delete(index);
 							return new Set(prevIndices);
 						});
 					}, effect.duration);
+					timeoutIDsRef.current.push(timeoutID);
 				}
 			};
-			setTimeout(handleEffectRendering, effect.start);
+			const timeoutID = setTimeout(handleEffectRendering, effect.start);
+			timeoutIDsRef.current.push(timeoutID);
 		});
-	}, [profileEffect.effects, _forceRender]);
+
+		return () => {
+			clearSchedulers();
+		};
+	}, [forceRender]);
+
 	return profileEffect.effects.map((effect, index) => {
 		if (!renderIndices.has(index)) return null;
 		const effectLayerName = effect.src.split("/")[effect.src.split("/").length - 1]?.replace(".png", "");
-		const keyName = `${profileEffect.title}-${effectLayerName}`;
+		// Add forceRender to the key name to force re-render the effect otherwise it won't re-render the img
+		const keyName = `${profileEffect.title}-${effectLayerName}-${forceRender}`;
 		return (
 			<img
 				key={keyName}
