@@ -3,13 +3,13 @@ import { useState, useEffect, useRef } from "react";
 import { Product } from "~/types/CollectiblesCategories";
 import { CollectionUtils } from "~/utils/CollectionUtils";
 
-export default function CollectionProfileEffect(props: { profileEffectProduct: Product; forceRender?: boolean }) {
+export default function CollectionProfileEffect(props: { profileEffectProduct: Product; forceRender?: number }) {
 	const profileEffect = CollectionUtils.getProfileEffect(props.profileEffectProduct);
 	if (!profileEffect) return null;
 
 	// Track the effect to render by index
 	const [renderIndices, setRenderIndices] = useState<Set<number>>(new Set());
-	const [forceRender, setForceRender] = useState(props.forceRender ?? false);
+	const [forceRender, setForceRender] = useState(props.forceRender ?? Date.now());
 	// Create references to track the schedulers for rendering the effects. Use an array so we can just reset the entire animation
 	// Need to create two different refs for the different schedulers
 	const timeoutIDsRef = useRef<NodeJS.Timeout[]>([]);
@@ -25,7 +25,7 @@ export default function CollectionProfileEffect(props: { profileEffectProduct: P
 
 	useEffect(() => {
 		if (props.forceRender === undefined) return;
-		setForceRender(!props.forceRender);
+		setForceRender(props.forceRender);
 	}, [props.forceRender]);
 
 	useEffect(() => {
@@ -71,7 +71,7 @@ export default function CollectionProfileEffect(props: { profileEffectProduct: P
 		return (
 			<img
 				key={keyName}
-				src={effect.src}
+				src={`${effect.src}?t=${forceRender}`}
 				width={effect.width}
 				height={effect.height}
 				alt={profileEffect.accessibilityLabel}
