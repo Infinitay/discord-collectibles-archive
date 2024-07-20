@@ -8,15 +8,16 @@ import { useState } from "react";
 export default function CollectionEffectContainer(props: { profileEffects: Product[] }) {
 	// Use an object for the state so we can track the individual profile effects
 	// Key: Profile Effect SKU ID, Value: boolean to force re-render
-	const [rerenderEffects, setRerenderEffects] = useState<{ [key: string]: boolean }>({});
+	const [rerenderEffects, setRerenderEffects] = useState<{ [key: string]: number }>({});
 	const currencyFormatter = new Intl.NumberFormat("en-us", { style: "currency", currency: "USD" });
 
 	// Because we're using an object and tracking individual profile effects, handle the mouse enter event
 	const handleMouseEnter = (skuID: string) => {
 		setRerenderEffects((prevRerenderState) => {
-			return { ...prevRerenderState, [skuID]: !prevRerenderState[skuID] };
+			return { ...prevRerenderState, [skuID]: Date.now() };
 		});
 	};
+
 	return (
 		<div className="flex w-[800px] max-w-[1280px] flex-col items-center gap-5">
 			{props.profileEffects.map((pep) => (
