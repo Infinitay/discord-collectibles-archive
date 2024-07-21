@@ -1,4 +1,5 @@
 import { CollectiblesCategories } from "~/types/CollectiblesCategories";
+import { CollectionUtils } from "~/utils/CollectionUtils";
 
 function generateBannerURL(collection: CollectiblesCategories, png = true) {
 	const quality = png ? "png" : "jpg";
@@ -11,6 +12,13 @@ function generateLogoURL(collection: CollectiblesCategories, png = true) {
 }
 
 export default function CollectionBanner(props: { collection: CollectiblesCategories }) {
+	if (CollectionUtils.isUncategorized(props.collection)) {
+		return (
+			<div className="bg-discord-gray flex h-[240px] w-full max-w-[1280px] flex-col items-center justify-center rounded-xl">
+				<h1 className="text-4xl text-white ">Uncategorized</h1>
+			</div>
+		);
+	}
 	return (
 		<div
 			className="flex h-[240px] w-full max-w-[1280px] flex-col items-center justify-center rounded-xl bg-cover bg-center"
