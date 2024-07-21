@@ -7,6 +7,8 @@ type InferredProfileEffects = typeof profileEffects;
 // Using the inferred type, create a new type that maps the key names to the CollectiblesCategories type
 type ProfileEffectsExports = {
 	[K in keyof InferredProfileEffects]: ProfileEffect[];
+} & {
+	[key: string]: ProfileEffect[];
 };
 
 const typedProfileEffects: ProfileEffectsExports = profileEffects;
