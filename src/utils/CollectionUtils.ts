@@ -14,6 +14,10 @@ const getProfileEffects = (collection: CollectiblesCategories): Product[] => {
 	return collection.products.filter((product) => product.type === ItemTypes.ProfileEffect);
 };
 
+const isUncategorized = (collection: CollectiblesCategories): boolean => {
+	return collection.sku_id === collections.uncategorized.sku_id;
+};
+
 // =============== PRODUCTS ===============
 const isProductNitroOnly = (product: Product): boolean => {
 	return product.premium_type === PremiumTypes.Nitro;
@@ -73,6 +77,7 @@ const getProfileEffect = (product: Product): ProfileEffect | undefined => {
 export const CollectionUtils = {
 	getAvatarDecorations,
 	getProfileEffects,
+	isUncategorized,
 
 	isProductNitroOnly,
 	getOriginalPrice,
