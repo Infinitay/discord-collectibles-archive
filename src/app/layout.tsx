@@ -1,6 +1,7 @@
 import "~/styles/globals.css";
 
 import { Inter } from "next/font/google";
+import NavBar from "./_components/NavBar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -12,7 +13,11 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en" className={`${inter.className}`}>
-			<body>{children}</body>
+			<body>
+				<NavBar />
+				{/* 2.5rem = Biggest text + 1.25rem = main div top padding - 0.5rem = nav bar padding */}
+				<main className="pt-[calc(2.5rem+1.25rem-0.5rem)]">{children}</main>
+			</body>
 		</html>
 	);
 }

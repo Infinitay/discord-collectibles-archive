@@ -14,14 +14,14 @@ function generateLogoURL(collection: CollectiblesCategories, png = true) {
 export default function CollectionBanner(props: { collection: CollectiblesCategories }) {
 	if (CollectionUtils.isUncategorized(props.collection)) {
 		return (
-			<div className="bg-discord-gray flex h-[240px] w-full max-w-[1280px] flex-col items-center justify-center rounded-xl">
+			<div className="flex h-[240px] w-full max-w-[1280px] flex-col items-center justify-center rounded-xl bg-discord-gray">
 				<h1 className="text-4xl text-white ">Uncategorized</h1>
 			</div>
 		);
 	}
 	return (
 		<div
-			className="flex h-[240px] w-full max-w-[1280px] flex-col items-center justify-center rounded-xl bg-cover bg-center"
+			className="flex min-h-[240px] w-full max-w-[1280px] flex-col items-center justify-center rounded-xl bg-cover bg-center"
 			style={{ backgroundImage: `url("${generateBannerURL(props.collection)}")` }}
 		>
 			<img src={generateLogoURL(props.collection)} alt={`${props.collection.name} logo`} width={480}></img>
