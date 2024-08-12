@@ -1,9 +1,12 @@
+import * as fs from "fs";
+if (!fs.existsSync("../raw/old-data/collectibles-categories-happyenderman-original.json")) {
+	throw new Error("../raw/old-data/collectibles-categories-happyenderman-original not found");
+}
+
 // Import happyendermangit's data: https://github.com/happyendermangit/discarchives/blob/main/src/collectibles/collectibles.js
 // Manually modify the file so that it is a JSON file and you are only keeping the currently named collectibles array
 import oldJSON from "../raw/old-data/collectibles-categories-happyenderman-original.json" assert { type: "json" };
 import olderJSON from "../raw/old-data/collectibles-categories-20231101.json" assert { type: "json" };
-
-import * as fs from "fs";
 
 interface Colors {
 	_originalInput: string;
