@@ -1,24 +1,107 @@
 import * as fs from "fs";
-if (!fs.existsSync("../raw/old-data/collectibles-categories-happyenderman-original.json")) {
-	throw new Error("../raw/old-data/collectibles-categories-happyenderman-original not found");
+
+interface HappyEndermanOriginalCollectibles {
+    sku_id:            string;
+    name:              string;
+    summary:           string;
+    store_listing_id?: string;
+    banner:            string;
+    unpublished_at?:   null;
+    styles?:           Styles;
+    logo:              string;
+    mobile_bg?:        string;
+    pdp_bg?:           string;
+    mobile_banner?:    string;
+    products:          Product[];
+    storeListingId?:   string;
+    unpublishedAt?:    string | null;
+    pdpBg?:            string;
+    mobileBg?:         string;
+    mobileBanner?:     string;
 }
+
+interface Product {
+    sku_id:            string;
+    name:              string;
+    summary:           string;
+    store_listing_id?: string;
+    banner:            null | string;
+    unpublished_at?:   null;
+    styles?:           Styles;
+    prices:            { [key: string]: PriceValue };
+    items:             Item[];
+    type?:             number;
+    premium_type?:     number;
+    category_sku_id?:  string;
+    storeListingId?:   string;
+    unpublishedAt?:    null;
+    premiumType?:      number | null;
+    categorysku_id?:   string;
+    currency?:         string;
+    price?:            number;
+}
+
+interface Item {
+    type:   number;
+    id:     string;
+    sku_id: string;
+    asset?: string;
+    label?: string;
+}
+
+interface PriceValue {
+    countryPrices:        CountryPrices;
+    paymentSourcePrices?: PaymentSourcePrices;
+}
+
+interface CountryPrices {
+    country_code?: string | null;
+    prices:        PriceElement[];
+    countryCode?:  string | null;
+}
+
+interface PriceElement {
+    amount:        number;
+    currency:      string;
+    exponent?:     number;
+    tax?:          number;
+    taxInclusive?: boolean;
+}
+
+interface PaymentSourcePrices {
+}
+
+interface Styles {
+    background_colors?: number[];
+    button_colors?:     number[];
+    confetti_colors?:   number[];
+    backgroundColors?:  Color[];
+    buttonColors?:      Color[];
+    confettiColors?:    Color[];
+}
+
+interface Color {
+    _originalInput: string;
+    _r:             number;
+    _g:             number;
+    _b:             number;
+    _a:             number;
+    _roundA:        number;
+    _format:        string;
+    _ok:            boolean;
+    _tc_id:         number;
+}
+
 
 // Import happyendermangit's data: https://github.com/happyendermangit/discarchives/blob/main/src/collectibles/collectibles.js
 // Manually modify the file so that it is a JSON file and you are only keeping the currently named collectibles array
-import oldJSON from "../raw/old-data/collectibles-categories-happyenderman-original.json" assert { type: "json" };
-import olderJSON from "../raw/old-data/collectibles-categories-20231101.json" assert { type: "json" };
-
-interface Colors {
-	_originalInput: string;
-	_r: number;
-	_g: number;
-	_b: number;
-	_a: number;
-	_roundA: number;
-	_format: string;
-	_ok: boolean;
-	_tc_id: number;
+let oldJSON: HappyEndermanOriginalCollectibles[]
+if (!fs.existsSync("../raw/old-data/collectibles-categories-happyenderman-original.json")) {
+	throw new Error("../raw/old-data/collectibles-categories-happyenderman-original not found");
+} else {
+	oldJSON = (await import("../raw/old-data/collectibles-categories-happyenderman-original.json", { assert: { type: "json" } })).default
 }
+import olderJSON from "../raw/old-data/collectibles-categories-20231101.json" assert { type: "json" };
 
 const data = [
 	{ json: oldJSON, exportPath: "../raw/old-data/collectibles-categories-happyenderman-converted.json" },
@@ -154,7 +237,7 @@ for (const entry of data) {
 	console.log(`========== Converted "${entry.exportPath}" ==========`);
 }
 
-function convertRGBToDecimal(colors: Colors) {
+function convertRGBToDecimal(colors: Color) {
 	return (colors._r << 16) + (colors._g << 8) + colors._b;
 }
 
