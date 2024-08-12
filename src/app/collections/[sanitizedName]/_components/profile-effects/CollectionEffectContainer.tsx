@@ -8,7 +8,7 @@ import { useState } from "react";
 export default function CollectionEffectContainer(props: { profileEffects: Product[] }) {
 	// Use an object for the state so we can track the individual profile effects
 	// Key: Profile Effect SKU ID, Value: boolean to force re-render
-	const [rerenderEffects, setRerenderEffects] = useState<{ [key: string]: number }>({});
+	const [rerenderEffects, setRerenderEffects] = useState<Record<string, number>>({});
 	const currencyFormatter = new Intl.NumberFormat("en-us", { style: "currency", currency: "USD" });
 
 	// Because we're using an object and tracking individual profile effects, handle the mouse enter event
