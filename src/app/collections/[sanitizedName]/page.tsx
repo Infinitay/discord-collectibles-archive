@@ -1,6 +1,6 @@
 import React from "react";
 import { sanitizeCollectionName } from "~/utils/TextUtils";
-import collections from "~discord-data/Collections";
+import collections from "~discord-data/collections";
 import CollectionBanner from "./_components/CollectionBanner";
 import CollectionInfoContainer from "./_components/info/CollectionInfoContainer";
 import { CollectionUtils } from "~/utils/CollectionUtils";
@@ -15,7 +15,7 @@ export async function generateStaticParams() {
 }
 
 export default function Page({ params }: { params: { sanitizedName: string } }) {
-	const collection = Object.values(collections).find((collection) => sanitizeCollectionName(collection.name) === params.sanitizedName);
+	const collection = Object.values(collections).find((c) => sanitizeCollectionName(c.name) === params.sanitizedName);
 	if (!collection) {
 		return <div>Collection not found</div>;
 	}

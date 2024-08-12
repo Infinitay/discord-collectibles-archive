@@ -1,17 +1,17 @@
-import { CollectiblesCategories, ItemTypes, PremiumTypes, PricesKeys, Product } from "~/types/CollectiblesCategories";
-import { ProfileEffect } from "~/types/ProfileEffects";
-import collections from "~discord-data/Collections";
-import effects from "~discord-data/ProfileEffects";
+import { type CollectiblesCategories, ItemTypes, PremiumTypes, PricesKeys, type Product } from "~/types/CollectiblesCategories";
+import { type ProfileEffect } from "~/types/ProfileEffects";
+import collections from "~discord-data/collections";
+import effects from "~discord-data/profile-effects";
 
 const DISCORD_AVATAR_DECORATION_ENDPOINT = "https://cdn.discordapp.com/avatar-decoration-presets/";
 
 // =============== COLLECTIONS ===============
 const getAvatarDecorations = (collection: CollectiblesCategories): Product[] => {
-	return collection.products.filter((product) => product.type === ItemTypes.AvatarDecoration);
+	return collection.products.filter((product) => isAvatarDecoration(product));
 };
 
 const getProfileEffects = (collection: CollectiblesCategories): Product[] => {
-	return collection.products.filter((product) => product.type === ItemTypes.ProfileEffect);
+	return collection.products.filter((product) => isProfileEffect(product));
 };
 
 const isUncategorized = (collection: CollectiblesCategories): boolean => {
@@ -45,11 +45,11 @@ const getNitroPrice = (product: Product): number => {
 };
 
 const isAvatarDecoration = (product: Product): boolean => {
-	return product.type === ItemTypes.AvatarDecoration;
+	return (product.type as number) === (ItemTypes.AvatarDecoration as number);
 };
 
 const isProfileEffect = (product: Product): boolean => {
-	return product.type === ItemTypes.ProfileEffect;
+	return (product.type as number) === (ItemTypes.ProfileEffect as number);
 };
 
 // ===== Avatar Decorations =====
@@ -59,7 +59,7 @@ const isAvatarAnimated = (product: Product): boolean => {
 	return product.items[0]!.asset!.startsWith("a_");
 };
 
-const getAvatarDecorationURL = (product: Product, animated: boolean = false): string => {
+const getAvatarDecorationURL = (product: Product, animated = false): string => {
 	const avatarDecortationURL = `${DISCORD_AVATAR_DECORATION_ENDPOINT}${product.items[0]!.asset}.png`;
 	return `${avatarDecortationURL}?size=240&passthrough=${animated ? "true" : "false"}`;
 };
@@ -69,7 +69,7 @@ const getProfileEffect = (product: Product): ProfileEffect | undefined => {
 	const collectionSKU = product.category_sku_id;
 	const collectionName = Object.entries(collections).find(([k, c]) => c.sku_id === collectionSKU)?.[0];
 	if (!collectionName) return undefined;
-	const profileEffects = effects[collectionName];
+	const profileEffects = effects[collectionName as keyof typeof effects];
 	if (!profileEffects) return undefined;
 	return profileEffects.find((effect) => effect.sku_id === product.sku_id);
 };

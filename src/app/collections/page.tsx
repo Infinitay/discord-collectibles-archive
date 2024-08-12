@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { sanitizeCollectionName } from "~/utils/TextUtils";
-import collections from "~discord-data/Collections";
+import collections from "~discord-data/collections";
 
 export default function Page() {
 	return (
