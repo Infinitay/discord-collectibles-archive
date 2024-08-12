@@ -21,7 +21,7 @@ export interface Product {
 	banner: string;
 	unpublished_at: null;
 	styles: Styles;
-	prices: { [key: string]: PriceValue };
+	prices: Record<string, PriceValue>;
 	items: Item[];
 	type: ProductTypes | number;
 	premium_type: PremiumTypes | number;
@@ -36,7 +36,7 @@ export interface BundledProduct {
 	summary: string;
 	type: ItemTypes | number;
 	premium_type: PremiumTypes | number;
-	prices: { [key: string]: PriceValue };
+	prices: Record<string, PriceValue>;
 }
 
 export interface PriceValue {
@@ -48,8 +48,8 @@ export interface CountryPrices {
 	prices: PriceElement[];
 }
 
-// Union to a string because it could be any country code (ISO 3166-1 alpha-2 code), but also type check was complaining
-export type CountryCode = "US" | string;
+// ISO 3166-1 alpha-2 code
+export type CountryCode = "US";
 
 export interface PriceElement {
 	amount: number;
@@ -57,8 +57,8 @@ export interface PriceElement {
 	exponent: number;
 }
 
-// Union to a string because it could be any currency code (ISO 4217 code), but also type check was complaining
-export type Currency = "usd" | string;
+// ISO 4217 code
+export type Currency = "usd";
 
 export interface Item {
 	type: ItemTypes | number;
