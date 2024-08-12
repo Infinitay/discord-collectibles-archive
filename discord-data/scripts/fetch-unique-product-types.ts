@@ -1,9 +1,9 @@
-import { CollectiblesCategories } from "~/types/CollectiblesCategories";
-import collections from "~discord-data/Collections";
+import { type Product, type CollectiblesCategories } from "~/types/CollectiblesCategories";
+import collections from "~discord-data/collections";
 
 // Map to store the combination of types and corresponding sku_id
-const productTypesMap = new Map<string, any>();
-const bundledProductTypesMap = new Map<string, any>();
+const productTypesMap = new Map<string, Product>();
+const bundledProductTypesMap = new Map<string, Product>();
 
 Object.values(collections)
 	.filter((c) => c.unpublished_at === null)
@@ -14,8 +14,8 @@ Object.values(collections)
 			const isBundle = !!product.bundled_products && product.bundled_products.length > 0;
 			const itemTypes = product.items.map((item) => item.type).join(",");
 			if (isBundle) {
-				let bundledProductTypes = product.bundled_products?.map((bp) => bp.type).join(",");
-				let bundledPremiumTypes = product.bundled_products?.map((bp) => bp.premium_type).join(",");
+				const bundledProductTypes = product.bundled_products?.map((bp) => bp.type).join(",");
+				const bundledPremiumTypes = product.bundled_products?.map((bp) => bp.premium_type).join(",");
 				const key = `${isBundle}|${productType}|${premiumType}|${itemTypes}|||${bundledProductTypes}|${bundledPremiumTypes}`;
 				bundledProductTypesMap.set(key, product);
 			} else {
