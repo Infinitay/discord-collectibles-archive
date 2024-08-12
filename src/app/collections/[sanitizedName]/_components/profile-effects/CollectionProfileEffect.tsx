@@ -5,7 +5,6 @@ import { CollectionUtils } from "~/utils/CollectionUtils";
 
 export default function CollectionProfileEffect(props: { profileEffectProduct: Product; forceRender?: number }) {
 	const profileEffect = CollectionUtils.getProfileEffect(props.profileEffectProduct);
-	if (!profileEffect) return null;
 
 	// Track the effect to render by index
 	const [renderIndices, setRenderIndices] = useState<Set<number>>(new Set());
@@ -25,10 +24,12 @@ export default function CollectionProfileEffect(props: { profileEffectProduct: P
 
 	useEffect(() => {
 		if (props.forceRender === undefined) return;
+		if (!profileEffect) return;
 		setForceRender(props.forceRender);
-	}, [props.forceRender]);
+	}, [props.forceRender, profileEffect]);
 
 	useEffect(() => {
+		if (!profileEffect) return;
 		// Remove all the render indices clearing them
 		setRenderIndices(new Set());
 
@@ -61,7 +62,9 @@ export default function CollectionProfileEffect(props: { profileEffectProduct: P
 		return () => {
 			clearSchedulers();
 		};
-	}, [forceRender]);
+	}, [forceRender, profileEffect]);
+
+	if (!profileEffect) return null;
 
 	return profileEffect.effects.map((effect, index) => {
 		if (!renderIndices.has(index)) return null;
