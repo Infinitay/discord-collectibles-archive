@@ -1,5 +1,5 @@
 import React from "react";
-import { CollectiblesCategories, ItemTypes } from "~types/CollectiblesCategories";
+import { type CollectiblesCategories } from "~types/CollectiblesCategories";
 import CollectionInfoEntry from "./CollectionInfoEntry";
 import { DiscordUtils } from "~/utils/DiscordUtils";
 import { CollectionUtils } from "~/utils/CollectionUtils";
