@@ -99,7 +99,7 @@ let oldJSON: HappyEndermanOriginalCollectibles[]
 if (!fs.existsSync("../raw/old-data/collectibles-categories-happyenderman-original.json")) {
 	throw new Error("../raw/old-data/collectibles-categories-happyenderman-original not found");
 } else {
-	oldJSON = (await import("../raw/old-data/collectibles-categories-happyenderman-original.json", { assert: { type: "json" } })).default
+	oldJSON = JSON.parse(fs.readFileSync("../raw/old-data/collectibles-categories-happyenderman-original.json", "utf-8"));
 }
 import olderJSON from "../raw/old-data/collectibles-categories-20231101.json" assert { type: "json" };
 
