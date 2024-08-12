@@ -2,7 +2,7 @@ import newRawCollectibles from "~discord-data/raw/collectibles-categories.json" 
 import oldRawCollectibles from "~discord-data/raw/old-data/collectibles-categories-happyenderman-converted.json" assert { type: "json" };
 import * as path from "node:path";
 import * as fs from "node:fs";
-import { CollectiblesCategories } from "~/types/CollectiblesCategories";
+import { type CollectiblesCategories } from "~/types/CollectiblesCategories";
 import { strictDeepEqual } from "fast-equals";
 import { DiscordUtils } from "~/utils/DiscordUtils";
 
@@ -26,14 +26,14 @@ if (!fs.existsSync(COLLECTIONS_DIRECTORY)) {
 	fs.mkdirSync(COLLECTIONS_DIRECTORY);
 	console.log("Didn't find an existing collection. Using old raw data to generate collections");
 	oldRawCollectibles.forEach((oldCollection) => {
-		previousCollections.set(oldCollection.sku_id, oldCollection);
-		currentCollections.set(oldCollection.sku_id, oldCollection);
+		previousCollections.set(oldCollection.sku_id, oldCollection as CollectiblesCategories);
+		currentCollections.set(oldCollection.sku_id, oldCollection as CollectiblesCategories);
 		modifiedCollections.add(oldCollection.sku_id);
 	});
 
 	// Some unpublish dates may be missing so pull them from even older raw data
 	if (!!OLDER_RAW_COLLEECTIBLES_PATH && fs.existsSync(OLDER_RAW_COLLEECTIBLES_PATH)) {
-		const olderRawCollectibles: CollectiblesCategories[] = JSON.parse(fs.readFileSync(OLDER_RAW_COLLEECTIBLES_PATH, "utf-8"));
+		const olderRawCollectibles: CollectiblesCategories[] = JSON.parse(fs.readFileSync(OLDER_RAW_COLLEECTIBLES_PATH, "utf-8")) as CollectiblesCategories[];
 		// Update any missing or outdated unpublished_at values
 		olderRawCollectibles.forEach((olderCollection) => {
 			if (previousCollections.has(olderCollection.sku_id)) {
@@ -41,7 +41,9 @@ if (!fs.existsSync(COLLECTIONS_DIRECTORY)) {
 				const currentUnpublishedAt = new Date(previousCollections.get(olderCollection.sku_id)!.unpublished_at ?? 0);
 				const olderUnpublishedAt = new Date(olderCollection.unpublished_at ?? 0);
 				if (currentUnpublishedAt < olderUnpublishedAt) {
-					console.log(`Updating unpublished_at for collection '${olderCollection.name}' from ${currentUnpublishedAt} to ${olderUnpublishedAt}`);
+					console.log(
+						`Updating unpublished_at for collection '${olderCollection.name}' from ${currentUnpublishedAt.toISOString()} to ${olderUnpublishedAt.toISOString()}`
+					);
 					previousCollections.get(olderCollection.sku_id)!.unpublished_at = olderCollection.unpublished_at;
 				}
 				previousCollections.set(olderCollection.sku_id, olderCollection);
@@ -56,7 +58,7 @@ if (!fs.existsSync(COLLECTIONS_DIRECTORY)) {
 	for (const fileName of fs.readdirSync(COLLECTIONS_DIRECTORY)) {
 		if (fileName.endsWith(".json")) {
 			const filePath = path.join(COLLECTIONS_DIRECTORY, fileName);
-			const previousCollection: CollectiblesCategories = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+			const previousCollection: CollectiblesCategories = JSON.parse(fs.readFileSync(filePath, "utf-8")) as CollectiblesCategories;
 			previousCollections.set(previousCollection.sku_id, previousCollection);
 			currentCollections.set(previousCollection.sku_id, previousCollection);
 		}
@@ -110,22 +112,22 @@ for (const collection of newRawCollectibles) {
 		const uncategorizedCollection = previousCollections.get(UNCATEGORIZED_SKU_ID);
 		if (uncategorizedCollection !== undefined) {
 			// Check to see if any of the current product skus are found within uncategorized
-			const uncategorizedProductSKUs: Set<string> = new Set(uncategorizedCollection.products.map((product) => product.sku_id));
-			const matchedProductSKUs = new Set(collection.products.map((p) => p.sku_id).filter((sku) => uncategorizedProductSKUs.has(sku)));
+			const uncategorizedProductSKUs = new Set<string>(uncategorizedCollection.products.map((product) => product.sku_id));
+			const matchedProductSKUs = new Set<string>(collection.products.map((p) => p.sku_id).filter((sku) => uncategorizedProductSKUs.has(sku)));
 
 			// Check to see if an uncategorized produce was placed into a new category
 			if (matchedProductSKUs.size) {
 				// Remove any products that now has a new category from uncategorized
 				uncategorizedCollection.products = uncategorizedCollection.products.filter((ucp) => !matchedProductSKUs.has(ucp.sku_id));
 				console.log(
-					`Removed ${matchedProductSKUs.size} uncategorized products because they now a category ${matchedProductSKUs} -> '${collection.name}' collection`
+					`Removed ${matchedProductSKUs.size} uncategorized products (${[...matchedProductSKUs].join(", ")}) because they now a category -> '${collection.name}' collection`
 				);
 				currentCollections.set(uncategorizedCollection.sku_id, uncategorizedCollection);
 				modifiedCollections.add(uncategorizedCollection.sku_id);
 			}
 		}
 	}
-	currentCollections.set(collection.sku_id, collection);
+	currentCollections.set(collection.sku_id, collection as CollectiblesCategories);
 }
 
 // Add any missing collections because so far we only added new or existing collections
@@ -146,7 +148,7 @@ for (const collection of exportedCollections) {
 const collectionsIndexPath = path.join(COLLECTIONS_DIRECTORY, "index.ts");
 const indexFileExists = fs.existsSync(collectionsIndexPath);
 const collectionsToIndex = Array.from(currentCollections.values()).sort(sortCollectionsByDate);
-if (collectionsToIndex.length !== 0 && exportedCollections) {
+if (collectionsToIndex.length !== 0 && exportedCollections.length !== 0) {
 	const missingPrefix = indexFileExists ? "Updating the" : "Generating an";
 	console.log(
 		`${missingPrefix} index file with imports for the ${collectionsToIndex.length} collections` +
@@ -154,14 +156,19 @@ if (collectionsToIndex.length !== 0 && exportedCollections) {
 	);
 
 	const imports = collectionsToIndex
-		.map((c) => `import ${toSanitizedCamelCase(c.name)} from "~discord-data/collections/${sanitizeCollectionName(c.name)}.json" assert { type: "json" };`)
+		.map((c) => `import ${toSanitizedCamelCase(c.name)}Data from "~discord-data/collections/${sanitizeCollectionName(c.name)}.json" assert { type: "json" };`)
 		.join("\n");
 
 	const collectionIndexContent = `${imports}
+import { type CollectiblesCategories } from "~/types/CollectiblesCategories";
 
-export default {
+${collectionsToIndex.map((c) => `${toSanitizedCamelCase(c.name)}`).map((varName) => `const ${varName} = ${varName}Data as CollectiblesCategories;`).join("\n")}
+
+const collections = {
 	${collectionsToIndex.map((c) => `${toSanitizedCamelCase(c.name)}`).join(",\n\t")}
 };
+
+export default collections;
 `;
 
 	fs.writeFileSync(collectionsIndexPath, collectionIndexContent);

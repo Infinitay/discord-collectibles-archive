@@ -23,8 +23,8 @@ export interface Product {
 	styles: Styles;
 	prices: Record<string, PriceValue>;
 	items: Item[];
-	type: ProductTypes | number;
-	premium_type: PremiumTypes | number;
+	type: ProductTypes;
+	premium_type: PremiumTypes;
 	category_sku_id: string;
 	bundled_products?: BundledProduct[];
 	google_sku_ids: Record<string, string | undefined>;
@@ -34,8 +34,8 @@ export interface BundledProduct {
 	sku_id: string;
 	name: string;
 	summary: string;
-	type: ItemTypes | number;
-	premium_type: PremiumTypes | number;
+	type: ItemTypes;
+	premium_type: PremiumTypes;
 	prices: Record<string, PriceValue>;
 }
 
@@ -61,7 +61,7 @@ export interface PriceElement {
 export type Currency = "usd";
 
 export interface Item {
-	type: ItemTypes | number;
+	type: ItemTypes;
 	id: string;
 	sku_id: string;
 	asset?: string;

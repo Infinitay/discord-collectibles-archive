@@ -5,10 +5,10 @@ import userProfileEffects from "~discord-data/raw/user-profile-effects.json" ass
 // import userProfileEffects from "~discord-data/raw/user-profile-effects-add-uncat.json" assert { type: "json" };
 import * as path from "node:path";
 import * as fs from "node:fs";
-import { ProfileEffect } from "~/types/ProfileEffects";
+import { type ProfileEffect } from "~/types/ProfileEffects";
 import { strictDeepEqual } from "fast-equals";
 import { DiscordUtils } from "~/utils/DiscordUtils";
-import collections from "~discord-data/Collections";
+import collections from "~discord-data/collections";
 
 enum ItemTypes {
 	AvatarDecoration = 0,
@@ -37,7 +37,9 @@ for (const collection of collectionValues) {
 	collectionNameMap.set(collection.sku_id, collection.name);
 	collectionSanitizedNameMap.set(sanitizeCollectionName(collection.name), collection.sku_id);
 	// Map all profile effects within collections to their respective skus
-	const profileEffectSKUs = collection.products.filter((product) => product.type === ItemTypes.ProfileEffect).map((product) => product.sku_id);
+	const profileEffectSKUs = collection.products
+		.filter((product) => (product.type as number) === (ItemTypes.ProfileEffect as number))
+		.map((product) => product.sku_id);
 
 	for (const sku of profileEffectSKUs) {
 		effectsFromCollectionsMap.set(sku, collection.sku_id);
@@ -58,7 +60,7 @@ if (!fs.existsSync(EFFECTS_DIRECTORY)) {
 	for (const fileName of fs.readdirSync(EFFECTS_DIRECTORY)) {
 		if (fileName.endsWith(".json")) {
 			const filePath = path.join(EFFECTS_DIRECTORY, fileName);
-			const previousEffects: ProfileEffect[] = JSON.parse(fs.readFileSync(filePath, "utf-8")) || [];
+			const previousEffects: ProfileEffect[] = (JSON.parse(fs.readFileSync(filePath, "utf-8")) as ProfileEffect[]) || [];
 			const previousCategory = collectionSanitizedNameMap.get(fileName.substring(0, fileName.length - 5))!;
 			for (const effect of previousEffects) {
 				previousProfileEffectToCollectionMap.set(effect.sku_id, previousCategory);
@@ -71,7 +73,7 @@ if (!fs.existsSync(EFFECTS_DIRECTORY)) {
 const changedCollections = new Set<string>();
 const previouslyUncategorizedEffects = new Set<string>();
 
-for (const currentEffect of userProfileEffects["profile_effect_configs"]) {
+for (const currentEffect of userProfileEffects.profile_effect_configs) {
 	const currentEffectName = currentEffect.title;
 	const currentEffectSKU = currentEffect.sku_id;
 	const currentEffectCollectionSKU = effectsFromCollectionsMap.get(currentEffectSKU) ?? UNCATEGORIZED_SKU_ID;
@@ -163,14 +165,19 @@ if (!indexFileExists || changedCollections.size > 0) {
 		);
 
 		const imports = effectCollectionsToIndex
-			.map((c) => `import ${toSanitizedCamelCase(c)} from "~discord-data/profile-effects/${sanitizeCollectionName(c)}.json" assert { type: "json" };`)
+			.map((c) => `import ${toSanitizedCamelCase(c)}Data from "~discord-data/profile-effects/${sanitizeCollectionName(c)}.json" assert { type: "json" };`)
 			.join("\n");
 
 		const effectCollectionIndexContent = `${imports}
+import { type ProfileEffect } from "~/types/ProfileEffects";
 
-export default {
+${effectCollectionsToIndex.map((c) => `${toSanitizedCamelCase(c)}`).map((varName) => `const ${varName} = ${varName}Data as ProfileEffect[];`).join("\n")}
+
+const profileEffects = {
 	${effectCollectionsToIndex.map((c) => `${toSanitizedCamelCase(c)}`).join(",\n\t")}
 };
+
+export default profileEffects;
 `;
 
 		fs.writeFileSync(effectsIndexPath, effectCollectionIndexContent);
