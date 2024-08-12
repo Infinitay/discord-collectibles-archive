@@ -1,8 +1,8 @@
 // Before running this script, make sure your collections are up to date
 // Make sure you download and save the response from https://discord.com/api/v9/user-profile-effects to the following file:
-// import userProfileEffects from "~discord-data/raw/user-profile-effects.json" assert { type: "json" };
+import userProfileEffects from "~discord-data/raw/user-profile-effects.json" assert { type: "json" };
 // import userProfileEffects from "~discord-data/raw/user-profile-effects-add.json" assert { type: "json" };
-import userProfileEffects from "~discord-data/raw/user-profile-effects-add-uncat.json" assert { type: "json" };
+// import userProfileEffects from "~discord-data/raw/user-profile-effects-add-uncat.json" assert { type: "json" };
 import * as path from "node:path";
 import * as fs from "node:fs";
 import { ProfileEffect } from "~/types/ProfileEffects";
