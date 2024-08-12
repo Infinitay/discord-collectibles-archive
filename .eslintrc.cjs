@@ -42,7 +42,10 @@ const config = {
 			{
 				drizzleObjectName: ["db", "ctx.db"]
 			}
-		]
+		],
+		"comma-dangle": "off",
+		"no-shadow": "off",
+		"@typescript-eslint/no-shadow": "error"
 	}
 };
 module.exports = config;
