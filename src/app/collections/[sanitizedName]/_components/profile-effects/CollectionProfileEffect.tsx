@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
-import { Product } from "~/types/CollectiblesCategories";
+import { type Product } from "~/types/CollectiblesCategories";
 import { CollectionUtils } from "~/utils/CollectionUtils";
 
 export default function CollectionProfileEffect(props: { profileEffectProduct: Product; forceRender?: number }) {

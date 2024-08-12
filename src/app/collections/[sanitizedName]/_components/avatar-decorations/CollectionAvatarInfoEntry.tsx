@@ -1,5 +1,3 @@
-import CollectionColors from "../info/CollectionColors";
-
 interface CollectionInfoEntryProps {
 	name: string;
 	value: string | number | boolean;

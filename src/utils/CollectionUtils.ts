@@ -67,7 +67,7 @@ const getAvatarDecorationURL = (product: Product, animated = false): string => {
 // ===== Profile Effects =====
 const getProfileEffect = (product: Product): ProfileEffect | undefined => {
 	const collectionSKU = product.category_sku_id;
-	const collectionName = Object.entries(collections).find(([k, c]) => c.sku_id === collectionSKU)?.[0];
+	const collectionName = Object.entries(collections).find(([_k, c]) => c.sku_id === collectionSKU)?.[0];
 	if (!collectionName) return undefined;
 	const profileEffects = effects[collectionName as keyof typeof effects];
 	if (!profileEffects) return undefined;

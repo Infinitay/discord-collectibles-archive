@@ -1,5 +1,5 @@
 "use client";
-import { Product } from "~/types/CollectiblesCategories";
+import { type Product } from "~/types/CollectiblesCategories";
 import { CollectionUtils } from "~/utils/CollectionUtils";
 import CollectionEffectInfoEntry from "./CollectionEffectInfoEntry";
 import CollectionProfileEffect from "./CollectionProfileEffect";

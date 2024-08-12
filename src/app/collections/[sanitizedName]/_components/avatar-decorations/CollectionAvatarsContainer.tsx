@@ -1,4 +1,4 @@
-import { Product } from "~/types/CollectiblesCategories";
+import { type Product } from "~/types/CollectiblesCategories";
 import CollectionAvatarInfoEntry from "./CollectionAvatarInfoEntry";
 import { CollectionUtils } from "~/utils/CollectionUtils";
 

@@ -1,4 +1,4 @@
-import { CollectiblesCategories } from "~/types/CollectiblesCategories";
+import { type CollectiblesCategories } from "~/types/CollectiblesCategories";
 import { CollectionUtils } from "~/utils/CollectionUtils";
 
 function generateBannerURL(collection: CollectiblesCategories, png = true) {
