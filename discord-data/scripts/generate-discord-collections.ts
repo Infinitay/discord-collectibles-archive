@@ -11,7 +11,7 @@ const DISCORD_DATA_PATH = "../";
 const COLLECTIONS_DIRECTORY = path.join(DISCORD_DATA_PATH, "collections");
 const UNCATEGORIZED_SKU_ID = "1217175518781243583";
 // Optional, set path to either undefined or the path to the older raw collectibles data
-const OLDER_RAW_COLLEECTIBLES_PATH: string | undefined = path.join(DISCORD_DATA_PATH, "raw/old-data/collectibles-categories-20231101-converted.json");
+const OLDER_RAW_COLLECTIBLES_PATH: string | undefined = path.join(DISCORD_DATA_PATH, "raw/old-data/collectibles-categories-20231101-converted.json");
 
 // <sku_id, collection> Mappings
 const previousCollections = new Map<string, CollectiblesCategories>();
@@ -30,8 +30,8 @@ if (!fs.existsSync(COLLECTIONS_DIRECTORY)) {
 	});
 
 	// Some unpublish dates may be missing so pull them from even older raw data
-	if (!!OLDER_RAW_COLLEECTIBLES_PATH && fs.existsSync(OLDER_RAW_COLLEECTIBLES_PATH)) {
-		const olderRawCollectibles: CollectiblesCategories[] = JSON.parse(fs.readFileSync(OLDER_RAW_COLLEECTIBLES_PATH, "utf-8")) as CollectiblesCategories[];
+	if (!!OLDER_RAW_COLLECTIBLES_PATH && fs.existsSync(OLDER_RAW_COLLECTIBLES_PATH)) {
+		const olderRawCollectibles: CollectiblesCategories[] = JSON.parse(fs.readFileSync(OLDER_RAW_COLLECTIBLES_PATH, "utf-8")) as CollectiblesCategories[];
 		// Update any missing or outdated unpublished_at values
 		olderRawCollectibles.forEach((olderCollection) => {
 			if (previousCollections.has(olderCollection.sku_id)) {
