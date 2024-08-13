@@ -6,6 +6,21 @@ import effects from "~discord-data/profile-effects";
 const DISCORD_AVATAR_DECORATION_ENDPOINT = "https://cdn.discordapp.com/avatar-decoration-presets/";
 
 // =============== COLLECTIONS ===============
+const getNumberOfCollections = (): number => {
+	return Object.keys(collections).length;
+};
+
+const getRecentlyAddedCollection = (): CollectiblesCategories | undefined => {
+	// Because of our Collection's index file and our export order, the last collection is the most recently added one
+	const collectionKeys = Object.keys(collections) as (keyof typeof collections)[];
+	const recentCollectionKey = collectionKeys[collectionKeys.length - 1];
+	return recentCollectionKey ? collections[recentCollectionKey] : undefined;
+};
+
+const getRecentlyChangedCollection = (): CollectiblesCategories | undefined => {
+	return undefined;
+};
+
 const getAvatarDecorations = (collection: CollectiblesCategories): Product[] => {
 	return collection.products.filter((product) => isAvatarDecoration(product));
 };
@@ -75,6 +90,9 @@ const getProfileEffect = (product: Product): ProfileEffect | undefined => {
 };
 
 export const CollectionUtils = {
+	getNumberOfCollections,
+	getRecentlyAddedCollection,
+
 	getAvatarDecorations,
 	getProfileEffects,
 	isUncategorized,
