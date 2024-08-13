@@ -11,6 +11,7 @@ import { DiscordUtils } from "~/utils/DiscordUtils";
 import collections from "~discord-data/collections";
 import { sanitizeCollectionName, toSanitizedCamelCase } from "~/utils/TextUtils";
 import { ItemTypes } from "~types/CollectiblesCategories";
+import { CollectionUtils } from "~/utils/CollectionUtils";
 
 const DISCORD_DATA_PATH = "../";
 const EFFECTS_DIRECTORY = path.join(DISCORD_DATA_PATH, "profile-effects");
@@ -33,7 +34,7 @@ for (const collection of collectionValues) {
 	collectionSanitizedNameMap.set(sanitizeCollectionName(collection.name), collection.sku_id);
 	// Map all profile effects within collections to their respective skus
 	const profileEffectSKUs = collection.products
-		.filter((product) => (product.type) === (ItemTypes.ProfileEffect as number))
+		.filter((product) => CollectionUtils.isProfileEffect(product))
 		.map((product) => product.sku_id);
 
 	for (const sku of profileEffectSKUs) {

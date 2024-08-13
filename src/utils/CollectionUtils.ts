@@ -146,6 +146,8 @@ export const CollectionUtils = {
 	getOriginalPrice,
 	getNitroPrice,
 	getPrice,
+	isAvatarDecoration,
+	isProfileEffect,
 
 	isAvatarAnimated,
 	getAvatarDecorationURL,
