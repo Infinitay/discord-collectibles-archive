@@ -26,11 +26,7 @@ export default function CollectionInfoEntry(props: CollectionInfoEntryProps) {
 					<span className="">{props.value}</span>
 				</div>
 			)}
-			{props.colors && (
-				<div className="flex-grow">
-					<CollectionColors colors={props.colors} />
-				</div>
-			)}
+			{props.colors && <div className="flex-grow">{props.colors.length > 0 ? <CollectionColors colors={props.colors} /> : <>No color found</>}</div>}
 		</div>
 	);
 }
