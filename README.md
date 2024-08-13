@@ -18,8 +18,9 @@ Also, I want to thank @happyenderman's data-mining efforts for helping me retrie
 
 <details>
 	<summary>Data Source Table</summary>
-	
-    ![Data Source Table](https://i.imgur.com/0WKo7zN.png)
+
+![Data Source Table](https://i.imgur.com/0WKo7zN.png)
+
 </details>
 
 ## Tech Stack
