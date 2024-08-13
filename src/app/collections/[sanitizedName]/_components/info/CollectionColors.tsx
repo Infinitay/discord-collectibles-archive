@@ -4,8 +4,8 @@ export default function CollectionColors(props: { className?: string; colors: nu
 			<div id="colors-container" className={`flex flex-wrap gap-5 ${props.className ? `${props.className}` : ""}`}>
 				{props.colors
 					.map((color) => color.toString(16).padStart(6, "0").toUpperCase())
-					.map((colorHex) => (
-						<div id={`color-${colorHex}`} key={colorHex} className="flex w-fit flex-col items-center">
+					.map((colorHex, index) => (
+						<div id={`color-${colorHex}`} key={`${index}_${colorHex}`} className="flex w-fit flex-col items-center">
 							<div
 								className="mb-1 h-12 w-[60px] rounded-md"
 								style={{
