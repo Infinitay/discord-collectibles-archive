@@ -18,6 +18,7 @@ import feelinRetroData from "~discord-data/collections/feelin-retro.json" assert
 import piratesData from "~discord-data/collections/pirates.json" assert { type: "json" };
 import arcadeData from "~discord-data/collections/arcade.json" assert { type: "json" };
 import palworldData from "~discord-data/collections/palworld.json" assert { type: "json" };
+import darkFantasyData from "~discord-data/collections/dark-fantasy.json" assert { type: "json" };
 import { type CollectiblesCategories } from "~/types/CollectiblesCategories";
 
 const fantasy = fantasyData as CollectiblesCategories;
@@ -40,6 +41,7 @@ const feelinRetro = feelinRetroData as CollectiblesCategories;
 const pirates = piratesData as CollectiblesCategories;
 const arcade = arcadeData as CollectiblesCategories;
 const palworld = palworldData as CollectiblesCategories;
+const darkFantasy = darkFantasyData as CollectiblesCategories;
 
 const collections = {
 	fantasy,
@@ -61,7 +63,8 @@ const collections = {
 	feelinRetro,
 	pirates,
 	arcade,
-	palworld
+	palworld,
+	darkFantasy
 };
 
 export default collections;

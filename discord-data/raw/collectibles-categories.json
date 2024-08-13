@@ -1,11 +1,1065 @@
 [
 	{
+		"sku_id": "1256321669388308595",
+		"name": "Dark Fantasy",
+		"summary": "Approach, wanderer... dangerously charming relics await.",
+		"store_listing_id": "1256321669388308594",
+		"banner": "1256321669388308597",
+		"unpublished_at": null,
+		"styles": {
+			"background_colors": [
+				531257,
+				2233427
+			],
+			"button_colors": [
+				5793266,
+				5793266
+			],
+			"confetti_colors": [
+				43772,
+				15774258,
+				16414587,
+				3000177,
+				9739511
+			]
+		},
+		"logo": "1256321669388308596",
+		"mobile_bg": "1256321669388308598",
+		"pdp_bg": "1256321669388308599",
+		"success_modal_bg": "1260647017265233950",
+		"mobile_banner": "1256376187991756820",
+		"products": [
+			{
+				"sku_id": "1256321669388308601",
+				"name": "Arcanist Bundle",
+				"summary": "A bundle of collectibles.",
+				"store_listing_id": "1256321669388308600",
+				"banner": "1256321669388308597",
+				"unpublished_at": null,
+				"styles": {
+					"background_colors": [
+						531257,
+						2233427
+					],
+					"button_colors": [
+						5793266,
+						5793266
+					],
+					"confetti_colors": [
+						43772,
+						15774258,
+						16414587,
+						3000177,
+						9739511
+					]
+				},
+				"prices": {
+					"0": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 1099,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 899,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"5": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 1099,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"7": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 899,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					}
+				},
+				"items": [
+					{
+						"type": 0,
+						"id": "1256321669467865095",
+						"sku_id": "1256321669467865094",
+						"asset": "a_ef8d97374ffdbf140df1164be6c69e46",
+						"label": "A circular sigil inscribed with mysterious symbols enframed around the avatar glows with a magical energy."
+					},
+					{
+						"type": 1,
+						"id": "1256321669493166212",
+						"sku_id": "1256321669467865097"
+					}
+				],
+				"type": 1000,
+				"premium_type": 0,
+				"category_sku_id": "1256321669388308595",
+				"bundled_products": [
+					{
+						"sku_id": "1256321669467865094",
+						"name": "Arcane Sigil",
+						"summary": "Those who stare will fall under your spell.",
+						"type": 0,
+						"premium_type": 0,
+						"prices": {
+							"0": {
+								"country_prices": {
+									"country_code": "US",
+									"prices": [
+										{
+											"amount": 599,
+											"currency": "usd",
+											"exponent": 2
+										}
+									]
+								}
+							},
+							"4": {
+								"country_prices": {
+									"country_code": "US",
+									"prices": [
+										{
+											"amount": 499,
+											"currency": "usd",
+											"exponent": 2
+										}
+									]
+								}
+							},
+							"5": {
+								"country_prices": {
+									"country_code": "US",
+									"prices": [
+										{
+											"amount": 599,
+											"currency": "usd",
+											"exponent": 2
+										}
+									]
+								}
+							},
+							"7": {
+								"country_prices": {
+									"country_code": "US",
+									"prices": [
+										{
+											"amount": 499,
+											"currency": "usd",
+											"exponent": 2
+										}
+									]
+								}
+							}
+						}
+					},
+					{
+						"sku_id": "1256321669467865097",
+						"name": "Arcane Summons",
+						"summary": "Invoke your mystical might.",
+						"type": 1,
+						"premium_type": 0,
+						"prices": {
+							"0": {
+								"country_prices": {
+									"country_code": "US",
+									"prices": [
+										{
+											"amount": 599,
+											"currency": "usd",
+											"exponent": 2
+										}
+									]
+								}
+							},
+							"4": {
+								"country_prices": {
+									"country_code": "US",
+									"prices": [
+										{
+											"amount": 499,
+											"currency": "usd",
+											"exponent": 2
+										}
+									]
+								}
+							},
+							"5": {
+								"country_prices": {
+									"country_code": "US",
+									"prices": [
+										{
+											"amount": 599,
+											"currency": "usd",
+											"exponent": 2
+										}
+									]
+								}
+							},
+							"7": {
+								"country_prices": {
+									"country_code": "US",
+									"prices": [
+										{
+											"amount": 499,
+											"currency": "usd",
+											"exponent": 2
+										}
+									]
+								}
+							}
+						}
+					}
+				],
+				"google_sku_ids": {}
+			},
+			{
+				"sku_id": "1256321669426053192",
+				"name": "Midnight Sorceress",
+				"summary": "Wear the beauty of midnight.",
+				"store_listing_id": "1256321669426053191",
+				"banner": "1256321669388308597",
+				"unpublished_at": null,
+				"styles": {
+					"background_colors": [
+						531257,
+						2233427
+					],
+					"button_colors": [
+						5793266,
+						5793266
+					],
+					"confetti_colors": [
+						43772,
+						15774258,
+						16414587,
+						3000177,
+						9739511
+					]
+				},
+				"prices": {
+					"0": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"5": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"7": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					}
+				},
+				"items": [
+					{
+						"type": 0,
+						"id": "1256321669426053193",
+						"sku_id": "1256321669426053192",
+						"asset": "a_4430a4ee89b7fba456e765db21f38485",
+						"label": "A midnight-blue diadem adorned with a glowing enchanted gem in the center. As the gem glows, it emits a magical shimmer throughout the diadem."
+					}
+				],
+				"type": 0,
+				"premium_type": 0,
+				"category_sku_id": "1256321669388308595",
+				"google_sku_ids": {
+					"5": "1256321669426053192_1259926798637076563",
+					"7": "1256321669426053192_1259926816643219477"
+				}
+			},
+			{
+				"sku_id": "1256321669426053195",
+				"name": "Malefic Crown",
+				"summary": "Fit for those who rule with an iron fist.",
+				"store_listing_id": "1256321669426053194",
+				"banner": "1256321669388308597",
+				"unpublished_at": null,
+				"styles": {
+					"background_colors": [
+						531257,
+						2233427
+					],
+					"button_colors": [
+						5793266,
+						5793266
+					],
+					"confetti_colors": [
+						43772,
+						15774258,
+						16414587,
+						3000177,
+						9739511
+					]
+				},
+				"prices": {
+					"0": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"5": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"7": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					}
+				},
+				"items": [
+					{
+						"type": 0,
+						"id": "1256321669426053196",
+						"sku_id": "1256321669426053195",
+						"asset": "a_d1ea7b8650bf3d64a03304c2ceb7d089",
+						"label": "A sinister crown with sharp ornamental spikes and a glowing jewel engraved in its center. The jewel emits a dark energy across the crown that grants the wearer incredible power and style points."
+					}
+				],
+				"type": 0,
+				"premium_type": 0,
+				"category_sku_id": "1256321669388308595",
+				"google_sku_ids": {
+					"5": "1256321669426053195_1259926826684518400",
+					"7": "1256321669426053195_1259926836759105637"
+				}
+			},
+			{
+				"sku_id": "1256321669426053198",
+				"name": "Death's Edge",
+				"summary": "A great conversation starter... and ender.",
+				"store_listing_id": "1256321669426053197",
+				"banner": "1256321669388308597",
+				"unpublished_at": null,
+				"styles": {
+					"background_colors": [
+						531257,
+						2233427
+					],
+					"button_colors": [
+						5793266,
+						5793266
+					],
+					"confetti_colors": [
+						43772,
+						15774258,
+						16414587,
+						3000177,
+						9739511
+					]
+				},
+				"prices": {
+					"0": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"5": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"7": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					}
+				},
+				"items": [
+					{
+						"type": 0,
+						"id": "1256321669426053199",
+						"sku_id": "1256321669426053198",
+						"asset": "a_fe63036018fefb8abe3172383497e3bf",
+						"label": "A fearsome razor-edged sword with mysterious symbols engraved across its blade radiates with a dark and electrical power from tip to hilt."
+					}
+				],
+				"type": 0,
+				"premium_type": 0,
+				"category_sku_id": "1256321669388308595",
+				"google_sku_ids": {
+					"5": "1256321669426053198_1259926846783488030",
+					"7": "1256321669426053198_1259926857634287737"
+				}
+			},
+			{
+				"sku_id": "1256321669467865088",
+				"name": "Spirit Embers",
+				"summary": "For protection against dark nights and unseen terrors.",
+				"store_listing_id": "1256321669426053200",
+				"banner": "1256321669388308597",
+				"unpublished_at": null,
+				"styles": {
+					"background_colors": [
+						531257,
+						2233427
+					],
+					"button_colors": [
+						5793266,
+						5793266
+					],
+					"confetti_colors": [
+						43772,
+						15774258,
+						16414587,
+						3000177,
+						9739511
+					]
+				},
+				"prices": {
+					"0": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"5": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"7": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					}
+				},
+				"items": [
+					{
+						"type": 0,
+						"id": "1256321669467865089",
+						"sku_id": "1256321669467865088",
+						"asset": "a_1005898c6acf56a9ac5010baf444f6fd",
+						"label": "Wisps of luminous, ethereal embers swirl around the avatar. They make for a helpful lightsource for dark areas yet to be explored."
+					}
+				],
+				"type": 0,
+				"premium_type": 0,
+				"category_sku_id": "1256321669388308595",
+				"google_sku_ids": {
+					"5": "1256321669467865088_1259926867956338748",
+					"7": "1256321669467865088_1259926877557096568"
+				}
+			},
+			{
+				"sku_id": "1256321669467865091",
+				"name": "Eldritch Ring",
+				"summary": "For those days when you want to feel extra cursed.",
+				"store_listing_id": "1256321669467865090",
+				"banner": "1256321669388308597",
+				"unpublished_at": null,
+				"styles": {
+					"background_colors": [
+						531257,
+						2233427
+					],
+					"button_colors": [
+						5793266,
+						5793266
+					],
+					"confetti_colors": [
+						43772,
+						15774258,
+						16414587,
+						3000177,
+						9739511
+					]
+				},
+				"prices": {
+					"0": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"5": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"7": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					}
+				},
+				"items": [
+					{
+						"type": 0,
+						"id": "1256321669467865092",
+						"sku_id": "1256321669467865091",
+						"asset": "a_ef6fe8b27123eacccebe51c92a61587c",
+						"label": "A cursed ring covered with shadowy roots and enveloped in flickering cursed flames. It may grant its wearer new powers, but at what cost?"
+					}
+				],
+				"type": 0,
+				"premium_type": 0,
+				"category_sku_id": "1256321669388308595",
+				"google_sku_ids": {
+					"5": "1256321669467865091_1259926888143654942",
+					"7": "1256321669467865091_1259926900931956756"
+				}
+			},
+			{
+				"sku_id": "1256321669467865094",
+				"name": "Arcane Sigil",
+				"summary": "Those who stare will fall under your spell.",
+				"store_listing_id": "1256321669467865093",
+				"banner": "1256321669388308597",
+				"unpublished_at": null,
+				"styles": {
+					"background_colors": [
+						531257,
+						2233427
+					],
+					"button_colors": [
+						5793266,
+						5793266
+					],
+					"confetti_colors": [
+						43772,
+						15774258,
+						16414587,
+						3000177,
+						9739511
+					]
+				},
+				"prices": {
+					"0": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"5": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"7": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					}
+				},
+				"items": [
+					{
+						"type": 0,
+						"id": "1256321669467865095",
+						"sku_id": "1256321669467865094",
+						"asset": "a_ef8d97374ffdbf140df1164be6c69e46",
+						"label": "A circular sigil inscribed with mysterious symbols enframed around the avatar glows with a magical energy."
+					}
+				],
+				"type": 0,
+				"premium_type": 0,
+				"category_sku_id": "1256321669388308595",
+				"google_sku_ids": {
+					"5": "1256321669467865094_1259926910683709450",
+					"7": "1256321669467865094_1259926921463205999"
+				}
+			},
+			{
+				"sku_id": "1256321669467865097",
+				"name": "Arcane Summons",
+				"summary": "Invoke your mystical might.",
+				"store_listing_id": "1256321669467865096",
+				"banner": "1256321669388308597",
+				"unpublished_at": null,
+				"styles": {
+					"background_colors": [
+						531257,
+						2233427
+					],
+					"button_colors": [
+						5793266,
+						5793266
+					],
+					"confetti_colors": [
+						43772,
+						15774258,
+						16414587,
+						3000177,
+						9739511
+					]
+				},
+				"prices": {
+					"0": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"5": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"7": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					}
+				},
+				"items": [
+					{
+						"type": 1,
+						"id": "1256321669493166212",
+						"sku_id": "1256321669467865097"
+					}
+				],
+				"type": 1,
+				"premium_type": 0,
+				"category_sku_id": "1256321669388308595",
+				"google_sku_ids": {
+					"5": "1256321669467865097_1259926931277611108",
+					"7": "1256321669467865097_1259926941302259792"
+				}
+			},
+			{
+				"sku_id": "1256321669493166214",
+				"name": "Vengeance",
+				"summary": "Revenge burns eternal.",
+				"store_listing_id": "1256321669493166213",
+				"banner": "1256321669388308597",
+				"unpublished_at": null,
+				"styles": {
+					"background_colors": [
+						531257,
+						2233427
+					],
+					"button_colors": [
+						5793266,
+						5793266
+					],
+					"confetti_colors": [
+						43772,
+						15774258,
+						16414587,
+						3000177,
+						9739511
+					]
+				},
+				"prices": {
+					"0": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"5": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"7": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					}
+				},
+				"items": [
+					{
+						"type": 1,
+						"id": "1256321669493166215",
+						"sku_id": "1256321669493166214"
+					}
+				],
+				"type": 1,
+				"premium_type": 0,
+				"category_sku_id": "1256321669388308595",
+				"google_sku_ids": {
+					"5": "1256321669493166214_1259926951880298496",
+					"7": "1256321669493166214_1259926961405431879"
+				}
+			},
+			{
+				"sku_id": "1256321669493166217",
+				"name": "Spirit Flame",
+				"summary": "Not your average nightlight.",
+				"store_listing_id": "1256321669493166216",
+				"banner": "1256321669388308597",
+				"unpublished_at": null,
+				"styles": {
+					"background_colors": [
+						531257,
+						2233427
+					],
+					"button_colors": [
+						5793266,
+						5793266
+					],
+					"confetti_colors": [
+						43772,
+						15774258,
+						16414587,
+						3000177,
+						9739511
+					]
+				},
+				"prices": {
+					"0": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"4": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"5": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 599,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					},
+					"7": {
+						"country_prices": {
+							"country_code": "US",
+							"prices": [
+								{
+									"amount": 499,
+									"currency": "usd",
+									"exponent": 2
+								}
+							]
+						}
+					}
+				},
+				"items": [
+					{
+						"type": 1,
+						"id": "1256321669493166218",
+						"sku_id": "1256321669493166217"
+					}
+				],
+				"type": 1,
+				"premium_type": 0,
+				"category_sku_id": "1256321669388308595",
+				"google_sku_ids": {
+					"5": "1256321669493166217_1259926971828273242",
+					"7": "1256321669493166217_1259926982960091196"
+				}
+			}
+		]
+	},
+	{
 		"sku_id": "1252404112650407998",
 		"name": "Palworld",
 		"summary": "New island, new Pals, new adventures!",
 		"store_listing_id": "1252404109688967268",
 		"banner": "1252404118509719682",
-		"unpublished_at": "2024-07-24T03:59:00+00:00",
+		"unpublished_at": null,
 		"styles": {
 			"background_colors": [
 				197156,
