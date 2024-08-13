@@ -12,6 +12,8 @@ export default function CollectionInfoContainer(props: { collection: Collectible
 		{ label: "Confetti Colors", colors: props.collection.styles.confetti_colors }
 	];
 
+	const hasAnyColors = infoItems.some((item) => item.colors.length > 0);
+
 	const currencyFormatter = new Intl.NumberFormat("en-us", { style: "currency", currency: "USD" });
 	const { totalOriginalCost, totalDiscountedCost } = props.collection.products.reduce(
 		(acc, product) => {
@@ -24,8 +26,8 @@ export default function CollectionInfoContainer(props: { collection: Collectible
 	const totalCostsString = `${currencyFormatter.format(totalOriginalCost)} (${currencyFormatter.format(totalDiscountedCost)} with Nitro)`;
 
 	return (
-		<div className="flex w-[1280px] max-w-[1280px] px-32">
-			<div className="flex w-[640px] flex-col justify-center gap-y-6">
+		<div className="flex w-[1280px] max-w-[1280px] space-x-32 px-32 justify-center">
+			<div className="flex w-[640px] flex-col justify-center gap-y-6 px-3">
 				<CollectionInfoEntry name="Name" value={props.collection.name} />
 				<CollectionInfoEntry name="Description" value={props.collection.summary} />
 				<CollectionInfoEntry name="Added on" value={new Date(DiscordUtils.snowflakeToDate(props.collection.sku_id)).toLocaleString()} />
@@ -33,11 +35,11 @@ export default function CollectionInfoContainer(props: { collection: Collectible
 				<CollectionInfoEntry name="Total Products" value={props.collection.products.length} />
 				<CollectionInfoEntry name="Total Cost (USD)" value={totalCostsString} />
 			</div>
-			<div className="flex w-[640px] flex-col justify-center gap-y-6">
+			{hasAnyColors && <div className="flex w-[640px] flex-col justify-center gap-y-6 px-3">
 				{infoItems.map((item) => (
 					<CollectionInfoEntry key={item.label} name={item.label} colors={item.colors} />
 				))}
-			</div>
+			</div>}
 		</div>
 	);
 }
