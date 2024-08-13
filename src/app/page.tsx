@@ -14,7 +14,7 @@ export default function HomePage() {
 	};
 
 	return (
-		<main className="flex min-h-screen w-full flex-col items-center">
+		<div className="flex w-full flex-col items-center">
 			<div className="py-5">
 				<h1 className="pb-2 text-center text-5xl font-bold uppercase">Discord Collectibles Archives</h1>
 				<p className="mx-auto w-1/2 text-center text-2xl">
@@ -102,6 +102,6 @@ export default function HomePage() {
 					</Link>
 				</div>
 			</div>
-		</main>
+		</div>
 	);
 }
