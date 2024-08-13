@@ -5,7 +5,7 @@ import effects from "~discord-data/profile-effects";
 
 const DISCORD_AVATAR_DECORATION_ENDPOINT = "https://cdn.discordapp.com/avatar-decoration-presets/";
 
-// =============== COLLECTIONS ===============
+// =============== GLOBAL COLLECTIONS & EFFECTS ===============
 const getNumberOfCollections = (): number => {
 	return Object.keys(collections).length;
 };
@@ -21,6 +21,41 @@ const getRecentlyChangedCollection = (): CollectiblesCategories | undefined => {
 	return undefined;
 };
 
+const getAllAvatarDecorations = (): Product[] => {
+	return Object.values(collections).reduce((acc, collection) => {
+		return [...acc, ...getAvatarDecorations(collection)];
+	}, [] as Product[]);
+};
+
+const getAllProfileEffects = (): Product[] => {
+	return Object.values(collections).reduce((acc, collection) => {
+		return [...acc, ...getProfileEffects(collection)];
+	}, [] as Product[]);
+};
+
+const getAllAvatarDecorationsCost = (): { totalOriginalPrice: number; totalDiscountedPrice: number } => {
+	return getAllAvatarDecorations().reduce(
+		(acc, product) => {
+			const totalOriginalPrice = acc.totalOriginalPrice + getPrice(product).originalPrice;
+			const totalDiscountedPrice = acc.totalDiscountedPrice + getPrice(product).discountedPrice;
+			return { totalOriginalPrice, totalDiscountedPrice };
+		},
+		{ totalOriginalPrice: 0, totalDiscountedPrice: 0 } as { totalOriginalPrice: number; totalDiscountedPrice: number }
+	);
+};
+
+const getAllProfileEffectsCost = (): { totalOriginalPrice: number; totalDiscountedPrice: number } => {
+	return getAllProfileEffects().reduce(
+		(acc, product) => {
+			const totalOriginalPrice = acc.totalOriginalPrice + getPrice(product).originalPrice;
+			const totalDiscountedPrice = acc.totalDiscountedPrice + getPrice(product).discountedPrice;
+			return { totalOriginalPrice, totalDiscountedPrice };
+		},
+		{ totalOriginalPrice: 0, totalDiscountedPrice: 0 } as { totalOriginalPrice: number; totalDiscountedPrice: number }
+	);
+};
+
+// =============== COLLECTIONS ===============
 const getAvatarDecorations = (collection: CollectiblesCategories): Product[] => {
 	return collection.products.filter((product) => isAvatarDecoration(product));
 };
@@ -59,6 +94,12 @@ const getNitroPrice = (product: Product): number => {
 	}
 };
 
+const getPrice = (product: Product): { originalPrice: number; discountedPrice: number } => {
+	const originalPrice = CollectionUtils.getOriginalPrice(product);
+	const discountedPrice = CollectionUtils.getNitroPrice(product);
+	return { originalPrice, discountedPrice };
+};
+
 const isAvatarDecoration = (product: Product): boolean => {
 	return (product.type as number) === (ItemTypes.AvatarDecoration as number);
 };
@@ -92,6 +133,10 @@ const getProfileEffect = (product: Product): ProfileEffect | undefined => {
 export const CollectionUtils = {
 	getNumberOfCollections,
 	getRecentlyAddedCollection,
+	getAllAvatarDecorations,
+	getAllProfileEffects,
+	getAllAvatarDecorationsCost,
+	getAllProfileEffectsCost,
 
 	getAvatarDecorations,
 	getProfileEffects,
@@ -100,6 +145,7 @@ export const CollectionUtils = {
 	isProductNitroOnly,
 	getOriginalPrice,
 	getNitroPrice,
+	getPrice,
 
 	isAvatarAnimated,
 	getAvatarDecorationURL,
