@@ -14,7 +14,7 @@ Collectibles seems to be what Discord classifies as avatar decorations and profi
 
 The data as of now is being fetched manually by myself, and I am doing it from time-to-time as I see quests available on the account or new shop updates.
 
-Also, I want to thank @happyenderman's data-mining efforts for helping me retrieve the lost data (as of June 2024) for some of the collections such as _Monsters_, _Winder Wonderland_, and _Lunar New Year_. I used the data he gathered for at least these collections and refactored it to merge it with the rest from my old data I managed to save in time.
+Also, I want to thank [@happyendermangit](https://github.com/happyendermangit)'s data-mining efforts for helping me retrieve the lost data (as of June 2024) for some of the collections such as _Monsters_, _Winder Wonderland_, and _Lunar New Year_. I used the data he gathered for at least these collections and refactored it to merge it with the rest from my old data I managed to save in time.
 
 <details>
 	<summary>Data Source Table</summary>
