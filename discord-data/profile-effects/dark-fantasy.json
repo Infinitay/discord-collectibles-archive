@@ -1,0 +1,125 @@
+[
+	{
+		"type": 1,
+		"id": "1256321669493166212",
+		"sku_id": "1256321669467865097",
+		"title": "Arcane Summons",
+		"description": "Invoke your mystical might.",
+		"accessibilityLabel": "A circular sigil inscribed with mysterious symbols appears, summoned by someone preparing to unleash its arcane power. Hope you got some magic resistance.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-01/arcane-summons/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-01/arcane-summons/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-01/arcane-summons/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 4720,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-01/arcane-summons/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 4960,
+				"start": 8000,
+				"loopDelay": 5000,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1256321669493166215",
+		"sku_id": "1256321669493166214",
+		"title": "Vengeance",
+		"description": "Revenge burns eternal.",
+		"accessibilityLabel": "A cursed skull engulfed in flames appears, staring at you with its mouth agape as if letting out an angry scream. Did someone just hex you?",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-01/vengeance/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-01/vengeance/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-01/vengeance/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 3840,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-01/vengeance/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 5120,
+				"start": 8000,
+				"loopDelay": 5000,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1256321669493166218",
+		"sku_id": "1256321669493166217",
+		"title": "Spirit Flame",
+		"description": "Not your average nightlight.",
+		"accessibilityLabel": "A ribbon of luminous, ethereal flame flares across the profile, illuminating it with a hauntingly beautiful glow.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-01/spirit-flame/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-01/spirit-flame/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-01/spirit-flame/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 2560,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-01/spirit-flame/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 2960,
+				"start": 6000,
+				"loopDelay": 6000,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	}
+]

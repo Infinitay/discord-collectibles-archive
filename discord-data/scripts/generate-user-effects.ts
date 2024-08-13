@@ -10,7 +10,6 @@ import { strictDeepEqual } from "fast-equals";
 import { DiscordUtils } from "~/utils/DiscordUtils";
 import collections from "~discord-data/collections";
 import { sanitizeCollectionName, toSanitizedCamelCase } from "~/utils/TextUtils";
-import { ItemTypes } from "~types/CollectiblesCategories";
 import { CollectionUtils } from "~/utils/CollectionUtils";
 
 const DISCORD_DATA_PATH = "../";

@@ -1,14 +1,14 @@
 {
-	"sku_id": "1252404112650407998",
-	"name": "Palworld",
-	"summary": "New island, new Pals, new adventures!",
-	"store_listing_id": "1252404109688967268",
-	"banner": "1252404118509719682",
+	"sku_id": "1256321669388308595",
+	"name": "Dark Fantasy",
+	"summary": "Approach, wanderer... dangerously charming relics await.",
+	"store_listing_id": "1256321669388308594",
+	"banner": "1256321669388308597",
 	"unpublished_at": null,
 	"styles": {
 		"background_colors": [
-			197156,
-			524587
+			531257,
+			2233427
 		],
 		"button_colors": [
 			5793266,
@@ -22,22 +22,23 @@
 			9739511
 		]
 	},
-	"logo": "1252404115686948925",
-	"mobile_bg": "1252404121252925514",
-	"pdp_bg": "1252404123844870224",
-	"mobile_banner": "1252404126801727579",
+	"logo": "1256321669388308596",
+	"mobile_bg": "1256321669388308598",
+	"pdp_bg": "1256321669388308599",
+	"success_modal_bg": "1260647017265233950",
+	"mobile_banner": "1256376187991756820",
 	"products": [
 		{
-			"sku_id": "1252404132074225775",
-			"name": "Best Pals Forever Bundle",
+			"sku_id": "1256321669388308601",
+			"name": "Arcanist Bundle",
 			"summary": "A bundle of collectibles.",
-			"store_listing_id": "1252404129582813204",
-			"banner": "1252404118509719682",
+			"store_listing_id": "1256321669388308600",
+			"banner": "1256321669388308597",
 			"unpublished_at": null,
 			"styles": {
 				"background_colors": [
-					197156,
-					524587
+					531257,
+					2233427
 				],
 				"button_colors": [
 					5793266,
@@ -57,7 +58,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 1799,
+								"amount": 1099,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -69,7 +70,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 1399,
+								"amount": 899,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -81,7 +82,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 1799,
+								"amount": 1099,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -93,7 +94,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 1399,
+								"amount": 899,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -104,25 +105,25 @@
 			"items": [
 				{
 					"type": 0,
-					"id": "1252404748397707324",
-					"sku_id": "1252404745977462836",
-					"asset": "a_48b8411feb1e80a69048fc65b3275b75",
-					"label": "Chillet embraces you with a frosty hug that nevertheless warms the heart."
+					"id": "1256321669467865095",
+					"sku_id": "1256321669467865094",
+					"asset": "a_ef8d97374ffdbf140df1164be6c69e46",
+					"label": "A circular sigil inscribed with mysterious symbols enframed around the avatar glows with a magical energy."
 				},
 				{
 					"type": 1,
-					"id": "1252405241660440629",
-					"sku_id": "1252405239693447208"
+					"id": "1256321669493166212",
+					"sku_id": "1256321669467865097"
 				}
 			],
 			"type": 1000,
 			"premium_type": 0,
-			"category_sku_id": "1252404112650407998",
+			"category_sku_id": "1256321669388308595",
 			"bundled_products": [
 				{
-					"sku_id": "1252404745977462836",
-					"name": "Chillet",
-					"summary": "Who doesn't love to cuddle?",
+					"sku_id": "1256321669467865094",
+					"name": "Arcane Sigil",
+					"summary": "Those who stare will fall under your spell.",
 					"type": 0,
 					"premium_type": 0,
 					"prices": {
@@ -131,7 +132,7 @@
 								"country_code": "US",
 								"prices": [
 									{
-										"amount": 999,
+										"amount": 599,
 										"currency": "usd",
 										"exponent": 2
 									}
@@ -143,7 +144,7 @@
 								"country_code": "US",
 								"prices": [
 									{
-										"amount": 799,
+										"amount": 499,
 										"currency": "usd",
 										"exponent": 2
 									}
@@ -155,7 +156,7 @@
 								"country_code": "US",
 								"prices": [
 									{
-										"amount": 999,
+										"amount": 599,
 										"currency": "usd",
 										"exponent": 2
 									}
@@ -167,7 +168,7 @@
 								"country_code": "US",
 								"prices": [
 									{
-										"amount": 799,
+										"amount": 499,
 										"currency": "usd",
 										"exponent": 2
 									}
@@ -177,9 +178,9 @@
 					}
 				},
 				{
-					"sku_id": "1252405239693447208",
-					"name": "Wake Up!",
-					"summary": "You wash ashore on a strange island...",
+					"sku_id": "1256321669467865097",
+					"name": "Arcane Summons",
+					"summary": "Invoke your mystical might.",
 					"type": 1,
 					"premium_type": 0,
 					"prices": {
@@ -188,7 +189,7 @@
 								"country_code": "US",
 								"prices": [
 									{
-										"amount": 999,
+										"amount": 599,
 										"currency": "usd",
 										"exponent": 2
 									}
@@ -200,7 +201,7 @@
 								"country_code": "US",
 								"prices": [
 									{
-										"amount": 799,
+										"amount": 499,
 										"currency": "usd",
 										"exponent": 2
 									}
@@ -212,7 +213,7 @@
 								"country_code": "US",
 								"prices": [
 									{
-										"amount": 999,
+										"amount": 599,
 										"currency": "usd",
 										"exponent": 2
 									}
@@ -224,7 +225,7 @@
 								"country_code": "US",
 								"prices": [
 									{
-										"amount": 799,
+										"amount": 499,
 										"currency": "usd",
 										"exponent": 2
 									}
@@ -237,16 +238,16 @@
 			"google_sku_ids": {}
 		},
 		{
-			"sku_id": "1252404745977462836",
-			"name": "Chillet",
-			"summary": "Who doesn't love to cuddle?",
-			"store_listing_id": "1252404135098060921",
-			"banner": "1252404118509719682",
+			"sku_id": "1256321669426053192",
+			"name": "Midnight Sorceress",
+			"summary": "Wear the beauty of midnight.",
+			"store_listing_id": "1256321669426053191",
+			"banner": "1256321669388308597",
 			"unpublished_at": null,
 			"styles": {
 				"background_colors": [
-					197156,
-					524587
+					531257,
+					2233427
 				],
 				"button_colors": [
 					5793266,
@@ -266,7 +267,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -278,7 +279,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -290,7 +291,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -302,7 +303,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -313,31 +314,31 @@
 			"items": [
 				{
 					"type": 0,
-					"id": "1252404748397707324",
-					"sku_id": "1252404745977462836",
-					"asset": "a_48b8411feb1e80a69048fc65b3275b75",
-					"label": "Chillet embraces you with a frosty hug that nevertheless warms the heart."
+					"id": "1256321669426053193",
+					"sku_id": "1256321669426053192",
+					"asset": "a_4430a4ee89b7fba456e765db21f38485",
+					"label": "A midnight-blue diadem adorned with a glowing enchanted gem in the center. As the gem glows, it emits a magical shimmer throughout the diadem."
 				}
 			],
 			"type": 0,
 			"premium_type": 0,
-			"category_sku_id": "1252404112650407998",
+			"category_sku_id": "1256321669388308595",
 			"google_sku_ids": {
-				"5": "1252404745977462836_1259926060771053608",
-				"7": "1252404745977462836_1259926078256840754"
+				"5": "1256321669426053192_1259926798637076563",
+				"7": "1256321669426053192_1259926816643219477"
 			}
 		},
 		{
-			"sku_id": "1252404753321689119",
-			"name": "Pal Sphere",
-			"summary": "Fingers crossed!",
-			"store_listing_id": "1252404750935134208",
-			"banner": "1252404118509719682",
+			"sku_id": "1256321669426053195",
+			"name": "Malefic Crown",
+			"summary": "Fit for those who rule with an iron fist.",
+			"store_listing_id": "1256321669426053194",
+			"banner": "1256321669388308597",
 			"unpublished_at": null,
 			"styles": {
 				"background_colors": [
-					197156,
-					524587
+					531257,
+					2233427
 				],
 				"button_colors": [
 					5793266,
@@ -357,7 +358,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -369,7 +370,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -381,7 +382,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -393,7 +394,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -404,31 +405,31 @@
 			"items": [
 				{
 					"type": 0,
-					"id": "1252404755473629275",
-					"sku_id": "1252404753321689119",
-					"asset": "a_59ad6c57089d2291611d9f59904f38e9",
-					"label": "With a playful snap, the Pal Sphere opens up and captures the avatar."
+					"id": "1256321669426053196",
+					"sku_id": "1256321669426053195",
+					"asset": "a_d1ea7b8650bf3d64a03304c2ceb7d089",
+					"label": "A sinister crown with sharp ornamental spikes and a glowing jewel engraved in its center. The jewel emits a dark energy across the crown that grants the wearer incredible power and style points."
 				}
 			],
 			"type": 0,
 			"premium_type": 0,
-			"category_sku_id": "1252404112650407998",
+			"category_sku_id": "1256321669388308595",
 			"google_sku_ids": {
-				"5": "1252404753321689119_1259926088587546786",
-				"7": "1252404753321689119_1259926098536566824"
+				"5": "1256321669426053195_1259926826684518400",
+				"7": "1256321669426053195_1259926836759105637"
 			}
 		},
 		{
-			"sku_id": "1252404760448077864",
-			"name": "Cattiva",
-			"summary": "Cute... from a distance.",
-			"store_listing_id": "1252404757994147940",
-			"banner": "1252404118509719682",
+			"sku_id": "1256321669426053198",
+			"name": "Death's Edge",
+			"summary": "A great conversation starter... and ender.",
+			"store_listing_id": "1256321669426053197",
+			"banner": "1256321669388308597",
 			"unpublished_at": null,
 			"styles": {
 				"background_colors": [
-					197156,
-					524587
+					531257,
+					2233427
 				],
 				"button_colors": [
 					5793266,
@@ -448,7 +449,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -460,7 +461,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -472,7 +473,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -484,7 +485,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -495,31 +496,31 @@
 			"items": [
 				{
 					"type": 0,
-					"id": "1252404762767523881",
-					"sku_id": "1252404760448077864",
-					"asset": "a_d260c70fa8f38c499fa452c3cbdc5a0c",
-					"label": "An avatar wears Cattiva's adorably fierce facial features, ready to scratch at viewers."
+					"id": "1256321669426053199",
+					"sku_id": "1256321669426053198",
+					"asset": "a_fe63036018fefb8abe3172383497e3bf",
+					"label": "A fearsome razor-edged sword with mysterious symbols engraved across its blade radiates with a dark and electrical power from tip to hilt."
 				}
 			],
 			"type": 0,
 			"premium_type": 0,
-			"category_sku_id": "1252404112650407998",
+			"category_sku_id": "1256321669388308595",
 			"google_sku_ids": {
-				"5": "1252404760448077864_1259926109185638521",
-				"7": "1252404760448077864_1259926119604424786"
+				"5": "1256321669426053198_1259926846783488030",
+				"7": "1256321669426053198_1259926857634287737"
 			}
 		},
 		{
-			"sku_id": "1252404767737778217",
-			"name": "Lamball",
-			"summary": "Cozy, fluffy, and clumsy!",
-			"store_listing_id": "1252404765267071016",
-			"banner": "1252404118509719682",
+			"sku_id": "1256321669467865088",
+			"name": "Spirit Embers",
+			"summary": "For protection against dark nights and unseen terrors.",
+			"store_listing_id": "1256321669426053200",
+			"banner": "1256321669388308597",
 			"unpublished_at": null,
 			"styles": {
 				"background_colors": [
-					197156,
-					524587
+					531257,
+					2233427
 				],
 				"button_colors": [
 					5793266,
@@ -539,7 +540,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -551,7 +552,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -563,7 +564,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -575,7 +576,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -586,31 +587,31 @@
 			"items": [
 				{
 					"type": 0,
-					"id": "1252405001477816440",
-					"sku_id": "1252404767737778217",
-					"asset": "a_949a575b693c81ced8f56a7579d0969f",
-					"label": "As a fluffy ball of fun, Lamball whimsically rolls on and on before tumbling into dizziness."
+					"id": "1256321669467865089",
+					"sku_id": "1256321669467865088",
+					"asset": "a_1005898c6acf56a9ac5010baf444f6fd",
+					"label": "Wisps of luminous, ethereal embers swirl around the avatar. They make for a helpful lightsource for dark areas yet to be explored."
 				}
 			],
 			"type": 0,
 			"premium_type": 0,
-			"category_sku_id": "1252404112650407998",
+			"category_sku_id": "1256321669388308595",
 			"google_sku_ids": {
-				"5": "1252404767737778217_1259926129469558835",
-				"7": "1252404767737778217_1259926139640479774"
+				"5": "1256321669467865088_1259926867956338748",
+				"7": "1256321669467865088_1259926877557096568"
 			}
 		},
 		{
-			"sku_id": "1252405004925669396",
-			"name": "Depresso",
-			"summary": "As enthusiastic as ever.",
-			"store_listing_id": "1252405003075719208",
-			"banner": "1252404118509719682",
+			"sku_id": "1256321669467865091",
+			"name": "Eldritch Ring",
+			"summary": "For those days when you want to feel extra cursed.",
+			"store_listing_id": "1256321669467865090",
+			"banner": "1256321669388308597",
 			"unpublished_at": null,
 			"styles": {
 				"background_colors": [
-					197156,
-					524587
+					531257,
+					2233427
 				],
 				"button_colors": [
 					5793266,
@@ -630,7 +631,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -642,7 +643,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -654,7 +655,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -666,7 +667,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -677,31 +678,31 @@
 			"items": [
 				{
 					"type": 0,
-					"id": "1252405006838136862",
-					"sku_id": "1252405004925669396",
-					"asset": "a_b7e2813fb97fe05b0f9f29a1bb7fde41",
-					"label": "Depresso, with a tiny pickaxe in hand, diligently mines for resources, showing what it truly means to work hard with enthusiasm."
+					"id": "1256321669467865092",
+					"sku_id": "1256321669467865091",
+					"asset": "a_ef6fe8b27123eacccebe51c92a61587c",
+					"label": "A cursed ring covered with shadowy roots and enveloped in flickering cursed flames. It may grant its wearer new powers, but at what cost?"
 				}
 			],
 			"type": 0,
 			"premium_type": 0,
-			"category_sku_id": "1252404112650407998",
+			"category_sku_id": "1256321669388308595",
 			"google_sku_ids": {
-				"5": "1252405004925669396_1259926150101209148",
-				"7": "1252405004925669396_1259926160226390027"
+				"5": "1256321669467865091_1259926888143654942",
+				"7": "1256321669467865091_1259926900931956756"
 			}
 		},
 		{
-			"sku_id": "1252405010608951358",
-			"name": "Selyne",
-			"summary": "A mysterious moonlight encounter.",
-			"store_listing_id": "1252405008553480352",
-			"banner": "1252404118509719682",
+			"sku_id": "1256321669467865094",
+			"name": "Arcane Sigil",
+			"summary": "Those who stare will fall under your spell.",
+			"store_listing_id": "1256321669467865093",
+			"banner": "1256321669388308597",
 			"unpublished_at": null,
 			"styles": {
 				"background_colors": [
-					197156,
-					524587
+					531257,
+					2233427
 				],
 				"button_colors": [
 					5793266,
@@ -721,7 +722,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -733,7 +734,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -745,7 +746,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -757,7 +758,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -768,31 +769,31 @@
 			"items": [
 				{
 					"type": 0,
-					"id": "1252405012915683388",
-					"sku_id": "1252405010608951358",
-					"asset": "a_0830085f29712a6f3a23a123302050b4",
-					"label": "A purple crescent moon adorns the avatar, when suddenly the glaring red eyes of a new, mysterious Pal stare into the depths of your soul. Who could it be...?"
+					"id": "1256321669467865095",
+					"sku_id": "1256321669467865094",
+					"asset": "a_ef8d97374ffdbf140df1164be6c69e46",
+					"label": "A circular sigil inscribed with mysterious symbols enframed around the avatar glows with a magical energy."
 				}
 			],
 			"type": 0,
 			"premium_type": 0,
-			"category_sku_id": "1252404112650407998",
+			"category_sku_id": "1256321669388308595",
 			"google_sku_ids": {
-				"5": "1252405010608951358_1259926170267418684",
-				"7": "1252405010608951358_1259926183563366460"
+				"5": "1256321669467865094_1259926910683709450",
+				"7": "1256321669467865094_1259926921463205999"
 			}
 		},
 		{
-			"sku_id": "1252405017688936508",
-			"name": "Saya",
-			"summary": "A mysterious beauty blossoms under the moonlight.",
-			"store_listing_id": "1252405015444721704",
-			"banner": "1252404118509719682",
+			"sku_id": "1256321669467865097",
+			"name": "Arcane Summons",
+			"summary": "Invoke your mystical might.",
+			"store_listing_id": "1256321669467865096",
+			"banner": "1256321669388308597",
 			"unpublished_at": null,
 			"styles": {
 				"background_colors": [
-					197156,
-					524587
+					531257,
+					2233427
 				],
 				"button_colors": [
 					5793266,
@@ -812,7 +813,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -824,7 +825,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -836,7 +837,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -848,7 +849,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -859,29 +860,29 @@
 			"items": [
 				{
 					"type": 1,
-					"id": "1252405019991474287",
-					"sku_id": "1252405017688936508"
+					"id": "1256321669493166212",
+					"sku_id": "1256321669467865097"
 				}
 			],
 			"type": 1,
 			"premium_type": 0,
-			"category_sku_id": "1252404112650407998",
+			"category_sku_id": "1256321669388308595",
 			"google_sku_ids": {
-				"5": "1252405017688936508_1259926193185230858",
-				"7": "1252405017688936508_1259926204069183498"
+				"5": "1256321669467865097_1259926931277611108",
+				"7": "1256321669467865097_1259926941302259792"
 			}
 		},
 		{
-			"sku_id": "1252405239693447208",
-			"name": "Wake Up!",
-			"summary": "You wash ashore on a strange island...",
-			"store_listing_id": "1252405238032240650",
-			"banner": "1252404118509719682",
+			"sku_id": "1256321669493166214",
+			"name": "Vengeance",
+			"summary": "Revenge burns eternal.",
+			"store_listing_id": "1256321669493166213",
+			"banner": "1256321669388308597",
 			"unpublished_at": null,
 			"styles": {
 				"background_colors": [
-					197156,
-					524587
+					531257,
+					2233427
 				],
 				"button_colors": [
 					5793266,
@@ -901,7 +902,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -913,7 +914,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -925,7 +926,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -937,7 +938,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -948,29 +949,29 @@
 			"items": [
 				{
 					"type": 1,
-					"id": "1252405241660440629",
-					"sku_id": "1252405239693447208"
+					"id": "1256321669493166215",
+					"sku_id": "1256321669493166214"
 				}
 			],
 			"type": 1,
 			"premium_type": 0,
-			"category_sku_id": "1252404112650407998",
+			"category_sku_id": "1256321669388308595",
 			"google_sku_ids": {
-				"5": "1252405239693447208_1259926214580244540",
-				"7": "1252405239693447208_1259926224265023609"
+				"5": "1256321669493166214_1259926951880298496",
+				"7": "1256321669493166214_1259926961405431879"
 			}
 		},
 		{
-			"sku_id": "1252405251949203497",
-			"name": "Tocotoco",
-			"summary": "Huggable... once.",
-			"store_listing_id": "1252405243455475823",
-			"banner": "1252404118509719682",
+			"sku_id": "1256321669493166217",
+			"name": "Spirit Flame",
+			"summary": "Not your average nightlight.",
+			"store_listing_id": "1256321669493166216",
+			"banner": "1256321669388308597",
 			"unpublished_at": null,
 			"styles": {
 				"background_colors": [
-					197156,
-					524587
+					531257,
+					2233427
 				],
 				"button_colors": [
 					5793266,
@@ -990,7 +991,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -1002,7 +1003,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -1014,7 +1015,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 999,
+								"amount": 599,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -1026,7 +1027,7 @@
 						"country_code": "US",
 						"prices": [
 							{
-								"amount": 799,
+								"amount": 499,
 								"currency": "usd",
 								"exponent": 2
 							}
@@ -1037,16 +1038,16 @@
 			"items": [
 				{
 					"type": 1,
-					"id": "1252405254499205233",
-					"sku_id": "1252405251949203497"
+					"id": "1256321669493166218",
+					"sku_id": "1256321669493166217"
 				}
 			],
 			"type": 1,
 			"premium_type": 0,
-			"category_sku_id": "1252404112650407998",
+			"category_sku_id": "1256321669388308595",
 			"google_sku_ids": {
-				"5": "1252405251949203497_1259926234788397177",
-				"7": "1252405251949203497_1259926244275916822"
+				"5": "1256321669493166217_1259926971828273242",
+				"7": "1256321669493166217_1259926982960091196"
 			}
 		}
 	]

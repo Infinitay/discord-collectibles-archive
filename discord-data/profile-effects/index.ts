@@ -17,6 +17,7 @@ import feelinRetroData from "~discord-data/profile-effects/feelin-retro.json" as
 import piratesData from "~discord-data/profile-effects/pirates.json" assert { type: "json" };
 import arcadeData from "~discord-data/profile-effects/arcade.json" assert { type: "json" };
 import palworldData from "~discord-data/profile-effects/palworld.json" assert { type: "json" };
+import darkFantasyData from "~discord-data/profile-effects/dark-fantasy.json" assert { type: "json" };
 import { type ProfileEffect } from "~/types/ProfileEffects";
 
 const fantasy = fantasyData as ProfileEffect[];
@@ -38,6 +39,7 @@ const feelinRetro = feelinRetroData as ProfileEffect[];
 const pirates = piratesData as ProfileEffect[];
 const arcade = arcadeData as ProfileEffect[];
 const palworld = palworldData as ProfileEffect[];
+const darkFantasy = darkFantasyData as ProfileEffect[];
 
 const profileEffects = {
 	fantasy,
@@ -58,7 +60,8 @@ const profileEffects = {
 	feelinRetro,
 	pirates,
 	arcade,
-	palworld
+	palworld,
+	darkFantasy
 };
 
 export default profileEffects;
