@@ -1,6 +1,6 @@
 import React from "react";
 import { sanitizeCollectionName } from "~/utils/TextUtils";
-import collections from "~discord-data/collections";
+import { collections } from "~discord-data/collections";
 import CollectionBanner from "./_components/CollectionBanner";
 import CollectionInfoContainer from "./_components/info/CollectionInfoContainer";
 import { CollectionUtils } from "~/utils/CollectionUtils";

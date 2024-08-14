@@ -67,6 +67,13 @@ if (!fs.existsSync(COLLECTIONS_DIRECTORY)) {
 	console.log(`Found and loaded ${previousCollections.size} collections from the existing collections: [${previousCollectionNames}]`);
 }
 
+// Discord started to change collections entirely and shift the products into new collections
+// Cache all the products from prior collections to check if they were moved to a new collection
+const previousProductsMap = new Map<string, Set<string>>();
+for (const collection of previousCollections.values()) {
+	previousProductsMap.set(collection.sku_id, new Set(collection.products.map((p) => p.sku_id)));
+}
+
 /*
  * Do the update check in two parts
  * 1) Check to see if there are any uncategorized products that now have a category
@@ -128,6 +135,31 @@ for (const collection of newRawCollectibles) {
 	currentCollections.set(collection.sku_id, collection as CollectiblesCategories);
 }
 
+// Discord started to change collections entirely and shift the products into new collections
+// ~~So we need to check if any of the products from the previous collection are now in the new collection~~
+// Lets check all the products from the previous collection to see if they were moved to a new collection
+const linkedCollections = new Map<string, string>(); // <previousCollectionSKU, mostRecentCollectionSKU>
+for (const collection of currentCollections.values()) {
+	// There has to be a better way to do this such as using hashmaps but I'm too lazy to think of one and it's not like we're working with a large dataset... yet
+	// Then again I'm already using hashmaps and sets so perhaps this is the best solution. To behonest, I haven't given it much thought
+	const belongedToPreviousCollection: [string, Set<string>][] | undefined = [...previousProductsMap.entries()].filter(
+		([previousCollectionSKU, previousProductSKUs]: [string, Set<string>]) => {
+			const currentCollectionProductSKUs = collection.products.map((p) => p.sku_id);
+			return (
+				previousCollectionSKU !== collection.sku_id &&
+				[...previousProductSKUs].every((prevProductSKU) => currentCollectionProductSKUs.includes(prevProductSKU))
+			);
+		}
+	);
+
+	if (belongedToPreviousCollection !== undefined && belongedToPreviousCollection.length > 0) {
+		console.log(
+			`The products from the collection '${collection.name}' were moved from the collection(s): [${belongedToPreviousCollection.map(([sku]) => `"${previousCollections.get(sku)!.name}"`).join(", ")}]`
+		);
+		belongedToPreviousCollection.forEach(([previousCollectionSKU]) => linkedCollections.set(previousCollectionSKU, collection.sku_id));
+	}
+}
+
 // Add any missing collections because so far we only added new or existing collections
 // Don't forget that we removed any dupe/updated previous collections to prevent allocating more memory to more dupe collectsions
 
@@ -145,8 +177,15 @@ for (const collection of exportedCollections) {
 
 const collectionsIndexPath = path.join(COLLECTIONS_DIRECTORY, "index.ts");
 const indexFileExists = fs.existsSync(collectionsIndexPath);
+const linkedCollectionsPath = path.join(COLLECTIONS_DIRECTORY, "linked-collections.json");
+const linkedCollectionsExists = fs.existsSync(path.join(COLLECTIONS_DIRECTORY, "linked-collections.json"));
 const collectionsToIndex = Array.from(currentCollections.values()).sort(sortCollectionsByDate);
 if (collectionsToIndex.length !== 0 && exportedCollections.length > 0) {
+	// Before we generate the index file, generate the linked collection json file {[previousCollectionSKU: string]: mostRecentCollectionSKU: string}
+	console.log(`${linkedCollectionsExists ? "Updating" : "Generating"} the linked collections file at "${linkedCollectionsPath}"`);
+	const linkedCollectionsContent = JSON.stringify(Object.fromEntries(linkedCollections), null, "\t");
+	fs.writeFileSync(linkedCollectionsPath, linkedCollectionsContent + "\n", "utf-8");
+
 	const missingPrefix = indexFileExists ? "Updating the" : "Generating an";
 	console.log(
 		`${missingPrefix} index file with imports for the ${collectionsToIndex.length} collections` +
@@ -154,19 +193,29 @@ if (collectionsToIndex.length !== 0 && exportedCollections.length > 0) {
 	);
 
 	const imports = collectionsToIndex
-		.map((c) => `import ${toSanitizedCamelCase(c.name)}Data from "~discord-data/collections/${sanitizeCollectionName(c.name)}.json" assert { type: "json" };`)
+		.map(
+			(c) => `import ${toSanitizedCamelCase(c.name)}Data from "~discord-data/collections/${sanitizeCollectionName(c.name)}.json" assert { type: "json" };`
+		)
 		.join("\n");
 
 	const collectionIndexContent = `${imports}
+import linkedCollectionsData from "~discord-data/collections/linked-collections.json" assert { type: "json" };
 import { type CollectiblesCategories } from "~/types/CollectiblesCategories";
 
 ${collectionsToIndex.map((c) => `${toSanitizedCamelCase(c.name)}`).map((varName) => `const ${varName} = ${varName}Data as CollectiblesCategories;`).join("\n")}
 
-const collections = {
+export const collections = {
 	${collectionsToIndex.map((c) => `${toSanitizedCamelCase(c.name)}`).join(",\n\t")}
 };
 
-export default collections;
+export const linkedCollections = linkedCollectionsData as Record<string, string>;
+
+const collectionExports = {
+	collections,
+	linkedCollections
+};
+
+export default collectionExports;
 `;
 
 	fs.writeFileSync(collectionsIndexPath, collectionIndexContent);
@@ -177,3 +226,9 @@ export default collections;
 function sortCollectionsByDate(a: CollectiblesCategories, b: CollectiblesCategories) {
 	return DiscordUtils.snowflakeToDate(a.sku_id).getTime() - DiscordUtils.snowflakeToDate(b.sku_id).getTime();
 }
+
+// Convert the linked collections map to JSON of an array of objects {[previousCollectionSKU: string]: mostRecentCollectionSKU: string}
+// function convertLinkedMapToJson(linkedMap: Map<string, string>): Record<string, string> {
+// 	const json: Record<string, string> = {};
+// 	return [...linkedMap.entries()].map(([previousCollectionSKU, mostRecentCollectionSKU]) => ({ previousCollectionSKU, mostRecentCollectionSKU }));
+// }
