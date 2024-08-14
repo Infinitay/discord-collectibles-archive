@@ -19,6 +19,7 @@ import piratesData from "~discord-data/collections/pirates.json" assert { type: 
 import arcadeData from "~discord-data/collections/arcade.json" assert { type: "json" };
 import palworldData from "~discord-data/collections/palworld.json" assert { type: "json" };
 import darkFantasyData from "~discord-data/collections/dark-fantasy.json" assert { type: "json" };
+import linkedCollectionsData from "~discord-data/collections/linked-collections.json" assert { type: "json" };
 import { type CollectiblesCategories } from "~/types/CollectiblesCategories";
 
 const fantasy = fantasyData as CollectiblesCategories;
@@ -43,7 +44,7 @@ const arcade = arcadeData as CollectiblesCategories;
 const palworld = palworldData as CollectiblesCategories;
 const darkFantasy = darkFantasyData as CollectiblesCategories;
 
-const collections = {
+export const collections = {
 	fantasy,
 	breakfast,
 	disxcore,
@@ -67,4 +68,11 @@ const collections = {
 	darkFantasy
 };
 
-export default collections;
+export const linkedCollections = linkedCollectionsData as Record<string, string>;
+
+const collectionsData = {
+	collections,
+	linkedCollections
+};
+
+export default collectionsData;

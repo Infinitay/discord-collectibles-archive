@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useMemo } from "react";
 import { CollectionUtils } from "~/utils/CollectionUtils";
-import collections from "~discord-data/collections";
+import { collections } from "~discord-data/collections";
 
 export default function HomePage() {
 	const allAvatarDecorationsCost = useMemo(() => CollectionUtils.getAllAvatarDecorationsCost(), []);

@@ -1,6 +1,6 @@
 import { type CollectiblesCategories, ItemTypes, PremiumTypes, PricesKeys, type Product } from "~/types/CollectiblesCategories";
 import { type ProfileEffect } from "~/types/ProfileEffects";
-import collections from "~discord-data/collections";
+import { collections } from "~discord-data/collections";
 import effects from "~discord-data/profile-effects";
 
 const DISCORD_AVATAR_DECORATION_ENDPOINT = "https://cdn.discordapp.com/avatar-decoration-presets/";

@@ -8,7 +8,7 @@ import * as fs from "node:fs";
 import { type ProfileEffect } from "~/types/ProfileEffects";
 import { strictDeepEqual } from "fast-equals";
 import { DiscordUtils } from "~/utils/DiscordUtils";
-import collections from "~discord-data/collections";
+import { collections } from "~discord-data/collections";
 import { sanitizeCollectionName, toSanitizedCamelCase } from "~/utils/TextUtils";
 import { CollectionUtils } from "~/utils/CollectionUtils";
 
