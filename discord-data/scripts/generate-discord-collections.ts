@@ -54,7 +54,7 @@ if (!fs.existsSync(COLLECTIONS_DIRECTORY)) {
 } else {
 	console.log("Found an existing collection. Using the existing collections to update/add to the current collections");
 	for (const fileName of fs.readdirSync(COLLECTIONS_DIRECTORY)) {
-		if (fileName.endsWith(".json")) {
+		if (fileName.endsWith(".json") && !fileName.startsWith("linked-collections")) {
 			const filePath = path.join(COLLECTIONS_DIRECTORY, fileName);
 			const previousCollection: CollectiblesCategories = JSON.parse(fs.readFileSync(filePath, "utf-8")) as CollectiblesCategories;
 			previousCollections.set(previousCollection.sku_id, previousCollection);
