@@ -19,6 +19,8 @@ import piratesData from "~discord-data/collections/pirates.json" assert { type: 
 import arcadeData from "~discord-data/collections/arcade.json" assert { type: "json" };
 import palworldData from "~discord-data/collections/palworld.json" assert { type: "json" };
 import darkFantasyData from "~discord-data/collections/dark-fantasy.json" assert { type: "json" };
+import spongebobData from "~discord-data/collections/spongebob.json" assert { type: "json" };
+import valorantChampionsData from "~discord-data/collections/valorant-champions.json" assert { type: "json" };
 import linkedCollectionsData from "~discord-data/collections/linked-collections.json" assert { type: "json" };
 import { type CollectiblesCategories } from "~/types/CollectiblesCategories";
 
@@ -43,6 +45,8 @@ const pirates = piratesData as CollectiblesCategories;
 const arcade = arcadeData as CollectiblesCategories;
 const palworld = palworldData as CollectiblesCategories;
 const darkFantasy = darkFantasyData as CollectiblesCategories;
+const spongebob = spongebobData as CollectiblesCategories;
+const valorantChampions = valorantChampionsData as CollectiblesCategories;
 
 export const collections = {
 	fantasy,
@@ -65,14 +69,16 @@ export const collections = {
 	pirates,
 	arcade,
 	palworld,
-	darkFantasy
+	darkFantasy,
+	spongebob,
+	valorantChampions
 };
 
-export const linkedCollections = linkedCollectionsData as Record<string, string>;
+export const linkedCollections = new Map(Object.entries(linkedCollectionsData));
 
-const collectionsData = {
+const collectionExports = {
 	collections,
 	linkedCollections
 };
 
-export default collectionsData;
+export default collectionExports;

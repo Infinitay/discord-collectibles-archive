@@ -18,6 +18,8 @@ import piratesData from "~discord-data/profile-effects/pirates.json" assert { ty
 import arcadeData from "~discord-data/profile-effects/arcade.json" assert { type: "json" };
 import palworldData from "~discord-data/profile-effects/palworld.json" assert { type: "json" };
 import darkFantasyData from "~discord-data/profile-effects/dark-fantasy.json" assert { type: "json" };
+import spongebobData from "~discord-data/profile-effects/spongebob.json" assert { type: "json" };
+import valorantChampionsData from "~discord-data/profile-effects/valorant-champions.json" assert { type: "json" };
 import { type ProfileEffect } from "~/types/ProfileEffects";
 
 const fantasy = fantasyData as ProfileEffect[];
@@ -40,6 +42,8 @@ const pirates = piratesData as ProfileEffect[];
 const arcade = arcadeData as ProfileEffect[];
 const palworld = palworldData as ProfileEffect[];
 const darkFantasy = darkFantasyData as ProfileEffect[];
+const spongebob = spongebobData as ProfileEffect[];
+const valorantChampions = valorantChampionsData as ProfileEffect[];
 
 const profileEffects = {
 	fantasy,
@@ -61,7 +65,9 @@ const profileEffects = {
 	pirates,
 	arcade,
 	palworld,
-	darkFantasy
+	darkFantasy,
+	spongebob,
+	valorantChampions
 };
 
 export default profileEffects;

@@ -2695,6 +2695,322 @@
 					"zIndex": 101
 				}
 			]
+		},
+		{
+			"type": 1,
+			"id": "1262491690971955282",
+			"sku_id": "1262491690900656267",
+			"title": "NiCe pRoFiLE",
+			"description": "uSE tHis EFfeCt.",
+			"accessibilityLabel": "SpongeBob waddles onto the profile with his arms nested onto his hips like a chicken. He kicks off the ground a few times before rapidly flapping his arms and somehow flying away. Who showed him the plaid this time?",
+			"animationType": 2,
+			"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/nice-profile/thumbnail_f44f333d.png",
+			"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/nice-profile/reduced_motion_b65c8c80.png",
+			"effects": [
+				{
+					"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-24/nice-profile/intro_a9d1e733.png",
+					"loop": false,
+					"height": 880,
+					"width": 450,
+					"duration": 6000,
+					"start": 0,
+					"loopDelay": 0,
+					"position": {
+						"x": 0,
+						"y": 0
+					},
+					"zIndex": 100
+				},
+				{
+					"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/nice-profile/idle_a.png",
+					"loop": true,
+					"height": 880,
+					"width": 450,
+					"duration": 4760,
+					"start": 8920,
+					"loopDelay": 14760,
+					"position": {
+						"x": 0,
+						"y": 0
+					},
+					"zIndex": 101
+				},
+				{
+					"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/nice-profile/idle_b.png",
+					"loop": true,
+					"height": 880,
+					"width": 450,
+					"duration": 4760,
+					"start": 18680,
+					"loopDelay": 14760,
+					"position": {
+						"x": 0,
+						"y": 0
+					},
+					"zIndex": 102
+				}
+			]
+		},
+		{
+			"type": 1,
+			"id": "1262491690971955285",
+			"sku_id": "1262491690971955284",
+			"title": "Handsome Squidward",
+			"description": "You’re a HUNK!!!",
+			"accessibilityLabel": "Squidward's handsome, chiseled face appears, and gives a charming wink. Handsome Squidward then proceeds to glide across the profile with an elegant, ballet-like twirl.",
+			"animationType": 2,
+			"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/handsome-squidward/thumbnail_c1f759bf.png",
+			"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/handsome-squidward/reduced_motion_d3df5dfe.png",
+			"effects": [
+				{
+					"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/handsome-squidward/intro_e89c516b.png",
+					"loop": false,
+					"height": 880,
+					"width": 450,
+					"duration": 6000,
+					"start": 0,
+					"loopDelay": 0,
+					"position": {
+						"x": 0,
+						"y": 0
+					},
+					"zIndex": 100
+				},
+				{
+					"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/handsome-squidward/idle_a.png",
+					"loop": true,
+					"height": 880,
+					"width": 450,
+					"duration": 3280,
+					"start": 9000,
+					"loopDelay": 14120,
+					"position": {
+						"x": 0,
+						"y": 0
+					},
+					"zIndex": 101
+				},
+				{
+					"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/handsome-squidward/idle_b.png",
+					"loop": true,
+					"height": 880,
+					"width": 450,
+					"duration": 4120,
+					"start": 17280,
+					"loopDelay": 13280,
+					"position": {
+						"x": 0,
+						"y": 0
+					},
+					"zIndex": 102
+				}
+			]
+		},
+		{
+			"type": 1,
+			"id": "1262492035558932605",
+			"sku_id": "1262492035558932604",
+			"title": "DoodleBob Takeover",
+			"description": "Me Hoy Minoy.",
+			"accessibilityLabel": "DoodleBob walks onto the profile holding a giant pencil. He lets out a roar of defiance and starts to maniacally erase the surface of the profile itself, revealing... flower clouds?! Have we been living in Bikini Bottom this entire time?",
+			"animationType": 2,
+			"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/doodlebob-takeover/thumbnail_23f31885.png",
+			"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/doodlebob-takeover/reduced_motion_609b03f3.png",
+			"effects": [
+				{
+					"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/doodlebob-takeover/intro_479359c2.png",
+					"loop": false,
+					"height": 880,
+					"width": 450,
+					"duration": 6000,
+					"start": 0,
+					"loopDelay": 0,
+					"position": {
+						"x": 0,
+						"y": 0
+					},
+					"zIndex": 100
+				},
+				{
+					"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/doodlebob-takeover/idle.png",
+					"loop": true,
+					"height": 880,
+					"width": 450,
+					"duration": 4600,
+					"start": 8640,
+					"loopDelay": 5000,
+					"position": {
+						"x": 0,
+						"y": 0
+					},
+					"zIndex": 101
+				}
+			]
+		},
+		{
+			"type": 1,
+			"id": "1262492035558932608",
+			"sku_id": "1262492035558932607",
+			"title": "Plankton Splat",
+			"description": "Stealing the Krabby Patty secret formula.",
+			"accessibilityLabel": "Plankton angrily walks onto the middle of the profile when suddenly SpongeBob walks by and unknowingly squishes Plankton into a puddle with his shoe.",
+			"animationType": 1,
+			"staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/plankton-splat/static_c6715167.png",
+			"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/plankton-splat/thumbnail_72c641e8.png",
+			"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/plankton-splat/reduced_motion_4d1c6587.png",
+			"effects": [
+				{
+					"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-17/plankton-splat/intro.png",
+					"loop": false,
+					"height": 880,
+					"width": 450,
+					"duration": 5900,
+					"start": 0,
+					"loopDelay": 0,
+					"position": {
+						"x": 0,
+						"y": 0
+					},
+					"zIndex": 100
+				},
+				{
+					"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-17/plankton-splat/idle.png",
+					"loop": true,
+					"height": 880,
+					"width": 450,
+					"duration": 7760,
+					"start": 4350,
+					"loopDelay": 0,
+					"position": {
+						"x": 0,
+						"y": 0
+					},
+					"zIndex": 101
+				}
+			]
+		},
+		{
+			"type": 1,
+			"id": "1262492035558932611",
+			"sku_id": "1262492035558932610",
+			"title": "Ocean Flowers",
+			"description": "Bikini Bottom flower clouds.",
+			"accessibilityLabel": "Several brightly colored ocean flowers pop up across the profile, now submerged with an underwater ambiance. Welcome to Bikini Bottom!",
+			"animationType": 2,
+			"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/ocean-flowers/thumbnail_fe6ab6db.png",
+			"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/ocean-flowers/reduced_motion_80a7ad22.png",
+			"effects": [
+				{
+					"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/ocean-flowers/intro.png",
+					"loop": false,
+					"height": 880,
+					"width": 450,
+					"duration": 3680,
+					"start": 0,
+					"loopDelay": 0,
+					"position": {
+						"x": 0,
+						"y": 0
+					},
+					"zIndex": 100
+				},
+				{
+					"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-15/ocean-flowers/idle.png",
+					"loop": true,
+					"height": 880,
+					"width": 450,
+					"duration": 5840,
+					"start": 6840,
+					"loopDelay": 5000,
+					"position": {
+						"x": 0,
+						"y": 0
+					},
+					"zIndex": 101
+				}
+			]
+		},
+		{
+			"type": 1,
+			"id": "1266493591191158814",
+			"sku_id": "1266493591207940133",
+			"title": "Yoru Dimensional Rip",
+			"description": "Tear through the dimensional fabric and make your mark.",
+			"accessibilityLabel": "The hands of Yoru appear over your profile. Yoru's masked face is visible for just a second before he succeeds in tearing open the dimensional fabric of your profile and seemingly vanishes.",
+			"animationType": 2,
+			"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/yoru_dimensional_rip/thumbnail.png",
+			"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/yoru_dimensional_rip/reduced_motion.png",
+			"effects": [
+				{
+					"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-30/yoru_dimensional_rip/intro.png",
+					"loop": false,
+					"height": 880,
+					"width": 450,
+					"duration": 4235,
+					"start": 0,
+					"loopDelay": 0,
+					"position": {
+						"x": 0,
+						"y": 0
+					},
+					"zIndex": 100
+				},
+				{
+					"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/yoru_dimensional_rip/idle.png",
+					"loop": true,
+					"height": 880,
+					"width": 450,
+					"duration": 4500,
+					"start": 7235,
+					"loopDelay": 5000,
+					"position": {
+						"x": 0,
+						"y": 0
+					},
+					"zIndex": 101
+				}
+			]
+		},
+		{
+			"type": 1,
+			"id": "1266493591233237173",
+			"sku_id": "1266493591275044903",
+			"title": "VCT Supernova",
+			"description": "Upgrade your look with a supernova of VCT 2024 style.",
+			"accessibilityLabel": "The VALORANT Champions Tour logo appears over your profile, glowing and twirling with celestial energy before exploding in a supernova-like fashion, revealing the Champions 2024 Finisher.",
+			"animationType": 2,
+			"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/vct_supernova/thumbnail.png",
+			"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/vct_supernova/reduced_motion.png",
+			"effects": [
+				{
+					"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-30/vct_supernova/intro.png",
+					"loop": false,
+					"height": 880,
+					"width": 450,
+					"duration": 4650,
+					"start": 0,
+					"loopDelay": 0,
+					"position": {
+						"x": 0,
+						"y": 0
+					},
+					"zIndex": 100
+				},
+				{
+					"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/vct_supernova/idle.png",
+					"loop": true,
+					"height": 880,
+					"width": 450,
+					"duration": 5063,
+					"start": 7815,
+					"loopDelay": 4000,
+					"position": {
+						"x": 0,
+						"y": 0
+					},
+					"zIndex": 101
+				}
+			]
 		}
 	]
 }
