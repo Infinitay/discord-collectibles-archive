@@ -8,7 +8,7 @@ import * as fs from "node:fs";
 import { type ProfileEffect } from "~/types/ProfileEffects";
 import { strictDeepEqual } from "fast-equals";
 import { DiscordUtils } from "~/utils/DiscordUtils";
-import { collections } from "~discord-data/collections";
+import { collections, linkedCollections } from "~discord-data/collections";
 import { sanitizeCollectionName, toSanitizedCamelCase } from "~/utils/TextUtils";
 import { CollectionUtils } from "~/utils/CollectionUtils";
 
@@ -32,9 +32,7 @@ for (const collection of collectionValues) {
 	collectionNameMap.set(collection.sku_id, collection.name);
 	collectionSanitizedNameMap.set(sanitizeCollectionName(collection.name), collection.sku_id);
 	// Map all profile effects within collections to their respective skus
-	const profileEffectSKUs = collection.products
-		.filter((product) => CollectionUtils.isProfileEffect(product))
-		.map((product) => product.sku_id);
+	const profileEffectSKUs = collection.products.filter((product) => CollectionUtils.isProfileEffect(product)).map((product) => product.sku_id);
 
 	for (const sku of profileEffectSKUs) {
 		effectsFromCollectionsMap.set(sku, collection.sku_id);
@@ -138,8 +136,17 @@ if (changedGroupedEffectsByCollection.size > 0) {
 			console.log(`Writing ${effects.length} effects to the "${collectionName}" collection at "${filePath}"`);
 			fs.writeFileSync(filePath, JSON.stringify(effects, null, "\t") + "\n", "utf-8");
 		} else {
-			console.log(`Removing "${collectionName}" because there are no longer any profile effects found in that collection`);
-			fs.unlinkSync(filePath);
+			// If there are no effects in the collection, we should remove the file
+			// But first check to see if the collection is linked to another collection
+			const linkedCollection = linkedCollections.get(collectionSKU);
+			if (linkedCollection !== undefined) {
+				console.log(
+					`"${collectionName}" profile effects were found to be linked to "${collectionNameMap.get(linkedCollection)}" collection. Retaining "${collectionName}" profile effects file for archive purposes.`
+				);
+			} else {
+				console.log(`"${collectionName}" has been archived because there are no longer any profile effects found in that collection`);
+				// fs.unlinkSync(filePath);
+			}
 		}
 	}
 } else {
@@ -149,14 +156,14 @@ if (changedGroupedEffectsByCollection.size > 0) {
 const effectsIndexPath = path.join(EFFECTS_DIRECTORY, "index.ts");
 const indexFileExists = fs.existsSync(effectsIndexPath);
 if (!indexFileExists || changedCollections.size > 0) {
-	const effectCollectionsToIndex = Array.from(allGroupedEffectsByCollection.keys())
+	const effectCollectionsToIndex = Array.from(allGroupedEffectsByCollection.keys()).concat([...changedGroupedEffectsByCollection.keys()].filter((sku) => linkedCollections.get(sku)))
 		.sort(sortCollectionsByDate)
 		.map((sku) => collectionNameMap.get(sku)!);
 	if (effectCollectionsToIndex.length > 0) {
 		const missingPrefix = indexFileExists ? "Updating the" : "Generating an";
 		console.log(
 			`${missingPrefix} index file with imports for the ${effectCollectionsToIndex.length} effect collections` +
-				` (${effectCollectionsToIndex.length} new) at "${effectsIndexPath}"`
+				` (${[...changedGroupedEffectsByCollection.keys()].filter((sku) => !linkedCollections.get(sku)).length} modified) at "${effectsIndexPath}"`
 		);
 
 		const imports = effectCollectionsToIndex
