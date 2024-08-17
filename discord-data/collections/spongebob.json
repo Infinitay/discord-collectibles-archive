@@ -1,0 +1,1114 @@
+{
+	"sku_id": "1262491137386614805",
+	"name": "SpongeBob",
+	"summary": "Celebrate 25 years of nautical nonsense!",
+	"store_listing_id": "1262491137386614804",
+	"banner": "1262491137386614807",
+	"unpublished_at": null,
+	"styles": {
+		"background_colors": [
+			1118740,
+			1118740
+		],
+		"button_colors": [
+			5793266,
+			5793266
+		],
+		"confetti_colors": [
+			43772,
+			15774258,
+			16414587,
+			3000177,
+			9739511
+		]
+	},
+	"logo": "1265056547986341950",
+	"mobile_bg": "1262491137386614810",
+	"pdp_bg": "1262491137386614809",
+	"success_modal_bg": "1262760748120014868",
+	"mobile_banner": "1262491137386614808",
+	"products": [
+		{
+			"sku_id": "1262491137386614812",
+			"name": "SpongeBob",
+			"summary": "Order up!",
+			"store_listing_id": "1262491137386614811",
+			"banner": "1262491137386614807",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1118740,
+					1118740
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1262491137386614813",
+					"sku_id": "1262491137386614812",
+					"asset": "a_914f20f4984a11b5255f0e42c661fa5b",
+					"label": "The avatar wears SpongeBob's signature outfit while twirling a spatula with ease, ready to cook up some Krabby Pattys."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1262491137386614805",
+			"google_sku_ids": {
+				"5": "1262491137386614812_1262866087179976804",
+				"7": "1262491137386614812_1262866117538611384"
+			}
+		},
+		{
+			"sku_id": "1262491137394868305",
+			"name": "Imagination",
+			"summary": "With imagination, I can be anything I want.",
+			"store_listing_id": "1262491137394868304",
+			"banner": "1262491137386614807",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1118740,
+					1118740
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1262491137394868306",
+					"sku_id": "1262491137394868305",
+					"asset": "a_bba669bfb28f492b64852e00fde4989d",
+					"label": "SpongeBob spreads his hands wide, revealing a glorious rainbow above the avatar. You can practically hear him say \"Imagination.\""
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1262491137386614805",
+			"google_sku_ids": {
+				"5": "1262491137394868305_1262866106306265139",
+				"7": "1262491137394868305_1262866133762179243"
+			}
+		},
+		{
+			"sku_id": "1262491137394868308",
+			"name": "Patrick Star",
+			"summary": "He, she, me wumbo.",
+			"store_listing_id": "1262491137394868307",
+			"banner": "1262491137386614807",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1118740,
+					1118740
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1262491137394868309",
+					"sku_id": "1262491137394868308",
+					"asset": "a_0f7fa66bc185c858f92a7918ea4dd47a",
+					"label": "Patrick clumsily hammers down a nail into a plank taped to his forehead. No one knows what he's trying to accomplish but he's trying his best."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1262491137386614805",
+			"google_sku_ids": {
+				"5": "1262491137394868308_1262866087179976805",
+				"7": "1262491137394868308_1262866115491659836"
+			}
+		},
+		{
+			"sku_id": "1262491137394868311",
+			"name": "Flower Clouds",
+			"summary": "Immerse yourself in Bikini Bottom.",
+			"store_listing_id": "1262491137394868310",
+			"banner": "1262491137386614807",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1118740,
+					1118740
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1262491137394868312",
+					"sku_id": "1262491137394868311",
+					"asset": "a_d9ff5ff133ed9176895a4a2b5e58f1b8",
+					"label": "Flower clouds gently sway around the avatar, adding a lovely Bikini Bottom ambiance."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1262491137386614805",
+			"google_sku_ids": {
+				"5": "1262491137394868311_1262866101428031641",
+				"7": "1262491137394868311_1262866132981780540"
+			}
+		},
+		{
+			"sku_id": "1262491690900656258",
+			"name": "Gary The Snail",
+			"summary": "Meow.",
+			"store_listing_id": "1262491137394868313",
+			"banner": "1262491137386614807",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1118740,
+					1118740
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1262491690900656259",
+					"sku_id": "1262491690900656258",
+					"asset": "a_4db5b8518672197225c69fe72f07a945",
+					"label": "Gary the Snail stretches his long eyes to take a quick peek outside from SpongeBob's window."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1262491137386614805",
+			"google_sku_ids": {
+				"5": "1262491690900656258_1262866101373632594",
+				"7": "1262491690900656258_1262866140820934756"
+			}
+		},
+		{
+			"sku_id": "1262491690900656261",
+			"name": "Sandy Cheeks",
+			"summary": "Underwater breathing apparatus.",
+			"store_listing_id": "1262491690900656260",
+			"banner": "1262491137386614807",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1118740,
+					1118740
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1262491690900656262",
+					"sku_id": "1262491690900656261",
+					"asset": "a_96e669a80b3a3e3d57035293750291ed",
+					"label": "The avatar dons Sandy Cheek's stylish underwater helmet, with air bubbles rising around it. Don't forget to refill the oxygen tank."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1262491137386614805",
+			"google_sku_ids": {
+				"5": "1262491690900656261_1262866111074930720",
+				"7": "1262491690900656261_1262866147078832210"
+			}
+		},
+		{
+			"sku_id": "1262491690900656264",
+			"name": "MuscleBob",
+			"summary": "How tough are ya?",
+			"store_listing_id": "1262491690900656263",
+			"banner": "1262491137386614807",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1118740,
+					1118740
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 0,
+					"id": "1262491690900656265",
+					"sku_id": "1262491690900656264",
+					"asset": "a_2249f064370a3d5e9f0e7189099d521e",
+					"label": "The avatar, now blessed with the remarkable arms of MuscleBob BuffPants, flexes off its muscles and hard-earned gains."
+				}
+			],
+			"type": 0,
+			"premium_type": 0,
+			"category_sku_id": "1262491137386614805",
+			"google_sku_ids": {
+				"5": "1262491690900656264_1262866118066835486",
+				"7": "1262491690900656264_1262866152980217898"
+			}
+		},
+		{
+			"sku_id": "1262491690900656267",
+			"name": "NiCe pRoFiLE",
+			"summary": "uSE tHis EFfeCt.",
+			"store_listing_id": "1262491690900656266",
+			"banner": "1262491137386614807",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1118740,
+					1118740
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1262491690971955282",
+					"sku_id": "1262491690900656267"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1262491137386614805",
+			"google_sku_ids": {
+				"5": "1262491690900656267_1262866100488765461",
+				"7": "1262491690900656267_1262873252213293200"
+			}
+		},
+		{
+			"sku_id": "1262491690971955284",
+			"name": "Handsome Squidward",
+			"summary": "You’re a HUNK!!!",
+			"store_listing_id": "1262491690971955283",
+			"banner": "1262491137386614807",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1118740,
+					1118740
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1262491690971955285",
+					"sku_id": "1262491690971955284"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1262491137386614805",
+			"google_sku_ids": {
+				"5": "1262491690971955284_1262866099649777774",
+				"7": "1262491690971955284_1262866116502491296"
+			}
+		},
+		{
+			"sku_id": "1262492035558932604",
+			"name": "DoodleBob Takeover",
+			"summary": "Me Hoy Minoy.",
+			"store_listing_id": "1262492035558932603",
+			"banner": "1262491137386614807",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1118740,
+					1118740
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1262492035558932605",
+					"sku_id": "1262492035558932604"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1262491137386614805",
+			"google_sku_ids": {
+				"5": "1262492035558932604_1262866108080324618",
+				"7": "1262492035558932604_1262866132533121085"
+			}
+		},
+		{
+			"sku_id": "1262492035558932607",
+			"name": "Plankton Splat",
+			"summary": "Stealing the Krabby Patty secret formula.",
+			"store_listing_id": "1262492035558932606",
+			"banner": "1262491137386614807",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1118740,
+					1118740
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1262492035558932608",
+					"sku_id": "1262492035558932607"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1262491137386614805",
+			"google_sku_ids": {
+				"5": "1262492035558932607_1262866101373632592",
+				"7": "1262492035558932607_1262866141613654337"
+			}
+		},
+		{
+			"sku_id": "1262492035558932610",
+			"name": "Ocean Flowers",
+			"summary": "Bikini Bottom flower clouds.",
+			"store_listing_id": "1262492035558932609",
+			"banner": "1262491137386614807",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					1118740,
+					1118740
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1299,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 999,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1262492035558932611",
+					"sku_id": "1262492035558932610"
+				}
+			],
+			"type": 1,
+			"premium_type": 0,
+			"category_sku_id": "1262491137386614805",
+			"google_sku_ids": {
+				"5": "1262492035558932610_1262866115931930705",
+				"7": "1262492035558932610_1262866171850526801"
+			}
+		}
+	]
+}

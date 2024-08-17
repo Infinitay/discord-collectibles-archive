@@ -1,0 +1,222 @@
+[
+	{
+		"type": 1,
+		"id": "1220432606059954196",
+		"sku_id": "1220432647453409384",
+		"title": "Clove's Ruse",
+		"description": "Smoke's out. Time to make some mischief.",
+		"accessibilityLabel": "Clove summons a sphere of smoke over the profile.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/cloves-ruse/thumbnail_a5917b67.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/cloves-ruse/reduced-motion_967b0b15.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/cloves-ruse/intro_b62d8ce4.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 5360,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/cloves-ruse/idle_050419ac.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 5840,
+				"start": 6560,
+				"loopDelay": 5840,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1220432721134747648",
+		"sku_id": "1220432740638523543",
+		"title": "ACE",
+		"description": "Too bad there's only 5 of 'em.",
+		"accessibilityLabel": "A kill banner displaying 5 confirmed kills.",
+		"animationType": 1,
+		"staticFrameSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/ace/static_ac0fb88a.png",
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/ace/thumbnail_7c4f8929.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/ace/reduced-motion_4e8ecf63.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/ace/intro_fa545ec0.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 4480,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/ace/idle_frame_83d027d7.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 20000,
+				"start": 4080,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/ace/idle_a4ea3c0d.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 5680,
+				"start": 8960,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 102
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1220432672443334778",
+		"sku_id": "1220432697718083614",
+		"title": "The Immortal Clove",
+		"description": "They've got all the time in the world.",
+		"accessibilityLabel": "Clove poses on the profile with fabulous style.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/the-immortal-clove/thumbnail_20409a9b.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/the-immortal-clove/reduced-motion_7d0e8318.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/the-immortal-clove/intro_310a69a3.png",
+				"loop": false,
+				"height": 880,
+				"width": 400,
+				"duration": 4890,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/the-immortal-clove/idle_8739289c.png",
+				"loop": true,
+				"height": 880,
+				"width": 400,
+				"duration": 7350,
+				"start": 9780,
+				"loopDelay": 3580,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1266493591191158814",
+		"sku_id": "1266493591207940133",
+		"title": "Yoru Dimensional Rip",
+		"description": "Tear through the dimensional fabric and make your mark.",
+		"accessibilityLabel": "The hands of Yoru appear over your profile. Yoru's masked face is visible for just a second before he succeeds in tearing open the dimensional fabric of your profile and seemingly vanishes.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/yoru_dimensional_rip/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/yoru_dimensional_rip/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-30/yoru_dimensional_rip/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 4235,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/yoru_dimensional_rip/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 4500,
+				"start": 7235,
+				"loopDelay": 5000,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	},
+	{
+		"type": 1,
+		"id": "1266493591233237173",
+		"sku_id": "1266493591275044903",
+		"title": "VCT Supernova",
+		"description": "Upgrade your look with a supernova of VCT 2024 style.",
+		"accessibilityLabel": "The VALORANT Champions Tour logo appears over your profile, glowing and twirling with celestial energy before exploding in a supernova-like fashion, revealing the Champions 2024 Finisher.",
+		"animationType": 2,
+		"thumbnailPreviewSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/vct_supernova/thumbnail.png",
+		"reducedMotionSrc": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/vct_supernova/reduced_motion.png",
+		"effects": [
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-30/vct_supernova/intro.png",
+				"loop": false,
+				"height": 880,
+				"width": 450,
+				"duration": 4650,
+				"start": 0,
+				"loopDelay": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 100
+			},
+			{
+				"src": "https://cdn.discordapp.com/assets/profile_effects/effects/2024-07-26/vct_supernova/idle.png",
+				"loop": true,
+				"height": 880,
+				"width": 450,
+				"duration": 5063,
+				"start": 7815,
+				"loopDelay": 4000,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"zIndex": 101
+			}
+		]
+	}
+]

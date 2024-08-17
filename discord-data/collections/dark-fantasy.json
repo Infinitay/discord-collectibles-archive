@@ -29,6 +29,215 @@
 	"mobile_banner": "1256376187991756820",
 	"products": [
 		{
+			"sku_id": "1265421074514841751",
+			"name": "Spirit Embers Bundle",
+			"summary": "A bundle of collectibles.",
+			"store_listing_id": "1265421025232027700",
+			"banner": "1256321669388308597",
+			"unpublished_at": null,
+			"styles": {
+				"background_colors": [
+					531257,
+					2233427
+				],
+				"button_colors": [
+					5793266,
+					5793266
+				],
+				"confetti_colors": [
+					43772,
+					15774258,
+					16414587,
+					3000177,
+					9739511
+				]
+			},
+			"prices": {
+				"0": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1099,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"4": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 899,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"5": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 1099,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				},
+				"7": {
+					"country_prices": {
+						"country_code": "US",
+						"prices": [
+							{
+								"amount": 899,
+								"currency": "usd",
+								"exponent": 2
+							}
+						]
+					}
+				}
+			},
+			"items": [
+				{
+					"type": 1,
+					"id": "1256321669493166218",
+					"sku_id": "1256321669493166217"
+				},
+				{
+					"type": 0,
+					"id": "1256321669467865089",
+					"sku_id": "1256321669467865088",
+					"asset": "a_1005898c6acf56a9ac5010baf444f6fd",
+					"label": "Wisps of luminous, ethereal embers swirl around the avatar. They make for a helpful lightsource for dark areas yet to be explored."
+				}
+			],
+			"type": 1000,
+			"premium_type": 0,
+			"category_sku_id": "1256321669388308595",
+			"bundled_products": [
+				{
+					"sku_id": "1256321669493166217",
+					"name": "Spirit Flame",
+					"summary": "Not your average nightlight.",
+					"type": 1,
+					"premium_type": 0,
+					"prices": {
+						"0": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"4": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"5": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"7": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						}
+					}
+				},
+				{
+					"sku_id": "1256321669467865088",
+					"name": "Spirit Embers",
+					"summary": "For protection against dark nights and unseen terrors.",
+					"type": 0,
+					"premium_type": 0,
+					"prices": {
+						"0": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"4": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"5": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 599,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						},
+						"7": {
+							"country_prices": {
+								"country_code": "US",
+								"prices": [
+									{
+										"amount": 499,
+										"currency": "usd",
+										"exponent": 2
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"google_sku_ids": {}
+		},
+		{
 			"sku_id": "1256321669388308601",
 			"name": "Arcanist Bundle",
 			"summary": "A bundle of collectibles.",
